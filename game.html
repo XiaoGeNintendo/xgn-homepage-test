@@ -7,7 +7,11 @@
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
+    <script src="http://cdn.highcharts.com.cn/highcharts/8.1.0/highcharts.js"></script>
+    <script src="https://code.highcharts.com.cn/highcharts/highcharts-more.js"></script>
+    <script src="game.js"></script>
+    <script src="load.js"></script>
     </head>
     <body>
         <center>
@@ -38,5 +42,36 @@
         </table>
         <hr/>
         <h1>Titles</h1>
+        <div id="titles"></div>
+
+        <!-- 模态框 -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+            
+                    <!-- 模态框头部 -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">Game Titles</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+            
+                    <!-- 模态框主体 -->
+                    <div class="modal-body" id="modal-data">
+                        Loading Game Data...
+                    </div>
+            
+                    <!-- 模态框底部 -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+
     </body>
+
+    <script>
+    loadScript()
+    </script>
 </html>
