@@ -76,7 +76,7 @@ var games=[
     },
     {
         name:"Clubhouse Game: 51 Worldwide Classic",
-        rating:[8.6,9.6,10,8,9], //Music Gameplay Graphics Storyline Impression
+        rating:[8.6,9.6,10,8,8], //Music Gameplay Graphics Storyline Impression
         status:[["working","Playing"]],
         comment:"Kind of cool",
         platform:"switch",
@@ -133,5 +133,15 @@ var games=[
         lang:"eng",
         timestamp:"2020/6/6 uploaded to db",
         img:"https://upload.thwiki.cc/thumb/d/dd/%E6%9D%B1%E6%96%B9%E8%90%BD%E6%B5%81%E6%98%9F_%EF%BD%9E_The_Shattered_Sky.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E8%90%BD%E6%B5%81%E6%98%9F_%EF%BD%9E_The_Shattered_Sky.%E5%B0%81%E9%9D%A2.jpg"
+    },
+    {
+        name:"東方導命樹 ～ Mystical Power Plant.",
+        rating:[7.8,8.5,8,8,5.9], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Easy 2CC"]],
+        comment:"So hard",
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/6/12 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/5/54/%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png"
     },
 ]
