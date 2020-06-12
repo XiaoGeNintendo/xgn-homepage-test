@@ -46,7 +46,7 @@ var bbb={
 var games=[
     {
         name:"Animal Crossing: New Horizon",
-        rating:[7,9.3,10,6.5,8], //Music Gameplay Graphics Storyline Impression
+        rating:[7,9,10,4,6], //Music Gameplay Graphics Storyline Impression
         status:[["clear","KK Glider visit"]],
         comment:"Movement Precision Sucks!!!",
         platform:"switch",
@@ -56,7 +56,7 @@ var games=[
     },
     {
         name:"Shining Resonance Refrain",
-        rating:[8.1,7.7,7.8,8.2,8.5],
+        rating:[7,7,7.5,7.6,7.4],
         status:[["working","Currently in Ch3"]],
         comment:"Game too hard. I suck at Action games.",
         platform:"switch",
@@ -66,7 +66,7 @@ var games=[
     },
     {
         name:"Rune Factory 4 Special",
-        rating:[8.5,9.4,9,9.8,10],
+        rating:[7,8.5,7.5,9,10],
         status:[["perfect","Easy High%"],["perfect","Newylwed Mode All Clear"],["perfect","Another Episode All Clear"],["working","Sharance Maze Lv.500"]],
         comment:"I love it a lot",
         platform:"switch",
@@ -76,7 +76,7 @@ var games=[
     },
     {
         name:"Clubhouse Game: 51 Worldwide Classic",
-        rating:[8.6,9.6,10,8,8], //Music Gameplay Graphics Storyline Impression
+        rating:[7,7,10,6,7], //Music Gameplay Graphics Storyline Impression
         status:[["working","Playing"]],
         comment:"Kind of cool",
         platform:"switch",
@@ -86,7 +86,7 @@ var games=[
     },
     {
         name:"東方魔宝城 ~ Book of Star Mythology",
-        rating:[9.4,9.5,9.5,8.7,9], //Music Gameplay Graphics Storyline Impression
+        rating:[9.4,7.5,8.5,8,9], //Music Gameplay Graphics Storyline Impression
         status:[["clear","Easy Hero 12Miss"],["perfect","Easy Legacy NoMiss"]],
         comment:"Stage 5 is messy",
         platform:"pc",
@@ -96,7 +96,7 @@ var games=[
     },
     {
         name:"東方真珠島 ～ Hollow Song of Birds.",
-        rating:[9.7,9.7,9.7,9,9.4], //Music Gameplay Graphics Storyline Impression
+        rating:[9.7,7.7,9,8,9.4], //Music Gameplay Graphics Storyline Impression
         status:[["clear","Easy 1CC"],["clear","Normal 1CC"],["clear","Easy Extra 1Miss"]],
         comment:"Cool CG",
         platform:"pc",
@@ -106,7 +106,7 @@ var games=[
     },
     {
         name:"トライフォーカサー ～ Outside the Traditional World.",
-        rating:[9,6.8,8,8,7.2], //Music Gameplay Graphics Storyline Impression
+        rating:[8.5,6.8,7.5,6.3,5], //Music Gameplay Graphics Storyline Impression
         status:[["working","Working"]],
         comment:"I hate StB Style game",
         platform:"pc",
@@ -116,7 +116,7 @@ var games=[
     },
     {
         name:"東方催狐譚 ～ Servants of Harvest Wish",
-        rating:[9.7,9.6,9.5,8.8,9.9], //Music Gameplay Graphics Storyline Impression
+        rating:[9.7,8,8.2,8,10], //Music Gameplay Graphics Storyline Impression
         status:[["clear","Easy 1CC"],["clear","Normal 1CC"]],
         comment:"First Touhou Fangame",
         platform:"pc",
@@ -126,7 +126,7 @@ var games=[
     },
     {
         name:"東方落流星 ～ The Shattered Sky.",
-        rating:[9.2,9,5,8,8.1], //Music Gameplay Graphics Storyline Impression
+        rating:[8.8,7,4.6,7.2,7], //Music Gameplay Graphics Storyline Impression
         status:[["clear","Easy 1CC"]],
         comment:"Image is weird",
         platform:"pc",
@@ -136,7 +136,7 @@ var games=[
     },
     {
         name:"東方導命樹 ～ Mystical Power Plant.",
-        rating:[7.8,8.5,8,8,5.9], //Music Gameplay Graphics Storyline Impression
+        rating:[6.8,6.1,7,7,5.9], //Music Gameplay Graphics Storyline Impression
         status:[["working","Easy 2CC"]],
         comment:"So hard",
         platform:"pc",
