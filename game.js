@@ -136,8 +136,8 @@ var games=[
     },
     {
         name:"東方導命樹 ～ Mystical Power Plant.",
-        rating:[6.8,6.1,7,7,5.9], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Easy 2CC"]],
+        rating:[8,6.1,7,7,5.9], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy 1CC"]],
         comment:"So hard",
         platform:"pc",
         lang:"chn",
