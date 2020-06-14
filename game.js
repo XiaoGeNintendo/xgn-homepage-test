@@ -40,7 +40,7 @@ var bbb={
     "eng":{
         icon:"https://www.countryflags.io/gb/flat/32.png",
         text:"English"
-    }
+    },
     "jpn":{
         icon:"https://www.countryflags.io/jp/flat/32.png",
         text:"Japanese"
