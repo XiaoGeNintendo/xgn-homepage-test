@@ -41,6 +41,10 @@ var bbb={
         icon:"https://www.countryflags.io/gb/flat/32.png",
         text:"English"
     }
+    "jpn":{
+        icon:"https://www.countryflags.io/jp/flat/32.png",
+        text:"Japanese"
+    }
 }
 
 var games=[
@@ -87,7 +91,7 @@ var games=[
     {
         name:"東方魔宝城 ~ Book of Star Mythology",
         rating:[9.4,7.5,8.5,8,9], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Easy Hero 12Miss"],["perfect","Easy Legacy NoMiss"]],
+        status:[["clear","Easy Hero 12Miss"],["perfect","Easy Legacy NoMiss"],["clear","Normal Legacy 1CC"]],
         comment:"Stage 5 is messy",
         platform:"pc",
         lang:"chn",
@@ -143,5 +147,15 @@ var games=[
         lang:"chn",
         timestamp:"2020/6/12 uploaded to db",
         img:"https://upload.thwiki.cc/thumb/5/54/%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png"
+    },
+    {
+        name:"おれのアニミズム～天国篇",
+        rating:[6,5.8,7,6,6.5], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy 1CC"]],
+        comment:"Glad to play a STG from furry fandom. Game itself just so so. System is too weird for a STG.",
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/6/14 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/7/7f/%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E5%A4%A9%E5%9B%BD%E7%AF%87%EF%BD%9E%E5%B0%81%E9%9D%A2.png/252px-%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E5%A4%A9%E5%9B%BD%E7%AF%87%EF%BD%9E%E5%B0%81%E9%9D%A2.png"
     },
 ]
