@@ -81,11 +81,11 @@ var games=[
     {
         name:"Clubhouse Game: 51 Worldwide Classic",
         rating:[7,7,10,6,7], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Playing"]],
+        status:[["clear","All tried"]],
         comment:"Kind of cool",
         platform:"switch",
         lang:"chn",
-        timestamp:"2020/6/6 uploaded to db",
+        timestamp:"2020/6/6 uploaded to db. 6/13 finish",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/c/clubhouse-games-51-worldwide-classics-switch/clubhouse-games-51-worldwide-classics-switch-hero.jpg"
     },
     {
