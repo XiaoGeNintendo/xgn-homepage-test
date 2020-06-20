@@ -158,4 +158,14 @@ var games=[
         timestamp:"2020/6/14 uploaded to db",
         img:"https://upload.thwiki.cc/thumb/7/7f/%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E5%A4%A9%E5%9B%BD%E7%AF%87%EF%BD%9E%E5%B0%81%E9%9D%A2.png/252px-%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E5%A4%A9%E5%9B%BD%E7%AF%87%EF%BD%9E%E5%B0%81%E9%9D%A2.png"
     },
+    {
+        name:"東方桃源宮 ～ Riverbed Soul Saver.",
+        rating:[8,8.5,7,7,8], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy 1CC"]],
+        comment:"So many resources.. Danmaku actually OK.",
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/6/20 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/1/12/%E6%9D%B1%E6%96%B9%E6%A1%83%E6%BA%90%E5%AE%AE_%EF%BD%9E_Riverbed_Soul_Saver.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E6%A1%83%E6%BA%90%E5%AE%AE_%EF%BD%9E_Riverbed_Soul_Saver.%E5%B0%81%E9%9D%A2.jpg"
+    },
 ]
