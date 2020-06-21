@@ -160,8 +160,8 @@ var games=[
     },
     {
         name:"東方桃源宮 ～ Riverbed Soul Saver.",
-        rating:[8,8.5,7,7,8], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Easy 1CC"],["clear","Normal 1CC"]],
+        rating:[8.8,8.5,7,7,9], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy 1CC"],["clear","Normal 1CC"],["perfect","Hard 1CC"]],
         comment:"So many resources.. Danmaku actually OK.",
         platform:"pc",
         lang:"chn",
