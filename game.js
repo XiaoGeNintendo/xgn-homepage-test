@@ -160,12 +160,22 @@ var games=[
     },
     {
         name:"東方桃源宮 ～ Riverbed Soul Saver.",
-        rating:[8.8,8.5,7,7,9], //Music Gameplay Graphics Storyline Impression
+        rating:[9.4,8.5,7.5,7,9], //Music Gameplay Graphics Storyline Impression
         status:[["clear","Easy 1CC"],["clear","Normal 1CC"],["perfect","Hard 1CC"]],
         comment:"So many resources.. Danmaku actually OK.",
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/20 uploaded to db",
         img:"https://upload.thwiki.cc/thumb/1/12/%E6%9D%B1%E6%96%B9%E6%A1%83%E6%BA%90%E5%AE%AE_%EF%BD%9E_Riverbed_Soul_Saver.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E6%A1%83%E6%BA%90%E5%AE%AE_%EF%BD%9E_Riverbed_Soul_Saver.%E5%B0%81%E9%9D%A2.jpg"
+    },
+    {
+        name:"おれのアニミズム～黄泉還り篇～ The Marching On Fire",
+        rating:[6,4.8,7,6,4], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Easy Unclear"]],
+        comment:"This is kinda dumb. Some spellcards are poorly designed.",
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/6/22 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/d/dc/%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E9%BB%84%E6%B3%89%E9%82%84%E3%82%8A%E7%AF%87%EF%BD%9E_The_Marching_On_Fire%E5%B0%81%E9%9D%A2.png/252px-%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E9%BB%84%E6%B3%89%E9%82%84%E3%82%8A%E7%AF%87%EF%BD%9E_The_Marching_On_Fire%E5%B0%81%E9%9D%A2.png"
     },
 ]
