@@ -90,7 +90,7 @@ var games=[
     },
     {
         name:"東方魔宝城 ~ Book of Star Mythology",
-        rating:[9.4,7.5,8.5,8,9], //Music Gameplay Graphics Storyline Impression
+        rating:[9.4,7.5,8.5,8.8,9], //Music Gameplay Graphics Storyline Impression
         status:[["clear","Easy Hero 12Miss"],["perfect","Easy Legacy NoMiss"],["clear","Normal Legacy 1CC"]],
         comment:"Stage 5 is messy",
         platform:"pc",
@@ -160,7 +160,7 @@ var games=[
     },
     {
         name:"東方桃源宮 ～ Riverbed Soul Saver.",
-        rating:[9.4,8.5,7.5,7,9], //Music Gameplay Graphics Storyline Impression
+        rating:[9.4,8.5,7.5,8.5,9], //Music Gameplay Graphics Storyline Impression
         status:[["clear","Easy 1CC"],["clear","Normal 1CC"],["perfect","Hard 1CC"]],
         comment:"So many resources.. Danmaku actually OK.",
         platform:"pc",
@@ -177,5 +177,45 @@ var games=[
         lang:"jpn",
         timestamp:"2020/6/22 uploaded to db",
         img:"https://upload.thwiki.cc/thumb/d/dc/%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E9%BB%84%E6%B3%89%E9%82%84%E3%82%8A%E7%AF%87%EF%BD%9E_The_Marching_On_Fire%E5%B0%81%E9%9D%A2.png/252px-%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E9%BB%84%E6%B3%89%E9%82%84%E3%82%8A%E7%AF%87%EF%BD%9E_The_Marching_On_Fire%E5%B0%81%E9%9D%A2.png"
+    },
+    {
+        name:"東方命萃酒 ～ Resurrection of Heaven's Liquor.",
+        rating:[4,6,4,6,4], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Easy Unclear"]],
+        comment:"Found this in CreepyNinja's Hall of Shame. Nice try..",
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/6/25 uploaded to db",
+        img:"http://www.disfact.com/product/thd01/jacket2.jpg"
+    },
+    {
+        name:"東方邪星章 ～ The Last Comer.",
+        rating:[8,6.8,6.5,7,7.3], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy 1CC"]],
+        comment:"Nothing too crazy.",
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/6/25 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/d/d6/%E6%9D%B1%E6%96%B9%E9%82%AA%E6%98%9F%E7%AB%A0_%EF%BD%9E_The_Last_Comer.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E9%82%AA%E6%98%9F%E7%AB%A0_%EF%BD%9E_The_Last_Comer.%E5%B0%81%E9%9D%A2.png"
+    },
+    {
+        name:"東方白塵記 ～ White Names Spoiled Past.",
+        rating:[8.3,8,8,9,7.2], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy 1CC"],["clear","Normal 1CC"]],
+        comment:"I suck at logical stuff.",
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/6/25 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/f/f4/%E6%9D%B1%E6%96%B9%E7%99%BD%E5%A1%B5%E8%A8%98_%EF%BD%9E_White_names_spoiled_past.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E7%99%BD%E5%A1%B5%E8%A8%98_%EF%BD%9E_White_names_spoiled_past.%E5%B0%81%E9%9D%A2.png"
+    },
+    {
+        name:"Pokemon Sword",
+        rating:[8.8,8.8,9.8,8.9,9], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Champion"],["clear","Isle of Armor Clear"]],
+        comment:"Actually pretty nice. I love the music and that's enough.",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2020/6/25 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/pokemon-sword-switch/Switch_PokemonSword_box.png"
     },
 ]
