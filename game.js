@@ -218,4 +218,14 @@ var games=[
         timestamp:"2020/6/25 uploaded to db",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/pokemon-sword-switch/Switch_PokemonSword_box.png"
     },
+    {
+        name:"Protoworld",
+        rating:[7.5,8,7,7,7], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Pre Alpha 1.0 Clear"]],
+        comment:"Concept is good.",
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/6/26 uploaded to db",
+        img:"https://img.itch.zone/aW1hZ2UvNjgwMzQyLzM3Mzk1MjUuZ2lm/347x500/EDZ3el.gif"
+    },
 ]
