@@ -15,7 +15,7 @@ var sbb={
         color:"#00ff00"
     },
     "giveup":{
-        icon:"fa fa-calendar-times-o",
+        icon:"calendar-times-o",
         color:"#ff0000"
     },
     "working":{
