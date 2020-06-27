@@ -14,6 +14,10 @@ var sbb={
         icon:"check",
         color:"#00ff00"
     },
+    "giveup":{
+        icon:"fa fa-calendar-times-o",
+        color:"#ff0000"
+    },
     "working":{
         icon:"hourglass-2",
         color:"#F4D03F"
@@ -61,7 +65,7 @@ var games=[
     {
         name:"Shining Resonance Refrain",
         rating:[7,7,7.5,7.6,7.4],
-        status:[["working","Currently in Ch3"]],
+        status:[["giveup","Currently in Ch3"]],
         comment:"Game too hard. I suck at Action games.",
         platform:"switch",
         lang:"eng",
@@ -71,7 +75,7 @@ var games=[
     {
         name:"Rune Factory 4 Special",
         rating:[7,8.5,7.5,9,10],
-        status:[["perfect","Easy High%"],["perfect","Newylwed Mode All Clear"],["perfect","Another Episode All Clear"],["working","Sharance Maze Lv.500"]],
+        status:[["perfect","Easy High%"],["perfect","Newylwed Mode All Clear"],["perfect","Another Episode All Clear"],["giveup","Sharance Maze Lv.500"]],
         comment:"I love it a lot",
         platform:"switch",
         lang:"eng",
@@ -111,7 +115,7 @@ var games=[
     {
         name:"トライフォーカサー ～ Outside the Traditional World.",
         rating:[8.5,6.8,7.5,6.3,5], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Working"]],
+        status:[["giveup","Tried"]],
         comment:"I hate StB Style game",
         platform:"pc",
         lang:"chn",
@@ -171,7 +175,7 @@ var games=[
     {
         name:"おれのアニミズム～黄泉還り篇～ The Marching On Fire",
         rating:[6,4.8,7,6,4], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Easy Unclear"]],
+        status:[["giveup","Easy Unclear"]],
         comment:"This is kinda dumb. Some spellcards are poorly designed.",
         platform:"pc",
         lang:"jpn",
@@ -181,7 +185,7 @@ var games=[
     {
         name:"東方命萃酒 ～ Resurrection of Heaven's Liquor.",
         rating:[4,6,4,6,4], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Easy Unclear"]],
+        status:[["giveup","Easy Unclear"]],
         comment:"Found this in CreepyNinja's Hall of Shame. Nice try..",
         platform:"pc",
         lang:"jpn",
@@ -227,5 +231,15 @@ var games=[
         lang:"eng",
         timestamp:"2020/6/26 uploaded to db",
         img:"https://img.itch.zone/aW1hZ2UvNjgwMzQyLzM3Mzk1MjUuZ2lm/347x500/EDZ3el.gif"
+    },
+    {
+        name:"東方輝針城　～ Double Dealing Character.",
+        rating:[9.6,8.8,8.8,8.8,9.2], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Clear"],["working","Normal Unclear"]],
+        comment:"I hate deathbombing",
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/6/27 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/a/a5/%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg"
     },
 ]
