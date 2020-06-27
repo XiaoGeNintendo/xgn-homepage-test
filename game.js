@@ -242,4 +242,14 @@ var games=[
         timestamp:"2020/6/27 uploaded to db",
         img:"https://upload.thwiki.cc/thumb/a/a5/%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg"
     },
+    {
+        name:"東方夢旧市 ～ Glory of Deep Skies.",
+        rating:[8,8,8,8,6.8], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Clear"]],
+        comment:"Spell timer as tight as can be",
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/6/27 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/9/96/%E6%9D%B1%E6%96%B9%E5%A4%A2%E6%97%A7%E5%B8%82_%EF%BD%9E_Glory_of_Deep_Skies.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%A4%A2%E6%97%A7%E5%B8%82_%EF%BD%9E_Glory_of_Deep_Skies.%E5%B0%81%E9%9D%A2.png"
+    },
 ]
