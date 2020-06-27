@@ -53,10 +53,10 @@ function getID(name){
 
 function addBlock(game){
     var template=`
-    <div class="card" id="{8}">
+    <div class="card" id="{8}"  >
     <a name="{8}"></a>
-    <div class="card-header">{0}</div>
-    <div class="card-body">
+    <div class="card-header" data-toggle="collapse" data-target="#{8}_toggle">{0}</div>
+    <div class="card-body collapse" id="{8}_toggle">
 		<table>
 			<tr>
 				<td>
@@ -68,7 +68,8 @@ function addBlock(game){
                     <b>Language:</b>{5}<br/>
                     <b>Short Comment:</b>{6}<br/>
                     <b>Timestamp:</b>{7}<br/>
-				</td>
+                </td>
+            </tr>
         </table>
         
         
@@ -76,6 +77,7 @@ function addBlock(game){
                     
         <div id="chart_{8}"></div>
     </div> 
+    </div>
     `
 
     
