@@ -252,4 +252,14 @@ var games=[
         timestamp:"2020/6/27 uploaded to db",
         img:"https://upload.thwiki.cc/thumb/9/96/%E6%9D%B1%E6%96%B9%E5%A4%A2%E6%97%A7%E5%B8%82_%EF%BD%9E_Glory_of_Deep_Skies.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%A4%A2%E6%97%A7%E5%B8%82_%EF%BD%9E_Glory_of_Deep_Skies.%E5%B0%81%E9%9D%A2.png"
     },
+    {
+        name:"連縁无現里 ～ Evanescent Existence",
+        rating:[7.5,3.8,4.5,8,1], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Easy Unclear"]],
+        comment:"1.01 is completely a mess. Hope 1.20 is better. If that's the case, I will update my verdict.",
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/6/30 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/f/fd/%E8%BF%9E%E7%BC%98%E6%97%A0%E7%8E%B0%E9%87%8C%EF%BD%9EEvanescent_Existence%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E6%97%A0%E7%8E%B0%E9%87%8C%EF%BD%9EEvanescent_Existence%E5%B0%81%E9%9D%A2.jpg"
+    },
 ]
