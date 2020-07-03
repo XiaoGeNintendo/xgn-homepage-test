@@ -37,6 +37,11 @@ var bbb={
         icon:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAYFBMVEX///8AAAC4uLghISG/v7+vr6/z8/MtLS0qKirY2NjHx8fu7u7Ozs6ysrJoaGhFRUXi4uKioqJeXl6JiYn5+flLS0t9fX1WVlYKCgo5OTmZmZmDg4OTk5MaGhozMzNwcHDGPR85AAAB8UlEQVRoge3a3bKCIBgFUMik8CfJyrJS3/8tT000Y0c+RMWaqb2vtMQloaQCYwiCIAiCTIjozX4+/Bw45JDMpBfcLXIWXTrqvJiFX7jy68/yAfi5+GCxJBJd3sCv6I4lfQcvyC1C8F/Of/bUW0cJlev3dzvgwf8mv1IxEbF9B093uv96PZVE1K2BSxL10r8O7POT3LWxyBzC0bzrQ0HPAYhR/P7oRef8FI/hL550zvMRvPKmc74czp898vlw/uCRX8WDeV1y2rOm3tvzgXk4H03ixWf5GDx48ODBgwcPHjx48ODBgwcPHjz4H+Orx0Iup2TXz8fSyG+4v9TkS1Vxf2sfGvjUI98win+MGSy7fFz54yXF62lMeZdnW2/6s/JdXv/EtejybGfe2eBkjOQttfdV/9YreartIyPPVJEZzoDT68Kp83lr07JpX1ddfr8JeJkaznz9tepezEq3SqZX9WBfbthUxoxZ+VsVZXvNZeqIbpRMj1DqHmJjK0LzrxnCC/A/y4899erRs5ZkGIZpoyuxDe9J9YBjtrit2G8PNF89Chry3DXB9/fDR9sc44lzN1yKX+fjXcZ1A0v1J/KlS9H5eJe/4COtu88JuJiL1/0lrbO7HW8hKkUcfhGsrcl75paHpb38PUFD6AiCIAiC+M0fbCAwosdL0LgAAAAASUVORK5CYII=",
         text:"Personal Computer"
     },
+    "3ds":{
+        icon:"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxnPg0KCQkJPHBhdGggZD0iTTQ5MC42NjcsMjI1Ljk2NVY0Mi42NjdDNDkwLjY2NywxOS4xNDYsNDcxLjUzMSwwLDQ0OCwwSDY0QzQwLjQ2OSwwLDIxLjMzMywxOS4xNDYsMjEuMzMzLDQyLjY2N3YxODMuMjk4DQoJCQkJQzguOTQ0LDIzMC4zODMsMCwyNDIuMTEyLDAsMjU2czguOTQ0LDI1LjYxNywyMS4zMzMsMzAuMDM1djE4My4yOThDMjEuMzMzLDQ5Mi44NTQsNDAuNDY5LDUxMiw2NCw1MTJoMzg0DQoJCQkJYzIzLjUzMSwwLDQyLjY2Ny0xOS4xNDYsNDIuNjY3LTQyLjY2N1YyODYuMDM1QzUwMy4wNTYsMjgxLjYxNyw1MTIsMjY5Ljg4OCw1MTIsMjU2UzUwMy4wNTYsMjMwLjM4Myw0OTAuNjY3LDIyNS45NjV6DQoJCQkJIE00Mi42NjcsNDIuNjY3YzAtMTEuNzcxLDkuNTczLTIxLjMzMywyMS4zMzMtMjEuMzMzaDM4NGMxMS43NiwwLDIxLjMzMyw5LjU2MywyMS4zMzMsMjEuMzMzVjIyNEg0Mi42NjdWNDIuNjY3eg0KCQkJCSBNNDI2LjY2NywyNDUuMzMzdjIxLjMzM0g4NS4zMzN2LTIxLjMzM0g0MjYuNjY3eiBNMzIsMjY2LjY2N2MtNS44ODUsMC0xMC42NjctNC43OTItMTAuNjY3LTEwLjY2N1MyNi4xMTUsMjQ1LjMzMywzMiwyNDUuMzMzDQoJCQkJaDMydjIxLjMzM0gzMnogTTQ2OS4zMzMsNDY5LjMzM2MwLDExLjc3MS05LjU3MywyMS4zMzMtMjEuMzMzLDIxLjMzM0g2NGMtMTEuNzYsMC0yMS4zMzMtOS41NjMtMjEuMzMzLTIxLjMzM1YyODhoNDI2LjY2Nw0KCQkJCVY0NjkuMzMzeiBNNDgwLDI2Ni42NjdoLTMydi0yMS4zMzNoMzJjNS44ODUsMCwxMC42NjcsNC43OTIsMTAuNjY3LDEwLjY2N1M0ODUuODg1LDI2Ni42NjcsNDgwLDI2Ni42Njd6Ii8+DQoJCQk8cGF0aCBkPSJNNDE2LDY0SDk2Yy01Ljg5NiwwLTEwLjY2Nyw0Ljc3MS0xMC42NjcsMTAuNjY3djEwNi42NjdDODUuMzMzLDE4Ny4yMjksOTAuMTA0LDE5Miw5NiwxOTJoMzIwDQoJCQkJYzUuODk2LDAsMTAuNjY3LTQuNzcxLDEwLjY2Ny0xMC42NjdWNzQuNjY3QzQyNi42NjcsNjguNzcxLDQyMS44OTYsNjQsNDE2LDY0eiBNNDA1LjMzMywxNzAuNjY3SDEwNi42NjdWODUuMzMzaDI5OC42NjdWMTcwLjY2Nw0KCQkJCXoiLz4NCgkJCTxwYXRoIGQ9Ik0xNjAsNDY5LjMzM2gxOTJjNS44OTYsMCwxMC42NjctNC43NzEsMTAuNjY3LTEwLjY2N3YtMTI4YzAtNS44OTYtNC43NzEtMTAuNjY3LTEwLjY2Ny0xMC42NjdIMTYwDQoJCQkJYy01Ljg5NiwwLTEwLjY2Nyw0Ljc3MS0xMC42NjcsMTAuNjY3djEyOEMxNDkuMzMzLDQ2NC41NjMsMTU0LjEwNCw0NjkuMzMzLDE2MCw0NjkuMzMzeiBNMTcwLjY2NywzNDEuMzMzaDE3MC42NjdWNDQ4SDE3MC42NjcNCgkJCQlWMzQxLjMzM3oiLz4NCgkJCTxwYXRoIGQ9Ik05NiwzODRjMTcuNjQ2LDAsMzItMTQuMzU0LDMyLTMyYzAtMTcuNjQ2LTE0LjM1NC0zMi0zMi0zMnMtMzIsMTQuMzU0LTMyLDMyQzY0LDM2OS42NDYsNzguMzU0LDM4NCw5NiwzODR6IE05NiwzNDEuMzMzDQoJCQkJYzUuODg1LDAsMTAuNjY3LDQuNzkyLDEwLjY2NywxMC42NjdTMTAxLjg4NSwzNjIuNjY3LDk2LDM2Mi42NjdTODUuMzMzLDM1Ny44NzUsODUuMzMzLDM1MlM5MC4xMTUsMzQxLjMzMyw5NiwzNDEuMzMzeiIvPg0KCQkJPHBhdGggZD0iTTc0LjY2Nyw0NDhoMTAuNjY3djEwLjY2N2MwLDUuODk2LDQuNzcxLDEwLjY2NywxMC42NjcsMTAuNjY3czEwLjY2Ny00Ljc3MSwxMC42NjctMTAuNjY3VjQ0OGgxMC42NjcNCgkJCQljNS44OTYsMCwxMC42NjctNC43NzEsMTAuNjY3LTEwLjY2N2MwLTUuODk2LTQuNzcxLTEwLjY2Ny0xMC42NjctMTAuNjY3aC0xMC42NjdWNDE2YzAtNS44OTYtNC43NzEtMTAuNjY3LTEwLjY2Ny0xMC42NjcNCgkJCQlTODUuMzMzLDQxMC4xMDQsODUuMzMzLDQxNnYxMC42NjdINzQuNjY3Yy01Ljg5NiwwLTEwLjY2Nyw0Ljc3MS0xMC42NjcsMTAuNjY3QzY0LDQ0My4yMjksNjguNzcxLDQ0OCw3NC42NjcsNDQ4eiIvPg0KCQkJPGNpcmNsZSBjeD0iNDE2IiBjeT0iMzMwLjY2NyIgcj0iMTAuNjY3Ii8+DQoJCQk8Y2lyY2xlIGN4PSIyNTYiIGN5PSI0Mi42NjciIHI9IjEwLjY2NyIvPg0KCQkJPGNpcmNsZSBjeD0iNDE2IiBjeT0iMzczLjMzMyIgcj0iMTAuNjY3Ii8+DQoJCQk8Y2lyY2xlIGN4PSIzOTQuNjY3IiBjeT0iNDM3LjMzMyIgcj0iMTAuNjY3Ii8+DQoJCQk8Y2lyY2xlIGN4PSI0MzcuMzMzIiBjeT0iMzUyIiByPSIxMC42NjciLz4NCgkJCTxjaXJjbGUgY3g9IjM5NC42NjciIGN5PSIzNTIiIHI9IjEwLjY2NyIvPg0KCQk8L2c+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=",
+        text:"Nintendo 3DS"
+    },
+
     "chn":{
         icon:"https://www.countryflags.io/cn/flat/32.png",
         text:"Chinese"
@@ -254,12 +259,32 @@ var games=[
     },
     {
         name:"連縁无現里 ～ Evanescent Existence",
-        rating:[7.5,3.8,4.5,8,1], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Easy Unclear"]],
-        comment:"1.01 is completely a mess. Hope 1.20 is better. If that's the case, I will update my verdict.",
+        rating:[8,3.8,4.5,8,1], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Light Clear"],["clear","Easy Extra Light Clear"]],
+        comment:"1.01 is completely a mess. 1.20 is better but still a mess",
         platform:"pc",
-        lang:"chn",
-        timestamp:"2020/6/30 uploaded to db",
+        lang:"jpn",
+        timestamp:"2020/6/30 uploaded to db. 2020/7/3 updated",
         img:"https://upload.thwiki.cc/thumb/f/fd/%E8%BF%9E%E7%BC%98%E6%97%A0%E7%8E%B0%E9%87%8C%EF%BD%9EEvanescent_Existence%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E6%97%A0%E7%8E%B0%E9%87%8C%EF%BD%9EEvanescent_Existence%E5%B0%81%E9%9D%A2.jpg"
+    },
+    {
+        name:"Mario & Luigi: Paper Jam",
+        rating:[7,9,7.8,7.5,8], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Playing"]],
+        comment:"I am playing this on Citra as my 3DS won't load.",
+        platform:"3ds",
+        lang:"eng",
+        timestamp:"2020/7/3 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/3ds/m/mario-and-luigi-paper-jam-3ds/3DS_MarioLuigi-PaperJam_box.png"
+    },
+    {
+        name:"連縁蛇叢釼 ～ Earthen Miraculous Sword",
+        rating:[7.5,3.8,4.5,8,4], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Light Clear"],["clear","Easy Extra Light Clear"]],
+        comment:"The same as last Len'en project.",
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/7/3 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/8/88/%E8%BF%9E%E7%BC%98%E8%9B%87%E4%B8%9B%E5%89%91%EF%BD%9EEarthen_Miraculous_Sword%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E8%9B%87%E4%B8%9B%E5%89%91%EF%BD%9EEarthen_Miraculous_Sword%E5%B0%81%E9%9D%A2.jpg"
     },
 ]
