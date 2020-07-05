@@ -6,7 +6,23 @@ var template={
     platform:"code of platform",
     lang:"code of lang",
     timestamp:"2020/4/18 some timestamp and description text",
-    img:"https://"
+    img:"https://",
+    calcType:"Normal"
+}
+
+var calcTypes={
+    "STG":{
+        name:"Touhou-style STG",
+        value:[0.35,0.15,0.1,0.1,0.35]
+    },
+    "Normal":{
+        name:"Normal",
+        value:[0.15,0.3,0.15,0.15,0.25]
+    },
+    "Story":{
+        name:"Story-based Game",
+        value:[0.1,0.1,0.1,0.35,0.35]
+    }
 }
 
 var sbb={
@@ -65,7 +81,8 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/4/19 uploaded to db",
-        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/animal-crossing-new-horizons-switch/Switch_ACNH_box.png"
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/animal-crossing-new-horizons-switch/Switch_ACNH_box.png",
+        calcType:"Normal"
     },
     {
         name:"Shining Resonance Refrain",
@@ -75,7 +92,8 @@ var games=[
         platform:"switch",
         lang:"eng",
         timestamp:"2020/4/19 uploaded to db",
-        img:"https://cdn01.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_ShiningResonanceRefrain_PEGI_image500w.jpg"
+        img:"https://cdn01.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_ShiningResonanceRefrain_PEGI_image500w.jpg",
+        calcType:"Normal"
     },
     {
         name:"Rune Factory 4 Special",
@@ -85,7 +103,8 @@ var games=[
         platform:"switch",
         lang:"eng",
         timestamp:"2020/4/19 uploaded to db",
-        img:"https://cdn01.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_RuneFactory4Special_PEGI_image500w.jpg"
+        img:"https://cdn01.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_RuneFactory4Special_PEGI_image500w.jpg",
+        calcType:"Normal"
     },
     {
         name:"Clubhouse Game: 51 Worldwide Classic",
@@ -95,7 +114,8 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/6/6 uploaded to db. 6/13 finish",
-        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/c/clubhouse-games-51-worldwide-classics-switch/clubhouse-games-51-worldwide-classics-switch-hero.jpg"
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/c/clubhouse-games-51-worldwide-classics-switch/clubhouse-games-51-worldwide-classics-switch-hero.jpg",
+        calcType:"Normal"
     },
     {
         name:"東方魔宝城 ~ Book of Star Mythology",
@@ -105,7 +125,8 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/6 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/7/76/%E6%9D%B1%E6%96%B9%E9%AD%94%E5%AE%9D%E5%9F%8E_%EF%BD%9E_Book_of_Star_Mythology.%E5%B0%81%E9%9D%A2.jpg/120px-%E6%9D%B1%E6%96%B9%E9%AD%94%E5%AE%9D%E5%9F%8E_%EF%BD%9E_Book_of_Star_Mythology.%E5%B0%81%E9%9D%A2.jpg"
+        img:"https://upload.thwiki.cc/thumb/7/76/%E6%9D%B1%E6%96%B9%E9%AD%94%E5%AE%9D%E5%9F%8E_%EF%BD%9E_Book_of_Star_Mythology.%E5%B0%81%E9%9D%A2.jpg/120px-%E6%9D%B1%E6%96%B9%E9%AD%94%E5%AE%9D%E5%9F%8E_%EF%BD%9E_Book_of_Star_Mythology.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
     },
     {
         name:"東方真珠島 ～ Hollow Song of Birds.",
@@ -115,7 +136,8 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/6/6 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/e/e1/%E6%9D%B1%E6%96%B9%E7%9C%9F%E7%8F%A0%E5%B3%B6_%EF%BD%9E_Hollow_Song_of_Birds.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E7%9C%9F%E7%8F%A0%E5%B3%B6_%EF%BD%9E_Hollow_Song_of_Birds.%E5%B0%81%E9%9D%A2.jpg"
+        img:"https://upload.thwiki.cc/thumb/e/e1/%E6%9D%B1%E6%96%B9%E7%9C%9F%E7%8F%A0%E5%B3%B6_%EF%BD%9E_Hollow_Song_of_Birds.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E7%9C%9F%E7%8F%A0%E5%B3%B6_%EF%BD%9E_Hollow_Song_of_Birds.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
     },
     {
         name:"トライフォーカサー ～ Outside the Traditional World.",
@@ -125,7 +147,8 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/6 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/7/74/%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AB%E3%82%B5%E3%83%BC_%EF%BD%9E_Outside_the_Traditional_World.%E5%B0%81%E9%9D%A2.png/224px-%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AB%E3%82%B5%E3%83%BC_%EF%BD%9E_Outside_the_Traditional_World.%E5%B0%81%E9%9D%A2.png"
+        img:"https://upload.thwiki.cc/thumb/7/74/%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AB%E3%82%B5%E3%83%BC_%EF%BD%9E_Outside_the_Traditional_World.%E5%B0%81%E9%9D%A2.png/224px-%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AB%E3%82%B5%E3%83%BC_%EF%BD%9E_Outside_the_Traditional_World.%E5%B0%81%E9%9D%A2.png",
+        calcType:"STG"
     },
     {
         name:"東方催狐譚 ～ Servants of Harvest Wish",
@@ -135,7 +158,8 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/6/6 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/2/26/%E6%9D%B1%E6%96%B9%E5%82%AC%E7%8B%90%E8%AD%9A_%EF%BD%9E_Servants_of_Harvest_Wish.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%82%AC%E7%8B%90%E8%AD%9A_%EF%BD%9E_Servants_of_Harvest_Wish.%E5%B0%81%E9%9D%A2.png"
+        img:"https://upload.thwiki.cc/thumb/2/26/%E6%9D%B1%E6%96%B9%E5%82%AC%E7%8B%90%E8%AD%9A_%EF%BD%9E_Servants_of_Harvest_Wish.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%82%AC%E7%8B%90%E8%AD%9A_%EF%BD%9E_Servants_of_Harvest_Wish.%E5%B0%81%E9%9D%A2.png",
+        calcType:"STG"
     },
     {
         name:"東方落流星 ～ The Shattered Sky.",
@@ -145,7 +169,8 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/6/6 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/d/dd/%E6%9D%B1%E6%96%B9%E8%90%BD%E6%B5%81%E6%98%9F_%EF%BD%9E_The_Shattered_Sky.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E8%90%BD%E6%B5%81%E6%98%9F_%EF%BD%9E_The_Shattered_Sky.%E5%B0%81%E9%9D%A2.jpg"
+        img:"https://upload.thwiki.cc/thumb/d/dd/%E6%9D%B1%E6%96%B9%E8%90%BD%E6%B5%81%E6%98%9F_%EF%BD%9E_The_Shattered_Sky.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E8%90%BD%E6%B5%81%E6%98%9F_%EF%BD%9E_The_Shattered_Sky.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
     },
     {
         name:"東方導命樹 ～ Mystical Power Plant.",
@@ -155,7 +180,8 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/12 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/5/54/%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png"
+        img:"https://upload.thwiki.cc/thumb/5/54/%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png",
+        calcType:"STG"
     },
     {
         name:"おれのアニミズム～天国篇",
@@ -165,7 +191,8 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/6/14 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/7/7f/%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E5%A4%A9%E5%9B%BD%E7%AF%87%EF%BD%9E%E5%B0%81%E9%9D%A2.png/252px-%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E5%A4%A9%E5%9B%BD%E7%AF%87%EF%BD%9E%E5%B0%81%E9%9D%A2.png"
+        img:"https://upload.thwiki.cc/thumb/7/7f/%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E5%A4%A9%E5%9B%BD%E7%AF%87%EF%BD%9E%E5%B0%81%E9%9D%A2.png/252px-%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E5%A4%A9%E5%9B%BD%E7%AF%87%EF%BD%9E%E5%B0%81%E9%9D%A2.png",
+        calcType:"STG"
     },
     {
         name:"東方桃源宮 ～ Riverbed Soul Saver.",
@@ -175,7 +202,8 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/20 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/1/12/%E6%9D%B1%E6%96%B9%E6%A1%83%E6%BA%90%E5%AE%AE_%EF%BD%9E_Riverbed_Soul_Saver.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E6%A1%83%E6%BA%90%E5%AE%AE_%EF%BD%9E_Riverbed_Soul_Saver.%E5%B0%81%E9%9D%A2.jpg"
+        img:"https://upload.thwiki.cc/thumb/1/12/%E6%9D%B1%E6%96%B9%E6%A1%83%E6%BA%90%E5%AE%AE_%EF%BD%9E_Riverbed_Soul_Saver.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E6%A1%83%E6%BA%90%E5%AE%AE_%EF%BD%9E_Riverbed_Soul_Saver.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
     },
     {
         name:"おれのアニミズム～黄泉還り篇～ The Marching On Fire",
@@ -185,7 +213,8 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/6/22 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/d/dc/%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E9%BB%84%E6%B3%89%E9%82%84%E3%82%8A%E7%AF%87%EF%BD%9E_The_Marching_On_Fire%E5%B0%81%E9%9D%A2.png/252px-%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E9%BB%84%E6%B3%89%E9%82%84%E3%82%8A%E7%AF%87%EF%BD%9E_The_Marching_On_Fire%E5%B0%81%E9%9D%A2.png"
+        img:"https://upload.thwiki.cc/thumb/d/dc/%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E9%BB%84%E6%B3%89%E9%82%84%E3%82%8A%E7%AF%87%EF%BD%9E_The_Marching_On_Fire%E5%B0%81%E9%9D%A2.png/252px-%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E9%BB%84%E6%B3%89%E9%82%84%E3%82%8A%E7%AF%87%EF%BD%9E_The_Marching_On_Fire%E5%B0%81%E9%9D%A2.png",
+        calcType:"STG"
     },
     {
         name:"東方命萃酒 ～ Resurrection of Heaven's Liquor.",
@@ -195,7 +224,8 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/6/25 uploaded to db",
-        img:"http://www.disfact.com/product/thd01/jacket2.jpg"
+        img:"http://www.disfact.com/product/thd01/jacket2.jpg",
+        calcType:"STG"
     },
     {
         name:"東方邪星章 ～ The Last Comer.",
@@ -205,7 +235,8 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/25 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/d/d6/%E6%9D%B1%E6%96%B9%E9%82%AA%E6%98%9F%E7%AB%A0_%EF%BD%9E_The_Last_Comer.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E9%82%AA%E6%98%9F%E7%AB%A0_%EF%BD%9E_The_Last_Comer.%E5%B0%81%E9%9D%A2.png"
+        img:"https://upload.thwiki.cc/thumb/d/d6/%E6%9D%B1%E6%96%B9%E9%82%AA%E6%98%9F%E7%AB%A0_%EF%BD%9E_The_Last_Comer.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E9%82%AA%E6%98%9F%E7%AB%A0_%EF%BD%9E_The_Last_Comer.%E5%B0%81%E9%9D%A2.png",
+        calcType:"STG"
     },
     {
         name:"東方白塵記 ～ White Names Spoiled Past.",
@@ -215,7 +246,8 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/25 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/f/f4/%E6%9D%B1%E6%96%B9%E7%99%BD%E5%A1%B5%E8%A8%98_%EF%BD%9E_White_names_spoiled_past.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E7%99%BD%E5%A1%B5%E8%A8%98_%EF%BD%9E_White_names_spoiled_past.%E5%B0%81%E9%9D%A2.png"
+        img:"https://upload.thwiki.cc/thumb/f/f4/%E6%9D%B1%E6%96%B9%E7%99%BD%E5%A1%B5%E8%A8%98_%EF%BD%9E_White_names_spoiled_past.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E7%99%BD%E5%A1%B5%E8%A8%98_%EF%BD%9E_White_names_spoiled_past.%E5%B0%81%E9%9D%A2.png",
+        calcType:"STG"
     },
     {
         name:"Pokemon Sword",
@@ -225,7 +257,8 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/6/25 uploaded to db",
-        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/pokemon-sword-switch/Switch_PokemonSword_box.png"
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/pokemon-sword-switch/Switch_PokemonSword_box.png",
+        calcType:"Normal"
     },
     {
         name:"Protoworld",
@@ -235,7 +268,8 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/6/26 uploaded to db",
-        img:"https://img.itch.zone/aW1hZ2UvNjgwMzQyLzM3Mzk1MjUuZ2lm/347x500/EDZ3el.gif"
+        img:"https://img.itch.zone/aW1hZ2UvNjgwMzQyLzM3Mzk1MjUuZ2lm/347x500/EDZ3el.gif",
+        calcType:"Normal"
     },
     {
         name:"東方輝針城　～ Double Dealing Character.",
@@ -245,7 +279,8 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/27 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/a/a5/%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg"
+        img:"https://upload.thwiki.cc/thumb/a/a5/%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
     },
     {
         name:"東方夢旧市 ～ Glory of Deep Skies.",
@@ -255,7 +290,8 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/6/27 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/9/96/%E6%9D%B1%E6%96%B9%E5%A4%A2%E6%97%A7%E5%B8%82_%EF%BD%9E_Glory_of_Deep_Skies.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%A4%A2%E6%97%A7%E5%B8%82_%EF%BD%9E_Glory_of_Deep_Skies.%E5%B0%81%E9%9D%A2.png"
+        img:"https://upload.thwiki.cc/thumb/9/96/%E6%9D%B1%E6%96%B9%E5%A4%A2%E6%97%A7%E5%B8%82_%EF%BD%9E_Glory_of_Deep_Skies.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%A4%A2%E6%97%A7%E5%B8%82_%EF%BD%9E_Glory_of_Deep_Skies.%E5%B0%81%E9%9D%A2.png",
+        calcType:"STG"
     },
     {
         name:"連縁无現里 ～ Evanescent Existence",
@@ -265,7 +301,8 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/6/30 uploaded to db. 2020/7/3 updated",
-        img:"https://upload.thwiki.cc/thumb/f/fd/%E8%BF%9E%E7%BC%98%E6%97%A0%E7%8E%B0%E9%87%8C%EF%BD%9EEvanescent_Existence%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E6%97%A0%E7%8E%B0%E9%87%8C%EF%BD%9EEvanescent_Existence%E5%B0%81%E9%9D%A2.jpg"
+        img:"https://upload.thwiki.cc/thumb/f/fd/%E8%BF%9E%E7%BC%98%E6%97%A0%E7%8E%B0%E9%87%8C%EF%BD%9EEvanescent_Existence%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E6%97%A0%E7%8E%B0%E9%87%8C%EF%BD%9EEvanescent_Existence%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
     },
     {
         name:"Mario & Luigi: Paper Jam",
@@ -275,7 +312,8 @@ var games=[
         platform:"3ds",
         lang:"eng",
         timestamp:"2020/7/3 uploaded to db",
-        img:"https://www.nintendo.com/content/dam/noa/en_US/games/3ds/m/mario-and-luigi-paper-jam-3ds/3DS_MarioLuigi-PaperJam_box.png"
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/3ds/m/mario-and-luigi-paper-jam-3ds/3DS_MarioLuigi-PaperJam_box.png",
+        calcType:"Normal"
     },
     {
         name:"連縁蛇叢釼 ～ Earthen Miraculous Sword",
@@ -285,6 +323,18 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/7/3 uploaded to db",
-        img:"https://upload.thwiki.cc/thumb/8/88/%E8%BF%9E%E7%BC%98%E8%9B%87%E4%B8%9B%E5%89%91%EF%BD%9EEarthen_Miraculous_Sword%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E8%9B%87%E4%B8%9B%E5%89%91%EF%BD%9EEarthen_Miraculous_Sword%E5%B0%81%E9%9D%A2.jpg"
+        img:"https://upload.thwiki.cc/thumb/8/88/%E8%BF%9E%E7%BC%98%E8%9B%87%E4%B8%9B%E5%89%91%EF%BD%9EEarthen_Miraculous_Sword%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E8%9B%87%E4%B8%9B%E5%89%91%EF%BD%9EEarthen_Miraculous_Sword%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
+    {
+        name:"連縁霊烈傳　～ Reactivate majestical imperial",
+        rating:[9.5,8,6,7,8.8], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Basic Clear"],["clear","Easy Extra Basic Clear"]],
+        comment:"Much better! I like this better than any other Len'en Project!",
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/7/5 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/8/82/%E8%BF%9E%E7%BC%98%E7%81%B5%E7%83%88%E4%BC%A0%EF%BD%9EReactivate_majestical_imperial%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E7%81%B5%E7%83%88%E4%BC%A0%EF%BD%9EReactivate_majestical_imperial%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
     },
 ]

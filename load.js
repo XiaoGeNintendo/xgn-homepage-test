@@ -33,12 +33,13 @@ function fUp(arr,ele){
     return arr;
 }
 
-function Avg(arr){
+function Calc(arr,calcType){
     var sm=0;
+    var ca=calcTypes[calcType].value;
     for(var i=0;i<arr.length;i++){
-        sm+=arr[i];
+        sm+=arr[i]*ca[i];
     }
-    return sm/arr.length;
+    return sm;
 }
 
 function getID(name){
@@ -68,6 +69,7 @@ function addBlock(game){
                     <b>Language:</b>{5}<br/>
                     <b>Short Comment:</b>{6}<br/>
                     <b>Timestamp:</b>{7}<br/>
+                    <b>Category:</b>{9}<br/>
                 </td>
             </tr>
         </table>
@@ -91,11 +93,13 @@ function addBlock(game){
     }
     status_str+='</table>';
 
-    template=stringFormat(template,game.name,game.img,Avg(game.rating),status_str,parseBadge(game.platform),parseBadge(game.lang),game.comment,game.timestamp,getID(game.name));
+    var rat=Calc(game.rating,game.calcType);
+
+    template=stringFormat(template,game.name,game.img,rat,status_str,parseBadge(game.platform),parseBadge(game.lang),game.comment,game.timestamp,getID(game.name),calcTypes[game.calcType].name+":"+calcTypes[game.calcType].value);
 
     html+=template;
 
-    statScore[Math.floor(Avg(game.rating))]=fUp(statScore[Math.floor(Avg(game.rating))],game);
+    statScore[Math.floor(rat)]=fUp(statScore[Math.floor(rat)],game);
 }
 
 function updateChart(){
