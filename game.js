@@ -317,7 +317,7 @@ var games=[
     },
     {
         name:"連縁蛇叢釼 ～ Earthen Miraculous Sword",
-        rating:[7.5,3.8,4.5,8,4], //Music Gameplay Graphics Storyline Impression
+        rating:[7.5,3.8,6,8,4], //Music Gameplay Graphics Storyline Impression
         status:[["clear","Easy Light Clear"],["clear","Easy Extra Light Clear"]],
         comment:"The same as last Len'en project.",
         platform:"pc",
@@ -335,6 +335,17 @@ var games=[
         lang:"jpn",
         timestamp:"2020/7/5 uploaded to db",
         img:"https://upload.thwiki.cc/thumb/8/82/%E8%BF%9E%E7%BC%98%E7%81%B5%E7%83%88%E4%BC%A0%EF%BD%9EReactivate_majestical_imperial%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E7%81%B5%E7%83%88%E4%BC%A0%EF%BD%9EReactivate_majestical_imperial%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
+    {
+        name:"連縁天影戦記 ～ Brilliant pagoda or haze castle",
+        rating:[8,9,7,7,5], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Clear"]],
+        comment:"This game's danmaku pattern is stupid, which is just copying and much harder. System too much but I think it's OK.",
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/7/7 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/3/3d/%E8%BF%9E%E7%BC%98%E5%A4%A9%E5%BD%B1%E6%88%98%E8%AE%B0%EF%BD%9EBrilliant_pagoda_or_haze_castle%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E5%A4%A9%E5%BD%B1%E6%88%98%E8%AE%B0%EF%BD%9EBrilliant_pagoda_or_haze_castle%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
 ]
