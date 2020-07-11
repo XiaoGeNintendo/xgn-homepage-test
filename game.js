@@ -340,12 +340,34 @@ var games=[
     {
         name:"連縁天影戦記 ～ Brilliant pagoda or haze castle",
         rating:[8,9,7,7,5], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Easy Clear"]],
+        status:[["clear","Middle Easy Clear"],["clear","Left Easy Clear"]],
         comment:"This game's danmaku pattern is stupid, which is just copying and much harder. System too much but I think it's OK.",
         platform:"pc",
         lang:"eng",
         timestamp:"2020/7/7 uploaded to db",
         img:"https://upload.thwiki.cc/thumb/3/3d/%E8%BF%9E%E7%BC%98%E5%A4%A9%E5%BD%B1%E6%88%98%E8%AE%B0%EF%BD%9EBrilliant_pagoda_or_haze_castle%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E5%A4%A9%E5%BD%B1%E6%88%98%E8%AE%B0%EF%BD%9EBrilliant_pagoda_or_haze_castle%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
+    },
+    {
+        name:"Escaped Chasm",
+        rating:[8,7.5,8,9,9], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Clear"]],
+        comment:"I played this many months ago, but as it's related to Dweller's Empty Path, I decided to upload this. Anyway, a good game!",
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/7/11 uploaded to db",
+        img:"https://img.itch.zone/aW1hZ2UvMzc3NzYzLzE4OTIxODcucG5n/347x500/trVrjK.png",
+        calcType:"Normal"
+    },
+    {
+        name:"Dweller's Empty Path",
+        rating:[8.5,8,8,9,9], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Clear"]],
+        comment:"Always amazed at Temmie's OC and stories. :P",
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/7/11 uploaded to db",
+        img:"https://img.itch.zone/aW1hZ2UvNTk0OTQ4LzM4MTg3MzkucG5n/347x500/BaK5j6.png",
+        calcType:"Normal"
     },
 ]
