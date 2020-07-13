@@ -329,7 +329,7 @@ var games=[
     {
         name:"連縁霊烈傳　～ Reactivate majestical imperial",
         rating:[9.5,8,6,7,8.8], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Easy Basic Clear"],["clear","Easy Extra Basic Clear"]],
+        status:[["clear","Easy Basic Clear"],["clear","Easy Extra Basic Clear"],["clear","Normal Basic Clear"]],
         comment:"Much better! I like this better than any other Len'en Project!",
         platform:"pc",
         lang:"jpn",
@@ -340,7 +340,7 @@ var games=[
     {
         name:"連縁天影戦記 ～ Brilliant pagoda or haze castle",
         rating:[8,9,7,7,5], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Middle Easy Clear"],["clear","Left Easy Clear"]],
+        status:[["clear","Middle Easy Clear"],["clear","Left Easy Clear"],["clear","Right Easy Clear"]],
         comment:"This game's danmaku pattern is stupid, which is just copying and much harder. System too much but I think it's OK.",
         platform:"pc",
         lang:"eng",
