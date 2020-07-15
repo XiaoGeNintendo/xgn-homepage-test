@@ -370,4 +370,20 @@ var games=[
         img:"https://img.itch.zone/aW1hZ2UvNTk0OTQ4LzM4MTg3MzkucG5n/347x500/BaK5j6.png",
         calcType:"Normal"
     },
+    {
+        name:"Paper Mario: The Origami King",
+        rating:[8.5,9.6,10,6.5,9.3], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Cleared"]],
+        comment:`The music is actually okay, full of local colour(?). 
+        The story itself is as stupid and linear as other Mario games, just save the princess and balabala. 
+        The system is clever, it deserves a 10pts! However, the lack of attacking methods and items and the super slow movement speed in map lower the score down by 0.4.
+        It would be nice if there're post-game contents.
+        Anyway, it's a good game overall. You should definitely try it. Don't ask me why I have cleared the game before it releases. 
+        Also, I've written a puzzle solver for it, here it is: https://github.com/XiaoGeNintendo/Origami-King-Puzzle-Solver`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2020/7/15 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/paper-mario-the-origami-king-switch/paper-mario-the-origami-king-switch-box.png",
+        calcType:"Normal"
+    },
 ]
