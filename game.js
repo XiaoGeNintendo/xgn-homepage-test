@@ -41,6 +41,10 @@ var sbb={
     "perfect":{
         icon:"heart",
         color:"#7D3C98"
+    },
+    "tried":{
+        icon:"bookmark",
+        color:"#124816"
     }
 }
 
@@ -142,7 +146,7 @@ var games=[
     {
         name:"トライフォーカサー ～ Outside the Traditional World.",
         rating:[8.5,6.8,7.5,6.3,5], //Music Gameplay Graphics Storyline Impression
-        status:[["giveup","Tried"]],
+        status:[["tried","Tried"]],
         comment:"I hate StB Style game",
         platform:"pc",
         lang:"chn",
@@ -384,6 +388,28 @@ var games=[
         lang:"chn",
         timestamp:"2020/7/15 uploaded to db",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/paper-mario-the-origami-king-switch/paper-mario-the-origami-king-switch-box.png",
+        calcType:"Normal"
+    },
+    {
+        name:"Torchlight II",
+        rating:[6.8,8.8,8,7.8,7], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Experienced"]],
+        comment:`just trying it`,
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/7/22 uploaded to db",
+        img:"https://pwimages-a.akamaihd.net/arcportal_static/images/torchlight2/boxart-available.png",
+        calcType:"Normal"
+    },
+    {
+        name:"東方時空書 ~ Touhou Rune Legend",
+        rating:[6,7,6,6,6], //Music Gameplay Graphics Storyline Impression
+        status:[["perfect","Lunatic Demo Clear"]],
+        comment:`(...)`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/7/22 uploaded to db",
+        img:"https://img.itch.zone/aW1nLzM4OTU3MDAucG5n/original/SBV0pF.png",
         calcType:"Normal"
     },
 ]
