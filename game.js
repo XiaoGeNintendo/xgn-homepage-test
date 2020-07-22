@@ -412,4 +412,15 @@ var games=[
         img:"https://img.itch.zone/aW1nLzM4OTU3MDAucG5n/original/SBV0pF.png",
         calcType:"Normal"
     },
+    {
+        name:"One Step From Eden",
+        rating:[7.5,8,7.5,7.5,7], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Experienced"]],
+        comment:`Too hard for me (laugh)`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2020/7/22 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/o/one-step-from-eden-switch/Switch-OneStepFromEden-box-eShop.png",
+        calcType:"Normal"
+    },
 ]
