@@ -427,4 +427,22 @@ var games=[
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/o/one-step-from-eden-switch/Switch-OneStepFromEden-box-eShop.png",
         calcType:"Test"
     },
+    {
+        name:"Ori and the Will of the Wisps",
+        rating:[7,8.5,9.8,6,8], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Playing"]],
+        comment:`I don't usually play action platforming games cuz I suck. But somehow one of my friends like it and he recommended it to me.
+        So I decided to have a go. But in my opinion, this game is kind of traditional. 
+        The animation and the music are excellent and they bring out the atmosphere of the wonderland (but I don't care). 
+        It IS good, but it IS also pretty traditional and trivial, nothing special.
+        The controls are pretty nice. The game itself is actually a bit confusing.
+        I've played Ori1 and it both has the problem of the super open and large world map.
+        I always don't know where to go and where to explore and waste a lot of time. (laugh)
+        Maybe I am the kind of people who prefer linear storyline.`,
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/7/23 uploaded to db",
+        img:"https://steamcdn-a.akamaihd.net/steam/apps/1057090/header.jpg?t=1591117157",
+        calcType:"Test"
+    },
 ]
