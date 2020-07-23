@@ -22,6 +22,10 @@ var calcTypes={
     "Story":{
         name:"Story-based Game",
         value:[0.1,0.1,0.1,0.35,0.35]
+    },
+    "Test":{
+        name:"Random-play game",
+        value:[0.25,0.25,0.25,0,0.25]
     }
 }
 
@@ -266,7 +270,7 @@ var games=[
     },
     {
         name:"Protoworld",
-        rating:[7.5,8,7,7,7], //Music Gameplay Graphics Storyline Impression
+        rating:[7.5,8,7,6,7], //Music Gameplay Graphics Storyline Impression
         status:[["clear","Pre Alpha 1.0 Clear"]],
         comment:"Concept is good.",
         platform:"pc",
@@ -392,14 +396,14 @@ var games=[
     },
     {
         name:"Torchlight II",
-        rating:[6.8,8.8,8,7.8,7], //Music Gameplay Graphics Storyline Impression
+        rating:[6.8,8.8,8,6,7], //Music Gameplay Graphics Storyline Impression
         status:[["tried","Experienced"]],
         comment:`just trying it`,
         platform:"pc",
         lang:"chn",
         timestamp:"2020/7/22 uploaded to db",
         img:"https://pwimages-a.akamaihd.net/arcportal_static/images/torchlight2/boxart-available.png",
-        calcType:"Normal"
+        calcType:"Test"
     },
     {
         name:"東方時空書 ~ Touhou Rune Legend",
@@ -414,13 +418,13 @@ var games=[
     },
     {
         name:"One Step From Eden",
-        rating:[7.5,8,7.5,7.5,7], //Music Gameplay Graphics Storyline Impression
+        rating:[7.5,7.6,7.5,0,7], //Music Gameplay Graphics Storyline Impression
         status:[["tried","Experienced"]],
         comment:`Too hard for me (laugh)`,
         platform:"switch",
         lang:"chn",
         timestamp:"2020/7/22 uploaded to db",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/o/one-step-from-eden-switch/Switch-OneStepFromEden-box-eShop.png",
-        calcType:"Normal"
+        calcType:"Test"
     },
 ]
