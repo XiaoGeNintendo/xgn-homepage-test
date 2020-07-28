@@ -429,8 +429,8 @@ var games=[
     },
     {
         name:"Ori and the Will of the Wisps",
-        rating:[7,8.5,9.8,6,8], //Music Gameplay Graphics Storyline Impression
-        status:[["tried","Playing"]],
+        rating:[8.8,8.9,9.8,6,8], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Playing"]],
         comment:`I don't usually play action platforming games cuz I suck. But somehow one of my friends like it and he recommended it to me.
         So I decided to have a go. But in my opinion, this game is kind of traditional. 
         The animation and the music are excellent and they bring out the atmosphere of the wonderland (but I don't care). 
@@ -438,7 +438,9 @@ var games=[
         The controls are pretty nice. The game itself is actually a bit confusing.
         I've played Ori1 and it both has the problem of the super open and large world map.
         I always don't know where to go and where to explore and waste a lot of time. (laugh)
-        Maybe I am the kind of people who prefer linear storyline.`,
+        Maybe I am the kind of people who prefer linear storyline.
+        
+        I will update the comment after playing it for a few more hours.`,
         platform:"pc",
         lang:"chn",
         timestamp:"2020/7/23 uploaded to db",
