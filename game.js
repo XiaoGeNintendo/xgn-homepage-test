@@ -430,21 +430,68 @@ var games=[
     {
         name:"Ori and the Will of the Wisps",
         rating:[8.8,8.9,9.8,6,8], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Playing"]],
+        status:[["giveup","Gave up"]],
         comment:`I don't usually play action platforming games cuz I suck. But somehow one of my friends like it and he recommended it to me.
         So I decided to have a go. But in my opinion, this game is kind of traditional. 
         The animation and the music are excellent and they bring out the atmosphere of the wonderland (but I don't care). 
-        It IS good, but it IS also pretty traditional and trivial, nothing special.
+        It IS good, but it IS also pretty traditional and trivial, nothing special. 
+        However, it matches the game style very much. I can't give a low rating for that.
         The controls are pretty nice. The game itself is actually a bit confusing.
         I've played Ori1 and it both has the problem of the super open and large world map.
         I always don't know where to go and where to explore and waste a lot of time. (laugh)
         Maybe I am the kind of people who prefer linear storyline.
         
-        I will update the comment after playing it for a few more hours.`,
+        I will update the comment after playing it for a few more hours.
+        
+        The game is too hard for me and I have to desert it after 5 hours of gameplay.`,
         platform:"pc",
         lang:"chn",
-        timestamp:"2020/7/23 uploaded to db",
+        timestamp:"2020/7/23 uploaded to db. 2020/8/2 terminated",
         img:"https://steamcdn-a.akamaihd.net/steam/apps/1057090/header.jpg?t=1591117157",
+        calcType:"Normal"
+    },
+    {
+        name:"Barony",
+        rating:[7.6,7.2,7,6,6.6], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Experienced"]],
+        comment:`Why ceiling so low?`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/8/2 uploaded to db",
+        img:"https://steamcdn-a.akamaihd.net/steam/apps/371970/header.jpg?t=1595048471",
         calcType:"Test"
+    },
+    {
+        name:"The Two Doors",
+        rating:[6,5,6,0,4], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","All ending cleared"]],
+        comment:`This is what we call a game of brute force`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/8/2 uploaded to db",
+        img:"",
+        calcType:"Normal"
+    },
+    {
+        name:"Impeached!",
+        rating:[2,6.3,7,0,6], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Experienced"]],
+        comment:`Signing the documents are cool`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/8/2 uploaded to db",
+        img:"https://img.itch.zone/aW1hZ2UvMTQ1ODA3LzY3NTI4NC5wbmc=/original/0ytUSK.png",
+        calcType:"Test"
+    },
+    {
+        name:"Osu! Tatakae! Ouendan!",
+        rating:[8,6.8,6.8,8.5,8], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Cannot pass that old man (laugh)"]],
+        comment:`Please reduce HP drain...`,
+        platform:"3ds",
+        lang:"jpn",
+        timestamp:"2020/8/2 uploaded to db",
+        img:"https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Osu%21_Tatakae%21_Ouendan_Coverart.png/220px-Osu%21_Tatakae%21_Ouendan_Coverart.png",
+        calcType:"Normal"
     },
 ]
