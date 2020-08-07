@@ -494,4 +494,37 @@ var games=[
         img:"https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Osu%21_Tatakae%21_Ouendan_Coverart.png/220px-Osu%21_Tatakae%21_Ouendan_Coverart.png",
         calcType:"Normal"
     },
+    {
+        name:"Wilmot's Warehouse",
+        rating:[6.6,8,8,6,7], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Tried"]],
+        comment:`No comment`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/8/7 uploaded to db",
+        img:"http://www.wilmotswarehouse.com/top.png",
+        calcType:"Test"
+    },
+    {
+        name:"Carrion",
+        rating:[6,8.6,9,6,9], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Tried"]],
+        comment:`Why targeting and select is all right-hand...`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2020/8/7 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/c/carrion-switch/carrion-switch-box-eshop.png",
+        calcType:"Test"
+    },
+    {
+        name:"妖怪狐狸合戦",
+        rating:[8,7,7.5,7,8], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Clear"],["clear","Normal clear"]],
+        comment:`No comment`,
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/8/7 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/0/0c/%E5%A6%96%E6%80%AA%E7%8B%90%E7%8B%B8%E5%90%88%E6%88%A6%E5%B0%81%E9%9D%A2.jpg/224px-%E5%A6%96%E6%80%AA%E7%8B%90%E7%8B%B8%E5%90%88%E6%88%A6%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
 ]
