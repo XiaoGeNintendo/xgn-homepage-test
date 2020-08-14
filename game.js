@@ -527,4 +527,65 @@ var games=[
         img:"https://upload.thwiki.cc/thumb/0/0c/%E5%A6%96%E6%80%AA%E7%8B%90%E7%8B%B8%E5%90%88%E6%88%A6%E5%B0%81%E9%9D%A2.jpg/224px-%E5%A6%96%E6%80%AA%E7%8B%90%E7%8B%B8%E5%90%88%E6%88%A6%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
+    {
+        name:"東方夏夜祭　～ Shining Shooting Star.",
+        rating:[8.5,8,8.6,8.7,8.5], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Clear"],["clear","Normal clear"]],
+        comment:`No comment`,
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/8/11 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/c/c1/%E4%B8%9C%E6%96%B9%E5%A4%8F%E5%A4%9C%E7%A5%AD_%EF%BD%9E_Shining_Shooting_Star.%E5%B0%81%E9%9D%A2.png/224px-%E4%B8%9C%E6%96%B9%E5%A4%8F%E5%A4%9C%E7%A5%AD_%EF%BD%9E_Shining_Shooting_Star.%E5%B0%81%E9%9D%A2.png",
+        calcType:"STG"
+    },
+    {
+        name:"東方魔晶精 ~Fairies of Sorcery~",
+        rating:[8.3,8.5,7,6,7], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Clear"]],
+        comment:`No comment`,
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/8/11 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/8/86/%E6%9D%B1%E6%96%B9%E9%AD%94%E6%99%B6%E7%B2%BE_~Fairies_of_Sorcery~%E8%8F%9C%E5%8D%95%E7%95%8C%E9%9D%A2.jpg/200px-%E6%9D%B1%E6%96%B9%E9%AD%94%E6%99%B6%E7%B2%BE_~Fairies_of_Sorcery~%E8%8F%9C%E5%8D%95%E7%95%8C%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
+    {
+        name:"東方海恵堂 ～ Marine Benefit.",
+        rating:[8.5,7,6,6,7], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Clear"],["clear","Normal Clear"]],
+        comment:`Stage 5 is completely a mess! Low rating for that. And the game has no replay system and can run in background, which is stupid.`,
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/8/11 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/e/e5/%E6%9D%B1%E6%96%B9%E6%B5%B7%E6%81%B5%E5%A0%82_%EF%BD%9E_Marine_Benefit.%E5%B0%81%E9%9D%A2.jpg/196px-%E6%9D%B1%E6%96%B9%E6%B5%B7%E6%81%B5%E5%A0%82_%EF%BD%9E_Marine_Benefit.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
+    {
+        name:"Taisei Project",
+        rating:[8.5,4,9,7,3], //Music Gameplay Graphics Storyline Impression
+        status:[["giveup","Easy Unclear"]],
+        comment:`This game is absolute bulls**t in my opinion. The difficulty is too high. The bullet color and the background color are the same.
+        It's hard to distinguish laser and background and their warning lines.
+        Most spellcards in Stage 6 is confusing. Boss shoots too early after a spellcard begins.
+        I don't usually give a low rating because I can't beat the game. But this game is really not friendly to first-play gamers like me.
+        The game needs more time to adopt, but I don't have.`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/8/14 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/1/13/taisei-project%E5%B0%81%E9%9D%A2.jpg/224px-taisei-project%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
+    {
+        name:"SeitenTouji 1 - Adamantine Memory Blade",
+        rating:[6,5,6,7,4], //Music Gameplay Graphics Storyline Impression
+        status:[["giveup","Easy Unclear"]],
+        comment:`The music and graphics are not up to standard. Spellcards are OK, pretty trivial, but it can be confusing and weird for first-time players.
+        Most of stage4+'s spellcards are annoying as well. Moreover, the stage is just a combination of several items, it's boring and long.
+        It deserves a gameplay score like this as I care this a lot as a (relaxing gamer).`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/8/14 uploaded to db",
+        img:"https://s3.amazonaws.com/bulletforge_production/images/4759/normal.png?1531540348",
+        calcType:"STG"
+    },
 ]
