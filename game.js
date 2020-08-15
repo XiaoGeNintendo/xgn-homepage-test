@@ -588,4 +588,17 @@ var games=[
         img:"https://s3.amazonaws.com/bulletforge_production/images/4759/normal.png?1531540348",
         calcType:"STG"
     },
+    {
+        name:"while True: learn()",
+        rating:[7,8.6,8.6,8.8,9], //Music Gameplay Graphics Storyline Impression
+        status:[["perfect","Gold Clear"]],
+        comment:`Actually a very neat game with an interesting story and an education purpose. 
+        Definitely worth a try. Some levels are a bit hard, but you can skip them. You can even get true ending after skipping tons of levels like me (laugh)
+        Some time limits are pretty tight and some levels are confusing though.`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2020/8/15 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/w/while-true-learn-switch/while-true-learn-switch-box-eshop.png",
+        calcType:"Normal"
+    },
 ]
