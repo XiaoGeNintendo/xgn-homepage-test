@@ -601,4 +601,21 @@ var games=[
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/w/while-true-learn-switch/while-true-learn-switch-box-eshop.png",
         calcType:"Normal"
     },
+    {
+        name:"Danganronpa: Trigger Happy Havoc",
+        rating:[8.3,9.2,8.6,9.6,9.3], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Game Clear"]],
+        comment:`I played this game because it was similar to Phoenix Wright.
+        Some music has potential while others are just trivial. 8.3 for that.
+        I love the real-time debate thing and I will give a base score of 10. But as it's too hard to aim I will -0.3 for that.
+        The rhythm part is also weird and propose-unknown, I will -0.3 for that. It's sometimes hard to understand what the pictures in the climax
+        are trying to tell me, -0.2 for that.
+        The graphics are overall good, and I will start by 9. Some icons are not polished, -0.2. The UI in the school mode is a bit weird, -0.2.
+        The story itself is cool with a good ending and a meaningful theme. The first few cases are making the games too long and a bit boring.`,
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/8/22 uploaded to db",
+        img:"https://steamcdn-a.akamaihd.net/steam/apps/413410/header.jpg?t=1590632885",
+        calcType:"Story"
+    },
 ]
