@@ -618,4 +618,15 @@ var games=[
         img:"https://steamcdn-a.akamaihd.net/steam/apps/413410/header.jpg?t=1590632885",
         calcType:"Story"
     },
+    {
+        name:"東方陰陽葬～Spirits in Memetic Paradise",
+        rating:[7,7.8,9,7,7], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Clear"],["clear","Easy Extra Clear"]],
+        comment:`Why everyone loves PC-98 era???`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/8/22 uploaded to db",
+        img:"https://s3.amazonaws.com/bulletforge_production/images/5740/normal.jpg?1597598702",
+        calcType:"STG"
+    },
 ]
