@@ -629,4 +629,37 @@ var games=[
         img:"https://s3.amazonaws.com/bulletforge_production/images/5740/normal.jpg?1597598702",
         calcType:"STG"
     },
+    {
+        name:"Kemono Friends Picross",
+        rating:[8,7,7.6,6,7], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Working"]],
+        comment:`No comment`,
+        platform:"switch",
+        lang:"eng",
+        timestamp:"2020/9/5 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/k/kemono-friends-picross-switch/Switch_KemonoFriendsPicross_box_eShop.png",
+        calcType:"Normal"
+    },
+    {
+        name:"Adventures with Anxiety",
+        rating:[8.8,6.8,9,9.3,9.6], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Clear"]],
+        comment:`!!`,
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/9/5 uploaded to db",
+        img:"https://ncase.me/img/awa.png",
+        calcType:"Story"
+    },
+    {
+        name:"Danganronpa 2: Goodbye Despair",
+        rating:[8,9,8.6,9,9], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Chapter 4"]],
+        comment:`Update after finished...`,
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2020/9/5 uploaded to db",
+        img:"https://steamcdn-a.akamaihd.net/steam/apps/413420/header.jpg?t=1590632940",
+        calcType:"Story"
+    },
 ]
