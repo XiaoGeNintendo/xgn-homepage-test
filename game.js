@@ -662,4 +662,15 @@ var games=[
         img:"https://steamcdn-a.akamaihd.net/steam/apps/413420/header.jpg?t=1590632940",
         calcType:"Story"
     },
+    {
+        name:"東方鬼葬剣 ～ Infinite Blade Pavilion.",
+        rating:[8.6,8,7.8,8,8], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Clear"],["clear","Normal Clear"]],
+        comment:`Not as good as HSoB`,
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/9/13 uploaded to db",
+        img:"https://upload.thwiki.cc/thumb/9/92/%E6%9D%B1%E6%96%B9%E9%AC%BC%E8%91%AC%E5%89%A3_%EF%BD%9E_Infinite_Blade_Pavilion.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E9%AC%BC%E8%91%AC%E5%89%A3_%EF%BD%9E_Infinite_Blade_Pavilion.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
 ]
