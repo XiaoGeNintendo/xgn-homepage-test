@@ -673,4 +673,49 @@ var games=[
         img:"https://upload.thwiki.cc/thumb/9/92/%E6%9D%B1%E6%96%B9%E9%AC%BC%E8%91%AC%E5%89%A3_%EF%BD%9E_Infinite_Blade_Pavilion.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E9%AC%BC%E8%91%AC%E5%89%A3_%EF%BD%9E_Infinite_Blade_Pavilion.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
+    {
+        name:"Super Mario 3D All-Stars",
+        rating:[7.6,8,9,7,8], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Super Mario Galaxy Dome 5"],["working","Super Mario Sunshine In Queue"]],
+        comment:`Actually I've got a Wii, but the SMG there is broken. It's quite lucky I don't have to reboot my old Wii :P`,
+        platform:"switch",
+        lang:"eng",
+        timestamp:"2020/9/26 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-mario-3d-all-stars-switch/Switch_SM3DAS_box.png",
+        calcType:"Normal"
+    },
+    {
+        name:"四聖龍神録 Plus",
+        rating:[8.4,9,7,7,8], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Clear"]],
+        comment:`Very good little game! Unfortunately the game is in Japanese and breaks without the locale.`,
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/9/26 uploaded to db",
+        img:"",
+        calcType:"STG"
+    },
+    {
+        name:"四聖龍神録2",
+        rating:[7.8,9.5,8,9.5,9], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy Chapter 1-5 Clear"],["clear","Easy Chapter 6 Clear"]],
+        comment:`The game has many charming details. Nice animation, cool effects and even a manga!
+        I appreciate it! Very excellent and nice game!Even LoLK system!! <br/>
+        Some weird stuff(coincidence): <br/>
+        Stage 1 looks like TH15 Stage 1 <br/>
+        Stage 2 looks like TH11 Stage 3 <br/>
+        Stage 3 looks like TH13 Stage 3 <br/>
+        Stage 4 looks like TH07 Stage 5 <br/>
+        Why extra has 23 phases <br/>
+        Why last spell in Stage 5 looks like Yukari's spell so much <br/>
+        Why the music has Touhou main theme <br/>
+        ...<br/>
+        
+        Again, sadly, the game is in Japanese locale and the authors seems to have deserted it. `,
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2020/9/26 uploaded to db",
+        img:"https://dixq.net/ryujin2/image/title.jpg",
+        calcType:"STG"
+    },
 ]
