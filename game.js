@@ -26,7 +26,7 @@ var calcTypes={
     "Test":{
         name:"Random-play game",
         value:[0.25,0.25,0.25,0,0.25]
-    }
+    },
 }
 
 var sbb={
@@ -717,5 +717,38 @@ var games=[
         timestamp:"2020/9/26 uploaded to db",
         img:"https://dixq.net/ryujin2/image/title.jpg",
         calcType:"STG"
+    },
+    {
+        name:"Touhou Gensou Mahjong",
+        rating:[8.8,9.3,8.9,0,9], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","OK"],],
+        comment:`Art styles differ so much`,
+        platform:"switch",
+        lang:"jpn",
+        timestamp:"2020/10/8 uploaded to db",
+        img:"https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwcbae6e25/products/D70010000018402/heroBanner/7dd7b67839f9db0c28b9512d4dfa0393ea5b5f9d18da368eec0004a3e50740da.jpg?sw=1368&strip=false",
+        calcType:"Test"
+    },
+    {
+        name:"東方の迷宮 -幻想郷と天貫の大樹-",
+        rating:[8.7,8.6,9,0,8.4], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Tried"]],
+        comment:`Just trying`,
+        platform:"switch",
+        lang:"jpn",
+        timestamp:"2020/10/8 uploaded to db",
+        img:"https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwef8f09d1/products/D70010000029261/heroBanner/cbc017f37858dc4b5e35891485ef585b2eba952d76c6d8564c78861ed37e0f25.jpg?sw=1368&strip=false",
+        calcType:"Test"
+    },
+    {
+        name:"Lost Ember",
+        rating:[7,7.9,7,8,6.9], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Stuck at Ch5"]],
+        comment:`The game is a bad port to NS. Low quality, low volume and low fps.Lots of bugs too. Don't do it.(facepalm)`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2020/10/8 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/l/lost-ember-switch/lost-ember-switch-box-eshop.png",
+        calcType:"Story"
     },
 ]
