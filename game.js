@@ -653,12 +653,12 @@ var games=[
     },
     {
         name:"Danganronpa 2: Goodbye Despair",
-        rating:[8,9,8.6,9,9], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Chapter 4"]],
-        comment:`Update after finished...`,
+        rating:[8,9,8.6,8.3,8.6], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Cleared"]],
+        comment:`No comment`,
         platform:"pc",
         lang:"chn",
-        timestamp:"2020/9/5 uploaded to db",
+        timestamp:"2020/9/5 uploaded to db, 2020/11/21 finished",
         img:"https://steamcdn-a.akamaihd.net/steam/apps/413420/header.jpg?t=1590632940",
         calcType:"Story"
     },
