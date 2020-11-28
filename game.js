@@ -751,4 +751,15 @@ var games=[
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/l/lost-ember-switch/lost-ember-switch-box-eshop.png",
         calcType:"Story"
     },
+    {
+        name:"Augusta Iaponicorum",
+        rating:[9.9,8.9,9.5,7.8,9], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Tried"]],
+        comment:`Music good, graphics good, danmaku not sync with music, some bugs with Reimu's shots.`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2020/11/22 uploaded to db",
+        img:"https://s3.amazonaws.com/bulletforge_production/images/5003/normal.png?1565391132",
+        calcType:"STG"
+    }
 ]
