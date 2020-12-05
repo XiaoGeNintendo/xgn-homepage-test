@@ -761,5 +761,38 @@ var games=[
         timestamp:"2020/11/22 uploaded to db",
         img:"https://s3.amazonaws.com/bulletforge_production/images/5003/normal.png?1565391132",
         calcType:"STG"
-    }
+    },
+    {
+        name:"Ace Attorney: Apollo Justice",
+        rating:[8.4,8.6,7,7,7], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Episode 3"]],
+        comment:`No comment`,
+        platform:"3ds",
+        lang:"eng",
+        timestamp:"2020/11/28 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/3ds/a/apollo-justice-ace-attorney-3ds/3DS_ApolloJustice-AceAttorney_box_eShop.png",
+        calcType:"Story"
+    },
+    {
+        name:"Azure Reflection",
+        rating:[8,8,9,8,9], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Easy 2CC"]],
+        comment:`This is so fantasic and so hard! It's one of the STGs which are put the most effort into. Why bullet speed so fast :think:`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2020/12/5 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/azure-reflections-switch/azure-reflections-switch-hero.jpg",
+        calcType:"Normal"
+    },
+    {
+        name:"Taiko no Tatsujin: Rhythmic Adventure Pack",
+        rating:[8.6,9,7.6,7.6,9], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Adventure 1 Chapter 3"],["working","Adventure 2 Chapter 1"]],
+        comment:`Actually I've played the 3ds version. It's nice to see a remake and translated version. Please cut down the length of startup animation`,
+        platform:"switch",
+        lang:"eng",
+        timestamp:"2020/12/5 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/taiko-no-tatsujin-rhythmic-adventure-pack-switch/taiko-no-tatsujin-rhythmic-adventure-pack-switch-hero.jpg",
+        calcType:"Normal"
+    },
 ]
