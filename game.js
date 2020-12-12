@@ -315,11 +315,11 @@ var games=[
     {
         name:"Mario & Luigi: Paper Jam",
         rating:[7,9,7.8,7.5,8], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Playing"]],
+        status:[["giveup","Give up"]],
         comment:"I am playing this on Citra as my 3DS won't load.",
         platform:"3ds",
         lang:"eng",
-        timestamp:"2020/7/3 uploaded to db",
+        timestamp:"2020/7/3 uploaded to db. 12/12 give up",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/3ds/m/mario-and-luigi-paper-jam-3ds/3DS_MarioLuigi-PaperJam_box.png",
         calcType:"Normal"
     },
@@ -787,11 +787,11 @@ var games=[
     {
         name:"Taiko no Tatsujin: Rhythmic Adventure Pack",
         rating:[8.6,9,7.6,7.6,9], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Adventure 1 Chapter 3"],["working","Adventure 2 Chapter 1"]],
+        status:[["clear","Adventure 1 Clear"],["working","Adventure 2 Chapter 2"]],
         comment:`Actually I've played the 3ds version. It's nice to see a remake and translated version. Please cut down the length of startup animation`,
         platform:"switch",
         lang:"eng",
-        timestamp:"2020/12/5 uploaded to db",
+        timestamp:"2020/12/5 uploaded to db. 12/12 update",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/taiko-no-tatsujin-rhythmic-adventure-pack-switch/taiko-no-tatsujin-rhythmic-adventure-pack-switch-hero.jpg",
         calcType:"Normal"
     },
