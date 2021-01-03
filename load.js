@@ -61,7 +61,7 @@ function addBlock(game){
 		<table>
 			<tr>
 				<td>
-					<img src="{1}" width=300px height=400px/>
+					<img src="{1}" style="max-width: 400px"/>
 				</td>
 				<td>
 					<b>Status:</b>{3}<br/>

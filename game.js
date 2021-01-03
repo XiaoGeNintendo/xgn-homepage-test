@@ -795,4 +795,48 @@ var games=[
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/taiko-no-tatsujin-rhythmic-adventure-pack-switch/taiko-no-tatsujin-rhythmic-adventure-pack-switch-hero.jpg",
         calcType:"Normal"
     },
+    {
+        name:"Spice and Wolf VR",
+        rating:[6,0,8,3,8.5], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Clear game?"]],
+        comment:`Yep, you will be considered as a real fan if you spend 30$ on this 30min game. About the game itself, it's smoothly made.`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2020/12/19 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/spice-and-wolf-vr-switch/spice-and-wolf-vr-switch-hero.jpg",
+        calcType:"Story"
+    },
+    {
+        name:"Gensou Skydrift",
+        rating:[7,6.6,7,0,7], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Tried"]],
+        comment:`The game relies on dashpads so much`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2021/1/3 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/g/gensou-skydrift-switch/gensou-skydrift-switch-hero.jpg",
+        calcType:"Test"
+    },
+    {
+        name:"ヨイヤミダンサーズ",
+        rating:[9.5,7,9,6.6,7.8], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Easy clear"]],
+        comment:`No comment`,
+        platform:"switch",
+        lang:"jpn",
+        timestamp:"2021/1/3 uploaded to db",
+        img:"https://img-eshop.cdn.nintendo.net/i/ffb6e08207061beab6ff59fd502a0b96c1d3cccb798e29c05ab2dc2a976a0427.jpg?w=280&h=158",
+        calcType:"Normal"
+    },
+    {
+        name:"Touhou Luna Night",
+        rating:[7.3,8.8,7.4,0,7], //Music Gameplay Graphics Storyline Impression
+        status:[["tried","Tried"]],
+        comment:`No comment`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2021/1/3 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/touhou-luna-nights-switch/touhou-luna-nights-switch-hero.jpg",
+        calcType:"Test"
+    },
 ]
