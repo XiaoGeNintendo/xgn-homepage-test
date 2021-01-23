@@ -676,7 +676,7 @@ var games=[
     {
         name:"Super Mario 3D All-Stars",
         rating:[7.6,8,9,7,8], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Super Mario Galaxy Dome 5"],["working","Super Mario Sunshine In Queue"]],
+        status:[["clear","Super Mario Galaxy 68 stars clear"],["working","Super Mario Sunshine In Queue"]],
         comment:`Actually I've got a Wii, but the SMG there is broken. It's quite lucky I don't have to reboot my old Wii :P`,
         platform:"switch",
         lang:"eng",
@@ -764,8 +764,8 @@ var games=[
     },
     {
         name:"Ace Attorney: Apollo Justice",
-        rating:[8.4,8.6,7,7,7], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Episode 3"]],
+        rating:[8,8,7,7.6,7], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Cleared"]],
         comment:`No comment`,
         platform:"3ds",
         lang:"eng",
