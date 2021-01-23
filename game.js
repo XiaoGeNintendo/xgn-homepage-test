@@ -304,7 +304,7 @@ var games=[
     {
         name:"連縁无現里 ～ Evanescent Existence",
         rating:[8,3.8,4.5,8,1], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Easy Light Clear"],["clear","Easy Extra Light Clear"]],
+        status:[["clear","Easy Light Clear"],["clear","Easy Extra Light Clear"],["clear","Easy Basic Clear"],["clear","Easy Extra Basic Clear"]],
         comment:"1.01 is completely a mess. 1.20 is better but still a mess",
         platform:"pc",
         lang:"jpn",
@@ -326,7 +326,7 @@ var games=[
     {
         name:"連縁蛇叢釼 ～ Earthen Miraculous Sword",
         rating:[7.5,3.8,6,8,4], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Easy Light Clear"],["clear","Easy Extra Light Clear"]],
+        status:[["clear","Easy Light Clear"],["clear","Easy Extra Light Clear"],["clear","Easy Basic Clear"],["clear","Easy Extra Basic Clear"]],
         comment:"The same as last Len'en project.",
         platform:"pc",
         lang:"jpn",
@@ -680,7 +680,7 @@ var games=[
         comment:`Actually I've got a Wii, but the SMG there is broken. It's quite lucky I don't have to reboot my old Wii :P`,
         platform:"switch",
         lang:"eng",
-        timestamp:"2020/9/26 uploaded to db",
+        timestamp:"2020/9/26 uploaded to db. 2021/01/23 finish SMG",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-mario-3d-all-stars-switch/Switch_SM3DAS_box.png",
         calcType:"Normal"
     },
