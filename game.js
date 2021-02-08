@@ -632,7 +632,7 @@ var games=[
     {
         name:"Kemono Friends Picross",
         rating:[8,7,7.6,6,7], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Working"]],
+        status:[["giveup","Not working"]],
         comment:`No comment`,
         platform:"switch",
         lang:"eng",
@@ -676,7 +676,7 @@ var games=[
     {
         name:"Super Mario 3D All-Stars",
         rating:[7.6,8,9,7,8], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Super Mario Galaxy 68 stars clear"],["working","Super Mario Sunshine In Queue"]],
+        status:[["clear","Super Mario Galaxy 68 stars clear"]],
         comment:`Actually I've got a Wii, but the SMG there is broken. It's quite lucky I don't have to reboot my old Wii :P`,
         platform:"switch",
         lang:"eng",
@@ -787,7 +787,7 @@ var games=[
     {
         name:"Taiko no Tatsujin: Rhythmic Adventure Pack",
         rating:[8.6,9,7.6,7.6,9], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Adventure 1 Clear"],["working","Adventure 2 Chapter 2"]],
+        status:[["clear","Adventure 1 Clear"],["working","Adventure 2 Chapter 5"]],
         comment:`Actually I've played the 3ds version. It's nice to see a remake and translated version. Please cut down the length of startup animation`,
         platform:"switch",
         lang:"eng",
@@ -838,5 +838,29 @@ var games=[
         timestamp:"2021/1/3 uploaded to db",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/touhou-luna-nights-switch/touhou-luna-nights-switch-hero.jpg",
         calcType:"Test"
+    },
+    {
+        name:"Ace Attorney 5",
+        rating:[7.6,8.8,8,6,7], //Music Gameplay Graphics Storyline Impression
+        status:[["working","Episode 2 Trial 1"]],
+        comment:`Lucky me. I found Chinese version!!
+        The system and graphics are much better than the previous game. Finally investigation is not some sh*t anymore.
+        However the first trial is really weird and stupid.`,
+        platform:"3ds",
+        lang:"chn",
+        timestamp:"2021/2/8 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/3ds/p/phoenix-wright-ace-attorney-dual-destinies-3ds/3DS_PhoneixWright-DualDestinies_box_eShop.png",
+        calcType:"Story"
+    },
+    {
+        name:"Spice and Wolf VR 2",
+        rating:[7,0,7,8,7], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Clear"]],
+        comment:`No comment`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2021/2/8 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/spice-and-wolf-vr2-switch/spice-and-wolf-vr2-switch-hero.jpg",
+        calcType:"Story"
     },
 ]
