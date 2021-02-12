@@ -798,7 +798,7 @@ var games=[
     {
         name:"Spice and Wolf VR",
         rating:[6,0,8,3,8.5], //Music Gameplay Graphics Storyline Impression
-        status:[["tried","Clear game?"]],
+        status:[["clear","Clear game?"]],
         comment:`Yep, you will be considered as a real fan if you spend 30$ on this 30min game. About the game itself, it's smoothly made.`,
         platform:"switch",
         lang:"chn",
@@ -842,7 +842,7 @@ var games=[
     {
         name:"Ace Attorney 5",
         rating:[7.6,8.8,8,6,7], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Episode 2 Trial 1"]],
+        status:[["working","Investigation 2"]],
         comment:`Lucky me. I found Chinese version!!
         The system and graphics are much better than the previous game. Finally investigation is not some sh*t anymore.
         However the first trial is really weird and stupid.`,
@@ -862,5 +862,16 @@ var games=[
         timestamp:"2021/2/8 uploaded to db",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/spice-and-wolf-vr2-switch/spice-and-wolf-vr2-switch-hero.jpg",
         calcType:"Story"
+    },
+    {
+        name:"Super Mario 3D World + Bowser's Fury",
+        rating:[8.4,8,9.5,6,8], //Music Gameplay Graphics Storyline Impression
+        status:[["perfect","Main Game 300 stars"],["working","Bowser's Fury 27 shines"]],
+        comment:`No comment`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2021/2/12 uploaded to db",
+        img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-mario-3d-world-plus-bowsers-fury-switch/super-mario-3d-world-plus-bowsers-fury-switch-hero.jpg",
+        calcType:"Normal"
     },
 ]
