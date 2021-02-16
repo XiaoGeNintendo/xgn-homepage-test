@@ -842,7 +842,7 @@ var games=[
     {
         name:"Ace Attorney 5",
         rating:[7.6,8.8,8,6,7], //Music Gameplay Graphics Storyline Impression
-        status:[["working","Investigation 2"]],
+        status:[["working","Episode 3"]],
         comment:`Lucky me. I found Chinese version!!
         The system and graphics are much better than the previous game. Finally investigation is not some sh*t anymore.
         However the first trial is really weird and stupid.`,
@@ -866,7 +866,7 @@ var games=[
     {
         name:"Super Mario 3D World + Bowser's Fury",
         rating:[8.4,8,9.5,6,8], //Music Gameplay Graphics Storyline Impression
-        status:[["perfect","Main Game 300 stars"],["working","Bowser's Fury 27 shines"]],
+        status:[["perfect","Main Game 300 stars"],["clear","Bowser's Fury 70 shines"]],
         comment:`No comment`,
         platform:"switch",
         lang:"chn",
