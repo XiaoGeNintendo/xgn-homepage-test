@@ -49,6 +49,10 @@ var sbb={
     "tried":{
         icon:"bookmark",
         color:"#124816"
+    },
+    "star":{
+        icon:"star",
+        color:"#adff2f"
     }
 }
 
@@ -866,12 +870,27 @@ var games=[
     {
         name:"Super Mario 3D World + Bowser's Fury",
         rating:[8.4,8,9.5,6,8], //Music Gameplay Graphics Storyline Impression
-        status:[["perfect","Main Game 300 stars"],["clear","Bowser's Fury 70 shines"]],
+        status:[["perfect","Main Game 300 stars"],["star","Bowser's Fury 100%"]],
         comment:`No comment`,
         platform:"switch",
         lang:"chn",
         timestamp:"2021/2/12 uploaded to db",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-mario-3d-world-plus-bowsers-fury-switch/super-mario-3d-world-plus-bowsers-fury-switch-hero.jpg",
         calcType:"Normal"
+    },
+    {
+        name:"Ookami to Koushinryou - Boku to Holo no Ichinen",
+        rating:[8.5,9.6,9.6,10,10], //Music Gameplay Graphics Storyline Impression
+        status:[["perfect","Ending 1 Relationship S"]],
+        comment:`This is the game what I am waiting for! Huge thanks to the AGT team for translating this game! <br/>
+        The story and the relationship between Me and Holo are just what I was expecting! <br/>
+        And the music fits well. I also love the game system <br/>
+        The graphics are perfect for a NDS game and I love NDS textures and fonts! <br/>
+        `,
+        platform:"3ds",
+        lang:"eng",
+        timestamp:"2021/2/22 uploaded to db",
+        img:"https://www.romhacking.net/translations/ds/images/5967titlescreen.png",
+        calcType:"Story"
     },
 ]
