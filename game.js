@@ -93,6 +93,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/4/19 uploaded to db",
+        release:"2020-04-19",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/animal-crossing-new-horizons-switch/Switch_ACNH_box.png",
         calcType:"Normal"
     },
@@ -104,6 +105,7 @@ var games=[
         platform:"switch",
         lang:"eng",
         timestamp:"2020/4/19 uploaded to db",
+        release:"2020-04-19",
         img:"https://cdn01.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_ShiningResonanceRefrain_PEGI_image500w.jpg",
         calcType:"Normal"
     },
@@ -115,6 +117,7 @@ var games=[
         platform:"switch",
         lang:"eng",
         timestamp:"2020/4/19 uploaded to db",
+        release:"2020-04-19",
         img:"https://cdn01.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_RuneFactory4Special_PEGI_image500w.jpg",
         calcType:"Normal"
     },
@@ -126,6 +129,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/6/6 uploaded to db. 6/13 finish",
+        release:"2020-06-13",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/c/clubhouse-games-51-worldwide-classics-switch/clubhouse-games-51-worldwide-classics-switch-hero.jpg",
         calcType:"Normal"
     },
@@ -137,6 +141,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/6 uploaded to db",
+        release:"2020-06-06",
         img:"https://upload.thwiki.cc/thumb/7/76/%E6%9D%B1%E6%96%B9%E9%AD%94%E5%AE%9D%E5%9F%8E_%EF%BD%9E_Book_of_Star_Mythology.%E5%B0%81%E9%9D%A2.jpg/120px-%E6%9D%B1%E6%96%B9%E9%AD%94%E5%AE%9D%E5%9F%8E_%EF%BD%9E_Book_of_Star_Mythology.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -148,6 +153,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/6/6 uploaded to db",
+        release:"2020-06-06",
         img:"https://upload.thwiki.cc/thumb/e/e1/%E6%9D%B1%E6%96%B9%E7%9C%9F%E7%8F%A0%E5%B3%B6_%EF%BD%9E_Hollow_Song_of_Birds.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E7%9C%9F%E7%8F%A0%E5%B3%B6_%EF%BD%9E_Hollow_Song_of_Birds.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -159,6 +165,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/6 uploaded to db",
+        release:"2020-06-06",
         img:"https://upload.thwiki.cc/thumb/7/74/%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AB%E3%82%B5%E3%83%BC_%EF%BD%9E_Outside_the_Traditional_World.%E5%B0%81%E9%9D%A2.png/224px-%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AB%E3%82%B5%E3%83%BC_%EF%BD%9E_Outside_the_Traditional_World.%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -170,6 +177,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/6/6 uploaded to db",
+        release:"2020-06-06",
         img:"https://upload.thwiki.cc/thumb/2/26/%E6%9D%B1%E6%96%B9%E5%82%AC%E7%8B%90%E8%AD%9A_%EF%BD%9E_Servants_of_Harvest_Wish.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%82%AC%E7%8B%90%E8%AD%9A_%EF%BD%9E_Servants_of_Harvest_Wish.%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -181,6 +189,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/6/6 uploaded to db",
+        release:"2020-06-06",
         img:"https://upload.thwiki.cc/thumb/d/dd/%E6%9D%B1%E6%96%B9%E8%90%BD%E6%B5%81%E6%98%9F_%EF%BD%9E_The_Shattered_Sky.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E8%90%BD%E6%B5%81%E6%98%9F_%EF%BD%9E_The_Shattered_Sky.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -192,6 +201,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/12 uploaded to db",
+        release:"2020-06-12",
         img:"https://upload.thwiki.cc/thumb/5/54/%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -203,6 +213,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/6/14 uploaded to db",
+        release:"2020-06-14",
         img:"https://upload.thwiki.cc/thumb/7/7f/%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E5%A4%A9%E5%9B%BD%E7%AF%87%EF%BD%9E%E5%B0%81%E9%9D%A2.png/252px-%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E5%A4%A9%E5%9B%BD%E7%AF%87%EF%BD%9E%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -214,6 +225,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/20 uploaded to db",
+        release:"2020-06-20",
         img:"https://upload.thwiki.cc/thumb/1/12/%E6%9D%B1%E6%96%B9%E6%A1%83%E6%BA%90%E5%AE%AE_%EF%BD%9E_Riverbed_Soul_Saver.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E6%A1%83%E6%BA%90%E5%AE%AE_%EF%BD%9E_Riverbed_Soul_Saver.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -225,6 +237,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/6/22 uploaded to db",
+        release:"2020-06-22",
         img:"https://upload.thwiki.cc/thumb/d/dc/%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E9%BB%84%E6%B3%89%E9%82%84%E3%82%8A%E7%AF%87%EF%BD%9E_The_Marching_On_Fire%E5%B0%81%E9%9D%A2.png/252px-%E3%81%8A%E3%82%8C%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%9F%E3%82%BA%E3%83%A0%EF%BD%9E%E9%BB%84%E6%B3%89%E9%82%84%E3%82%8A%E7%AF%87%EF%BD%9E_The_Marching_On_Fire%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -236,6 +249,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/6/25 uploaded to db",
+        release:"2020-06-25",
         img:"http://www.disfact.com/product/thd01/jacket2.jpg",
         calcType:"STG"
     },
@@ -247,6 +261,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/25 uploaded to db",
+        release:"2020-06-25",
         img:"https://upload.thwiki.cc/thumb/d/d6/%E6%9D%B1%E6%96%B9%E9%82%AA%E6%98%9F%E7%AB%A0_%EF%BD%9E_The_Last_Comer.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E9%82%AA%E6%98%9F%E7%AB%A0_%EF%BD%9E_The_Last_Comer.%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -258,6 +273,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/25 uploaded to db",
+        release:"2020-06-25",
         img:"https://upload.thwiki.cc/thumb/f/f4/%E6%9D%B1%E6%96%B9%E7%99%BD%E5%A1%B5%E8%A8%98_%EF%BD%9E_White_names_spoiled_past.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E7%99%BD%E5%A1%B5%E8%A8%98_%EF%BD%9E_White_names_spoiled_past.%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -269,6 +285,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/6/25 uploaded to db",
+        release:"2020-06-25",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/pokemon-sword-switch/Switch_PokemonSword_box.png",
         calcType:"Normal"
     },
@@ -280,6 +297,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/6/26 uploaded to db",
+        release:"2020-06-26",
         img:"https://img.itch.zone/aW1hZ2UvNjgwMzQyLzM3Mzk1MjUuZ2lm/347x500/EDZ3el.gif",
         calcType:"Normal"
     },
@@ -291,6 +309,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/6/27 uploaded to db",
+        release:"2020-06-27",
         img:"https://upload.thwiki.cc/thumb/a/a5/%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E8%BE%89%E9%92%88%E5%9F%8E%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -302,6 +321,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/6/27 uploaded to db",
+        release:"2020-06-27",
         img:"https://upload.thwiki.cc/thumb/9/96/%E6%9D%B1%E6%96%B9%E5%A4%A2%E6%97%A7%E5%B8%82_%EF%BD%9E_Glory_of_Deep_Skies.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%A4%A2%E6%97%A7%E5%B8%82_%EF%BD%9E_Glory_of_Deep_Skies.%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -313,6 +333,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/6/30 uploaded to db. 2020/7/3 updated",
+        release:"2020-07-03",
         img:"https://upload.thwiki.cc/thumb/f/fd/%E8%BF%9E%E7%BC%98%E6%97%A0%E7%8E%B0%E9%87%8C%EF%BD%9EEvanescent_Existence%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E6%97%A0%E7%8E%B0%E9%87%8C%EF%BD%9EEvanescent_Existence%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -324,6 +345,7 @@ var games=[
         platform:"3ds",
         lang:"eng",
         timestamp:"2020/7/3 uploaded to db. 12/12 give up",
+        release:"2020-12-12",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/3ds/m/mario-and-luigi-paper-jam-3ds/3DS_MarioLuigi-PaperJam_box.png",
         calcType:"Normal"
     },
@@ -335,6 +357,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/7/3 uploaded to db",
+        release:"2020-07-03",
         img:"https://upload.thwiki.cc/thumb/8/88/%E8%BF%9E%E7%BC%98%E8%9B%87%E4%B8%9B%E5%89%91%EF%BD%9EEarthen_Miraculous_Sword%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E8%9B%87%E4%B8%9B%E5%89%91%EF%BD%9EEarthen_Miraculous_Sword%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -346,6 +369,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/7/5 uploaded to db",
+        release:"2020-07-05",
         img:"https://upload.thwiki.cc/thumb/8/82/%E8%BF%9E%E7%BC%98%E7%81%B5%E7%83%88%E4%BC%A0%EF%BD%9EReactivate_majestical_imperial%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E7%81%B5%E7%83%88%E4%BC%A0%EF%BD%9EReactivate_majestical_imperial%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -357,6 +381,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/7/7 uploaded to db",
+        release:"2020-07-07",
         img:"https://upload.thwiki.cc/thumb/3/3d/%E8%BF%9E%E7%BC%98%E5%A4%A9%E5%BD%B1%E6%88%98%E8%AE%B0%EF%BD%9EBrilliant_pagoda_or_haze_castle%E5%B0%81%E9%9D%A2.jpg/252px-%E8%BF%9E%E7%BC%98%E5%A4%A9%E5%BD%B1%E6%88%98%E8%AE%B0%EF%BD%9EBrilliant_pagoda_or_haze_castle%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -368,6 +393,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/7/11 uploaded to db",
+        release:"2020-07-11",
         img:"https://img.itch.zone/aW1hZ2UvMzc3NzYzLzE4OTIxODcucG5n/347x500/trVrjK.png",
         calcType:"Normal"
     },
@@ -379,6 +405,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/7/11 uploaded to db",
+        release:"2020-07-11",
         img:"https://img.itch.zone/aW1hZ2UvNTk0OTQ4LzM4MTg3MzkucG5n/347x500/BaK5j6.png",
         calcType:"Normal"
     },
@@ -395,6 +422,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/7/15 uploaded to db",
+        release:"2020-07-15",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/paper-mario-the-origami-king-switch/paper-mario-the-origami-king-switch-box.png",
         calcType:"Normal"
     },
@@ -406,6 +434,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/7/22 uploaded to db",
+        release:"2020-07-22",
         img:"https://pwimages-a.akamaihd.net/arcportal_static/images/torchlight2/boxart-available.png",
         calcType:"Test"
     },
@@ -417,6 +446,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/7/22 uploaded to db",
+        release:"2020-07-22",
         img:"https://img.itch.zone/aW1nLzM4OTU3MDAucG5n/original/SBV0pF.png",
         calcType:"Normal"
     },
@@ -428,6 +458,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/7/22 uploaded to db",
+        release:"2020-07-22",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/o/one-step-from-eden-switch/Switch-OneStepFromEden-box-eShop.png",
         calcType:"Test"
     },
@@ -451,6 +482,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/7/23 uploaded to db. 2020/8/2 terminated",
+        release:"2020-08-02",
         img:"https://steamcdn-a.akamaihd.net/steam/apps/1057090/header.jpg?t=1591117157",
         calcType:"Normal"
     },
@@ -462,6 +494,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/8/2 uploaded to db",
+        release:"2020-08-02",
         img:"https://steamcdn-a.akamaihd.net/steam/apps/371970/header.jpg?t=1595048471",
         calcType:"Test"
     },
@@ -473,6 +506,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/8/2 uploaded to db",
+        release:"2020-08-02",
         img:"",
         calcType:"Normal"
     },
@@ -484,6 +518,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/8/2 uploaded to db",
+        release:"2020-08-02",
         img:"https://img.itch.zone/aW1hZ2UvMTQ1ODA3LzY3NTI4NC5wbmc=/original/0ytUSK.png",
         calcType:"Test"
     },
@@ -495,6 +530,7 @@ var games=[
         platform:"3ds",
         lang:"jpn",
         timestamp:"2020/8/2 uploaded to db",
+        release:"2020-08-02",
         img:"https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Osu%21_Tatakae%21_Ouendan_Coverart.png/220px-Osu%21_Tatakae%21_Ouendan_Coverart.png",
         calcType:"Normal"
     },
@@ -506,6 +542,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/8/7 uploaded to db",
+        release:"2020-08-07",
         img:"http://www.wilmotswarehouse.com/top.png",
         calcType:"Test"
     },
@@ -517,6 +554,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/8/7 uploaded to db",
+        release:"2020-08-07",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/c/carrion-switch/carrion-switch-box-eshop.png",
         calcType:"Test"
     },
@@ -528,6 +566,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/8/7 uploaded to db",
+        release:"2020-08-07",
         img:"https://upload.thwiki.cc/thumb/0/0c/%E5%A6%96%E6%80%AA%E7%8B%90%E7%8B%B8%E5%90%88%E6%88%A6%E5%B0%81%E9%9D%A2.jpg/224px-%E5%A6%96%E6%80%AA%E7%8B%90%E7%8B%B8%E5%90%88%E6%88%A6%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -539,6 +578,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/8/11 uploaded to db",
+        release:"2020-08-11",
         img:"https://upload.thwiki.cc/thumb/c/c1/%E4%B8%9C%E6%96%B9%E5%A4%8F%E5%A4%9C%E7%A5%AD_%EF%BD%9E_Shining_Shooting_Star.%E5%B0%81%E9%9D%A2.png/224px-%E4%B8%9C%E6%96%B9%E5%A4%8F%E5%A4%9C%E7%A5%AD_%EF%BD%9E_Shining_Shooting_Star.%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -550,6 +590,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/8/11 uploaded to db",
+        release:"2020-08-11",
         img:"https://upload.thwiki.cc/thumb/8/86/%E6%9D%B1%E6%96%B9%E9%AD%94%E6%99%B6%E7%B2%BE_~Fairies_of_Sorcery~%E8%8F%9C%E5%8D%95%E7%95%8C%E9%9D%A2.jpg/200px-%E6%9D%B1%E6%96%B9%E9%AD%94%E6%99%B6%E7%B2%BE_~Fairies_of_Sorcery~%E8%8F%9C%E5%8D%95%E7%95%8C%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -561,6 +602,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/8/11 uploaded to db",
+        release:"2020-08-11",
         img:"https://upload.thwiki.cc/thumb/e/e5/%E6%9D%B1%E6%96%B9%E6%B5%B7%E6%81%B5%E5%A0%82_%EF%BD%9E_Marine_Benefit.%E5%B0%81%E9%9D%A2.jpg/196px-%E6%9D%B1%E6%96%B9%E6%B5%B7%E6%81%B5%E5%A0%82_%EF%BD%9E_Marine_Benefit.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -576,6 +618,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/8/14 uploaded to db",
+        release:"2020-08-14",
         img:"https://upload.thwiki.cc/thumb/1/13/taisei-project%E5%B0%81%E9%9D%A2.jpg/224px-taisei-project%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -589,6 +632,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/8/14 uploaded to db",
+        release:"2020-08-14",
         img:"https://s3.amazonaws.com/bulletforge_production/images/4759/normal.png?1531540348",
         calcType:"STG"
     },
@@ -602,6 +646,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/8/15 uploaded to db",
+        release:"2020-08-15",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/w/while-true-learn-switch/while-true-learn-switch-box-eshop.png",
         calcType:"Normal"
     },
@@ -619,6 +664,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/8/22 uploaded to db",
+        release:"2020-08-22",
         img:"https://steamcdn-a.akamaihd.net/steam/apps/413410/header.jpg?t=1590632885",
         calcType:"Story"
     },
@@ -630,6 +676,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/8/22 uploaded to db",
+        release:"2020-08-22",
         img:"https://s3.amazonaws.com/bulletforge_production/images/5740/normal.jpg?1597598702",
         calcType:"STG"
     },
@@ -641,6 +688,7 @@ var games=[
         platform:"switch",
         lang:"eng",
         timestamp:"2020/9/5 uploaded to db",
+        release:"2020-09-05",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/k/kemono-friends-picross-switch/Switch_KemonoFriendsPicross_box_eShop.png",
         calcType:"Normal"
     },
@@ -652,6 +700,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/9/5 uploaded to db",
+        release:"2020-09-05",
         img:"https://ncase.me/img/awa.png",
         calcType:"Story"
     },
@@ -663,6 +712,7 @@ var games=[
         platform:"pc",
         lang:"chn",
         timestamp:"2020/9/5 uploaded to db, 2020/11/21 finished",
+        release:"2020-11-21",
         img:"https://steamcdn-a.akamaihd.net/steam/apps/413420/header.jpg?t=1590632940",
         calcType:"Story"
     },
@@ -674,6 +724,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/9/13 uploaded to db",
+        release:"2020-09-13",
         img:"https://upload.thwiki.cc/thumb/9/92/%E6%9D%B1%E6%96%B9%E9%AC%BC%E8%91%AC%E5%89%A3_%EF%BD%9E_Infinite_Blade_Pavilion.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E9%AC%BC%E8%91%AC%E5%89%A3_%EF%BD%9E_Infinite_Blade_Pavilion.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -685,6 +736,7 @@ var games=[
         platform:"switch",
         lang:"eng",
         timestamp:"2020/9/26 uploaded to db. 2021/01/23 finish SMG",
+        release:"2021-01-23",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-mario-3d-all-stars-switch/Switch_SM3DAS_box.png",
         calcType:"Normal"
     },
@@ -696,6 +748,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/9/26 uploaded to db",
+        release:"2020-09-26",
         img:"",
         calcType:"STG"
     },
@@ -719,6 +772,7 @@ var games=[
         platform:"pc",
         lang:"jpn",
         timestamp:"2020/9/26 uploaded to db",
+        release:"2020-09-26",
         img:"https://dixq.net/ryujin2/image/title.jpg",
         calcType:"STG"
     },
@@ -730,6 +784,7 @@ var games=[
         platform:"switch",
         lang:"jpn",
         timestamp:"2020/10/8 uploaded to db",
+        release:"2020-10-08",
         img:"https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwcbae6e25/products/D70010000018402/heroBanner/7dd7b67839f9db0c28b9512d4dfa0393ea5b5f9d18da368eec0004a3e50740da.jpg?sw=1368&strip=false",
         calcType:"Test"
     },
@@ -741,6 +796,7 @@ var games=[
         platform:"switch",
         lang:"jpn",
         timestamp:"2020/10/8 uploaded to db",
+        release:"2020-10-08",
         img:"https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwef8f09d1/products/D70010000029261/heroBanner/cbc017f37858dc4b5e35891485ef585b2eba952d76c6d8564c78861ed37e0f25.jpg?sw=1368&strip=false",
         calcType:"Test"
     },
@@ -752,6 +808,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/10/8 uploaded to db",
+        release:"2020-10-08",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/l/lost-ember-switch/lost-ember-switch-box-eshop.png",
         calcType:"Story"
     },
@@ -763,6 +820,7 @@ var games=[
         platform:"pc",
         lang:"eng",
         timestamp:"2020/11/22 uploaded to db",
+        release:"2020-11-22",
         img:"https://s3.amazonaws.com/bulletforge_production/images/5003/normal.png?1565391132",
         calcType:"STG"
     },
@@ -774,6 +832,7 @@ var games=[
         platform:"3ds",
         lang:"eng",
         timestamp:"2020/11/28 uploaded to db",
+        release:"2020-11-28",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/3ds/a/apollo-justice-ace-attorney-3ds/3DS_ApolloJustice-AceAttorney_box_eShop.png",
         calcType:"Story"
     },
@@ -785,6 +844,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/12/5 uploaded to db",
+        release:"2020-12-05",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/azure-reflections-switch/azure-reflections-switch-hero.jpg",
         calcType:"Normal"
     },
@@ -796,6 +856,7 @@ var games=[
         platform:"switch",
         lang:"eng",
         timestamp:"2020/12/5 uploaded to db. 12/12 update",
+        release:"2020-12-12",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/taiko-no-tatsujin-rhythmic-adventure-pack-switch/taiko-no-tatsujin-rhythmic-adventure-pack-switch-hero.jpg",
         calcType:"Normal"
     },
@@ -807,6 +868,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2020/12/19 uploaded to db",
+        release:"2020-12-19",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/spice-and-wolf-vr-switch/spice-and-wolf-vr-switch-hero.jpg",
         calcType:"Story"
     },
@@ -818,6 +880,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2021/1/3 uploaded to db",
+        release:"2021-01-03",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/g/gensou-skydrift-switch/gensou-skydrift-switch-hero.jpg",
         calcType:"Test"
     },
@@ -829,6 +892,7 @@ var games=[
         platform:"switch",
         lang:"jpn",
         timestamp:"2021/1/3 uploaded to db",
+        release:"2021-01-03",
         img:"https://img-eshop.cdn.nintendo.net/i/ffb6e08207061beab6ff59fd502a0b96c1d3cccb798e29c05ab2dc2a976a0427.jpg?w=280&h=158",
         calcType:"Normal"
     },
@@ -840,6 +904,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2021/1/3 uploaded to db",
+        release:"2021-01-03",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/touhou-luna-nights-switch/touhou-luna-nights-switch-hero.jpg",
         calcType:"Test"
     },
@@ -853,6 +918,7 @@ var games=[
         platform:"3ds",
         lang:"chn",
         timestamp:"2021/2/8 uploaded to db",
+        release:"2021-02-08",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/3ds/p/phoenix-wright-ace-attorney-dual-destinies-3ds/3DS_PhoneixWright-DualDestinies_box_eShop.png",
         calcType:"Story"
     },
@@ -864,6 +930,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2021/2/8 uploaded to db",
+        release:"2021-02-08",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/spice-and-wolf-vr2-switch/spice-and-wolf-vr2-switch-hero.jpg",
         calcType:"Story"
     },
@@ -875,6 +942,7 @@ var games=[
         platform:"switch",
         lang:"chn",
         timestamp:"2021/2/12 uploaded to db",
+        release:"2021-02-12",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-mario-3d-world-plus-bowsers-fury-switch/super-mario-3d-world-plus-bowsers-fury-switch-hero.jpg",
         calcType:"Normal"
     },
@@ -890,6 +958,7 @@ var games=[
         platform:"3ds",
         lang:"eng",
         timestamp:"2021/2/22 uploaded to db",
+        release:"2021-02-22",
         img:"https://www.romhacking.net/translations/ds/images/5967titlescreen.png",
         calcType:"Story"
     },
