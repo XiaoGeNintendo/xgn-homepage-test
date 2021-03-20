@@ -911,7 +911,7 @@ var games=[
     {
         name:"Ace Attorney 5",
         rating:[8,8.8,8,7.5,7.1], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Clear Main Game"],["working","Riddle Chapter Middle"]],
+        status:[["clear","Clear Main Game"],["clear","Quiz Clear"]],
         comment:`Lucky me. I found Chinese version!!
         The system and graphics are much better than the previous game. Finally investigation is not some sh*t anymore.
         However the first trial is really weird and stupid.
@@ -920,8 +920,8 @@ var games=[
         Fourth trial is OK.`,
         platform:"3ds",
         lang:"chn",
-        timestamp:"2021/2/8 uploaded to db. 2021/3/6 finished ep3. 2021/3/13 all cleared",
-        release:"2021-03-13",
+        timestamp:"2021/2/8 uploaded to db. 2021/3/6 finished ep3. 2021/3/13 all cleared. 2021/3/20 quiz clear",
+        release:"2021-03-20",
         img:"https://www.nintendo.com/content/dam/noa/en_US/games/3ds/p/phoenix-wright-ace-attorney-dual-destinies-3ds/3DS_PhoneixWright-DualDestinies_box_eShop.png",
         calcType:"Story"
     },
