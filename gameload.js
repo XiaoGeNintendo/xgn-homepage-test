@@ -301,9 +301,9 @@ function refreshTable() {
 
                 for(var sd in data[i]["status"]){
                     var sts=data[i]["status"][sd]
-                    var str=`<i class="fa fa-${sbb[sts[0]]["icon"]}">${sts[0]}</i>`;
+                    var str=`<i class="fa fa-${sbb[sts[0]]["icon"]}">${sts[1]}</i>`;
 
-                    tmp += toBadgeString2(str,sts[1])+" ";
+                    tmp += toBadgeString2(str,sts[1]+"("+sts[0]+")")+" ";
                 }
                 tmp += "</td>"
             }

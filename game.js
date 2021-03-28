@@ -965,4 +965,22 @@ var games=[
         img:"https://www.romhacking.net/translations/ds/images/5967titlescreen.png",
         calcType:"Story"
     },
+    {
+        name:"Märchen Forest",
+        rating:[8,7.8,7,6.9,8.3], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Episode 2 Clear"],["working","Episode 3 Floor 4"]],
+        comment:`I've never played a Dungeon game before. <br/>
+        This game has nice ideas and game system, nice otachi, nice music <br/>
+        However it has stupid slowness(ps. improved in 1.0.4 update), stupid 3D graphics, stupid bugs(ps. mostly fixed in 1.0.4 update) and stupid lag(ps. improved in 1.0.4), and above all STUPID REVERSED CONTROL(B=confirm, A=cancel). <br/>
+        <del>Yet another example of how not to port your game to console</del> <br/>
+        A good example on how to keep updating and improving your game to make it easier to play! <br/>
+        I am still playing Episode 3. Currently it is harder, but not that bad.
+        `,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2021/3/27 uploaded to db. 2021/3/28 clear episode 2",
+        release:"2021-03-28",
+        img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/m/marchen-forest-switch/hero",
+        calcType:"Normal"
+    },
 ]
