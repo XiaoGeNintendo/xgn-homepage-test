@@ -967,19 +967,23 @@ var games=[
     },
     {
         name:"Märchen Forest",
-        rating:[8,7.8,7,6.9,8.3], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Episode 2 Clear"],["working","Episode 3 Floor 4"]],
+        rating:[8.6,8.5,7.4,7.2,9.3], //Music Gameplay Graphics Storyline Impression
+        status:[["clear","Episode 2 Clear"],["perfect","Episode 3 Clear"],["star","Both Extra Clear"]],
         comment:`I've never played a Dungeon game before. <br/>
         This game has nice ideas and game system, nice otachi, nice music <br/>
         However it has stupid slowness(ps. improved in 1.0.4 update), stupid 3D graphics, stupid bugs(ps. mostly fixed in 1.0.4 update) and stupid lag(ps. improved in 1.0.4), and above all STUPID REVERSED CONTROL(B=confirm, A=cancel). <br/>
         <del>Yet another example of how not to port your game to console</del> <br/>
         A good example on how to keep updating and improving your game to make it easier to play! <br/>
-        I am still playing Episode 3. Currently it is harder, but not that bad.
+        <b>After playthrough:</b> <br/>
+        I really love the game system! It's simple and elegant. Easy to play, hard to master. <br/>
+        The game really focuses on different dungeon types, puzzles and gameplay. I appreciate that! <br/>
+        A longer review and thought is on the way, please stay tuned on my blog & HHS's blog! <br/>
+        BTW this ranks #4 of switch play time!
         `,
         platform:"switch",
         lang:"chn",
-        timestamp:"2021/3/27 uploaded to db. 2021/3/28 clear episode 2",
-        release:"2021-03-28",
+        timestamp:"2021/3/27 uploaded to db. 2021/3/28 clear episode 2. 2021/4/5 all clear!!",
+        release:"2021-04-05",
         img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/m/marchen-forest-switch/hero",
         calcType:"Normal"
     },
