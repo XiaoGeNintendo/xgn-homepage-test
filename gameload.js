@@ -32,8 +32,8 @@ var __tablehead = [
 function sort(by, dir) {
     function cmp(a, b) {
         if(by=="rating"){
-            var va=Calc(a["rating"],a["calcType"]);
-            var vb=Calc(b["rating"],b["calcType"]);
+            var va=calcRating(a["rating"]);
+            var vb=calcRating(b["rating"]);
 
             if(va<vb){
                 return -1;
@@ -286,7 +286,7 @@ function refreshTable() {
                 tmp += "<td>" + data[i][tablehead[j][1]];
                 tmp += "</td>";
             } else if (tablehead[j][1] == "rating") {
-                var dat = Calc(data[i][tablehead[j][1]],data[i]["calcType"]);
+                var dat = calcRating(data[i][tablehead[j][1]]);
                 tmp += "<td class=\"text-center\">" + dat + "</td>"
             } else if (tablehead[j][1].match("release|length|source") != null) {
                 //release date just normal
@@ -294,10 +294,7 @@ function refreshTable() {
             } else {
                 //it's time for badge displaying!!
 
-                tmp += "<td>"
-                tmp += toBadgeString(data[i]["platform"]) + " "
-                tmp += toBadgeString(data[i]["lang"]) + " "
-                tmp += toBadgeString(data[i]["calcType"]) + " "
+                tmp += `<td> ${toBadgeString(data[i]["platform"])} ${toBadgeString(data[i]["lang"])} ${toBadgeString(data[i]["calcType"])}`
 
                 for(var sd in data[i]["status"]){
                     var sts=data[i]["status"][sd]
@@ -313,8 +310,8 @@ function refreshTable() {
 
         tmp+=`<tr style="background-color:#ffc;"><td colspan=6 style="padding:0px;">
         <div id="supplement${i}" class="collapse"><div style="padding:.3rem;">
-        <img src="${data[i]["img"]}" style="max-width: 400px" /> <br/>
-        <a href="#chart_${getID(data[i]["name"])}"><b>Detail Scoring</b></a> <br/>
+        <img src="${data[i]["img"]}" style="max-width: 400px" /> <br/> <br/>
+        <div>${displayRating(data[i]["rating"])}</div>
         <b>Timestamp</b><br/>
         ${data[i]["timestamp"]}<br/>
         <b>Comment</b><br/>
@@ -336,15 +333,15 @@ function refreshTable() {
     $('#resC').text(itemCount)
     $("#resT").text(new Date().getTime() - nowTime + "ms")
 
-    if(first){
-        var tt="";
-        for(var i=0;i<data.length;i++){
-            tt += `<div id="chart_${getID(data[i]["name"])}"></div> <br/> <a href="#${getID(data[i]["name"])}"><b>Back to the game</b></a><br/>`
-        }
+    // if(first){
+    //     var tt="";
+    //     for(var i=0;i<data.length;i++){
+    //         tt += `<div id="chart_${getID(data[i]["name"])}"></div> <br/> <a href="#${getID(data[i]["name"])}"><b>Back to the game</b></a><br/>`
+    //     }
 
-        $('#graphZone').html(tt)
-    }
-    updateChart()
+    //     $('#graphZone').html(tt)
+    // }
+    // updateChart()
 }
 
 
