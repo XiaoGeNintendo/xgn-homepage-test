@@ -29,6 +29,11 @@ var calcTypes={
     },
 }
 
+let STG=[0.35,0.15,0.1,0.1,0.35]
+let NORMAL=[0.15,0.3,0.15,0.15,0.25]
+let STORY=[0.1,0.1,0.1,0.35,0.35]
+let TEST=[0.25,0.25,0.25,0,0.25]
+
 var sbb={
     "clear":{
         icon:"check",
@@ -278,8 +283,30 @@ var games=[
         calcType:"STG"
     },
     {
-        name:"Pokemon Sword",
-        rating:[8.8,8.8,9.8,8.9,9], //Music Gameplay Graphics Storyline Impression
+        name:"Pokemon Sword",rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.8
+                },
+                {
+                    name:"Gameplay",type:"value",target:8.8
+                },
+                {
+                    name:"Graphics",type:"value",target:9.9
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:10},
+                        {name:"Overall",type:"value",target:9}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Champion"],["clear","Isle of Armor Clear"]],
         comment:"Actually pretty nice. I love the music and that's enough.",
         platform:"switch",
@@ -302,8 +329,48 @@ var games=[
         calcType:"Normal"
     },
     {
-        name:"東方輝針城　～ Double Dealing Character.",
-        rating:[9.6,8.8,8.8,8.8,9.2], //Music Gameplay Graphics Storyline Impression
+        name:"東方輝針城　～ Double Dealing Character.",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Title",type:"value",target:10},
+                        {name:"Stage1",type:"value",target:9},
+                        {name:"Boss1",type:"value",target:9},
+                        {name:"Stage2",type:"value",target:10},
+                        {name:"Boss2",type:"value",target:10},
+                        {name:"Stage3",type:"value",target:10},
+                        {name:"Boss3",type:"value",target:10},
+                        {name:"Stage4",type:"value",target:8},
+                        {name:"Boss4",type:"value",target:10},
+                        {name:"Stage5",type:"value",target:10},
+                        {name:"Boss5",type:"value",target:9.5},
+                        {name:"Stage6",type:"value",target:10},
+                        {name:"Boss6",type:"value",target:10},
+                        {name:"StageEX",type:"value",target:9.5},
+                        {name:"BossEX",type:"value",target:9.5},
+                        {name:"Ending",type:"value",target:9},
+                        {name:"Credit",type:"value",target:10}
+                    ]
+                },
+                {
+                    name:"Gameplay",type:"value",target:8.8
+                },
+                {
+                    name:"Graphics",type:"value",target:8.8
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:9.2}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Easy Clear"],["working","Normal Unclear"]],
         comment:"I hate deathbombing",
         platform:"pc",
@@ -790,7 +857,30 @@ var games=[
     },
     {
         name:"東方の迷宮 -幻想郷と天貫の大樹-",
-        rating:[8.7,8.6,9,0,8.4], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:TEST,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.7
+                },
+                {
+                    name:"Gameplay",type:"value",target:8.6
+                },
+                {
+                    name:"Graphics",type:"value",target:9
+                },
+                {
+                    name:"Storyline",type:"value",target:0
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:6},
+                        {name:"Overall",type:"value",target:8.4}
+                    ]
+                }
+            ]
+        },
         status:[["tried","Tried"]],
         comment:`Just trying`,
         platform:"switch",
@@ -802,7 +892,30 @@ var games=[
     },
     {
         name:"Lost Ember",
-        rating:[7,7.9,7,8,6.9], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:STORY,
+            target:[
+                {
+                    name:"Music",type:"value",target:7,
+                },
+                {
+                    name:"Gameplay",type:"value",target:7.9
+                },
+                {
+                    name:"Graphics",type:"value",target:7
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:6.9}
+                    ]
+                }
+            ]
+        },
         status:[["tried","Stuck at Ch5"]],
         comment:`The game is a bad port to NS. Low quality, low volume and low fps.Lots of bugs too. Don't do it.(facepalm)`,
         platform:"switch",
@@ -814,7 +927,34 @@ var games=[
     },
     {
         name:"Augusta Iaponicorum",
-        rating:[9.9,8.9,9.5,7.8,9], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"#1",type:"value",target:9},
+                        {name:"#2",type:"value",target:10},
+                        {name:"#3",type:"value",target:10},
+                    ]
+                },
+                {
+                    name:"Gameplay",type:"value",target:7.9
+                },
+                {
+                    name:"Graphics",type:"value",target:8.6
+                },
+                {
+                    name:"Storyline",type:"value",target:6
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:6},
+                        {name:"Overall",type:"value",target:9}
+                    ]
+                }
+            ]
+        },
         status:[["tried","Tried"]],
         comment:`Music good, graphics good, danmaku not sync with music, some bugs with Reimu's shots.`,
         platform:"pc",
@@ -826,7 +966,37 @@ var games=[
     },
     {
         name:"Ace Attorney: Apollo Justice",
-        rating:[8,8,7,7.6,7], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:STORY,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Investigation",type:"value",target:7},
+                        {name:"Court",type:"value",target:8.5},
+                    ]
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Investigation",type:"value",target:6},
+                        {name:"Court",type:"value",target:9},
+                    ],
+                    addon:[["3D Examine",0.1]]
+                },
+                {
+                    name:"Graphics",type:"value",target:7.8
+                },
+                {
+                    name:"Storyline",type:"value",target:7.6
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:7}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Cleared"]],
         comment:`No comment`,
         platform:"3ds",
@@ -838,7 +1008,30 @@ var games=[
     },
     {
         name:"Azure Reflection",
-        rating:[8,8,9,8,9], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:8
+                },
+                {
+                    name:"Gameplay",type:"value",target:8
+                },
+                {
+                    name:"Graphics",type:"value",target:9
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:9}
+                    ]
+                }
+            ]
+        },
         status:[["tried","Easy 2CC"]],
         comment:`This is so fantasic and so hard! It's one of the STGs which are put the most effort into. Why bullet speed so fast :think:`,
         platform:"switch",
@@ -850,7 +1043,30 @@ var games=[
     },
     {
         name:"Taiko no Tatsujin: Rhythmic Adventure Pack",
-        rating:[8.6,9,7.6,7.6,9], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.6
+                },
+                {
+                    name:"Gameplay",type:"value",target:9
+                },
+                {
+                    name:"Graphics",type:"value",target:7.6
+                },
+                {
+                    name:"Storyline",type:"value",target:7.6
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:9.9},
+                        {name:"Overall",type:"value",target:9}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Adventure 1 Clear"],["working","Adventure 2 Chapter 5"]],
         comment:`Actually I've played the 3ds version. It's nice to see a remake and translated version. Please cut down the length of startup animation`,
         platform:"switch",
@@ -862,7 +1078,30 @@ var games=[
     },
     {
         name:"Spice and Wolf VR",
-        rating:[6,0,8,3,8.5], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:STORY,
+            target:[
+                {
+                    name:"Music",type:"value",target:6
+                },
+                {
+                    name:"Gameplay",type:"value",target:0
+                },
+                {
+                    name:"Graphics",type:"value",target:7.5
+                },
+                {
+                    name:"Storyline",type:"value",target:6
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:8.5}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Clear game?"]],
         comment:`Yep, you will be considered as a real fan if you spend 30$ on this 30min game. About the game itself, it's smoothly made.`,
         platform:"switch",
@@ -874,7 +1113,30 @@ var games=[
     },
     {
         name:"Gensou Skydrift",
-        rating:[7,6.6,7,0,7], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:TEST,
+            target:[
+                {
+                    name:"Music",type:"value",target:7
+                },
+                {
+                    name:"Gameplay",type:"value",target:6.6
+                },
+                {
+                    name:"Graphics",type:"value",target:7
+                },
+                {
+                    name:"Storyline",type:"value",target:0
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:6.2},
+                        {name:"Overall",type:"value",target:7}
+                    ]
+                }
+            ]
+        },
         status:[["tried","Tried"]],
         comment:`The game relies on dashpads so much`,
         platform:"switch",
@@ -886,7 +1148,30 @@ var games=[
     },
     {
         name:"ヨイヤミダンサーズ",
-        rating:[9.5,7,9,6.6,7.8], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:9.5
+                },
+                {
+                    name:"Gameplay",type:"value",target:8
+                },
+                {
+                    name:"Graphics",type:"value",target:7.5
+                },
+                {
+                    name:"Storyline",type:"value",target:6.6
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:6.4},
+                        {name:"Overall",type:"value",target:8}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Easy clear"]],
         comment:`No comment`,
         platform:"switch",
@@ -898,7 +1183,30 @@ var games=[
     },
     {
         name:"Touhou Luna Night",
-        rating:[7.3,8.8,7.4,0,7], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:TEST,
+            target:[
+                {
+                    name:"Music",type:"value",target:7.4
+                },
+                {
+                    name:"Gameplay",type:"value",target:8.5
+                },
+                {
+                    name:"Graphics",type:"value",target:7.8
+                },
+                {
+                    name:"Storyline",type:"value",target:0
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:7}
+                    ]
+                }
+            ]
+        },
         status:[["tried","Tried"]],
         comment:`No comment`,
         platform:"switch",
@@ -910,7 +1218,37 @@ var games=[
     },
     {
         name:"Ace Attorney 5",
-        rating:[8,8.8,8,7.5,7.1], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:STORY, //Story-based
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Stage",type:"value",target:7},
+                        {name:"Court",type:"value",target:9}
+                    ]
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Investigation",type:"value",target:9.3},
+                        {name:"Court",type:"value",target:9.5}
+                    ],
+                    addon:[["Improvement Since AA4",0.1],["Voice reacting",0.1]]
+                },
+                {
+                    name:"Graphics",type:"value",target:9
+                },
+                {
+                    name:"Storyline",type:"value",target:7.4
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:7.7}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Clear Main Game"],["clear","Quiz Clear"]],
         comment:`Lucky me. I found Chinese version!!
         The system and graphics are much better than the previous game. Finally investigation is not some sh*t anymore.
@@ -926,8 +1264,31 @@ var games=[
         calcType:"Story"
     },
     {
-        name:"Spice and Wolf VR 2",
-        rating:[7,0,7,8,7], //Music Gameplay Graphics Storyline Impression
+        name:"Spice and Wolf VR 2", 
+        rating:{
+            name:"Score",type:"weight",weight:[0.1,0.1,0.1,0.35,0.35], //Story-based
+            target:[
+                {
+                    name:"Music",type:"value",target:7
+                },
+                {
+                    name:"Gameplay",type:"value",target:0
+                },
+                {
+                    name:"Graphics",type:"value",target:7.3
+                },
+                {
+                    name:"Storyline",type:"value",target:7.9
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:7}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Clear"]],
         comment:`No comment`,
         platform:"switch",
@@ -939,7 +1300,42 @@ var games=[
     },
     {
         name:"Super Mario 3D World + Bowser's Fury",
-        rating:[8.4,8,9.5,6,8], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",
+            type:"weight",
+            weight:[0.15,0.3,0.15,0.15,0.25], //Normal
+            target:[
+                {
+                    name:"Music",
+                    type:"value",
+                    target:8.5
+                },
+                {
+                    name:"Gameplay",
+                    type:"value",
+                    target:9
+                },
+                {
+                    name:"Graphics",
+                    type:"value",
+                    target: 9.6
+                },
+                {
+                    name:"Storyline",
+                    type:"value",
+                    target: 6
+                },
+                {
+                    name:"Impression",
+                    type:"weight",
+                    weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8.9},
+                        {name:"Overall",type:"value",target:9.3}
+                    ]
+                }
+            ]
+        },
         status:[["perfect","Main Game 300 stars"],["star","Bowser's Fury 100%"]],
         comment:`No comment`,
         platform:"switch",
@@ -951,7 +1347,49 @@ var games=[
     },
     {
         name:"Ookami to Koushinryou - Boku to Holo no Ichinen",
-        rating:[8.5,9.6,9.6,10,10], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",
+            type:"weight",
+            weight:[0.1,0.1,0.1,0.35,0.35], //Story-based
+            target:[
+                {
+                    name:"Music",
+                    type:"avg",
+                    target:[
+                        {name:"OP",type:"value",target:8.4},
+                        {name:"Game",type:"value",target:7.8},
+                    ],
+                    addon:[["OP",0.2],["Dubbing",0.2]]
+                },
+                {
+                    name:"Gameplay",
+                    type:"avg",
+                    target:[
+                        {name:"Merchant",type:"value",target:9.3},
+                        {name:"Dating",type:"value",target:9},
+                    ],
+                },
+                {
+                    name:"Graphics",
+                    type:"value",
+                    target: 9.6
+                },
+                {
+                    name:"Storyline",
+                    type:"value",
+                    target: 10
+                },
+                {
+                    name:"Impression",
+                    type:"weight",
+                    weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:9},
+                        {name:"Overall",type:"value",target:10}
+                    ]
+                }
+            ]
+        },
         status:[["perfect","Ending 1 Relationship S"]],
         comment:`This is the game what I am waiting for! Huge thanks to the AGT team for translating this game! <br/>
         The story and the relationship between Me and Holo are just what I was expecting! <br/>
@@ -967,7 +1405,60 @@ var games=[
     },
     {
         name:"Märchen Forest",
-        rating:[8.6,8.5,7.4,7.2,9.3], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",
+            type:"weight",
+            weight:[0.15,0.3,0.15,0.15,0.25], //Normal
+            target:[
+                {
+                    name:"Music",
+                    type:"avg",
+                    target:[
+                        {name:"UI Theme",type:"value",target:7.9},
+                        {name:"Stage Theme",type:"value",target:8.5},
+                        {name:"Boss Theme",type:"value",target:8.6}
+                    ],
+                    addon:[["Full dubbing",0.3]]
+                },
+                {
+                    name:"Gameplay",
+                    type:"avg",
+                    target:[
+                        {name:"Battle System",type:"value",target:9.7},
+                        {name:"Dungeon System",type:"value",target:9.6},
+                        {name:"Other System",type:"value",target:9}
+                    ],
+                    addon:[["Reversed Control",-0.5],["Long loading",-0.2]]
+                },
+                {
+                    name:"Graphics",
+                    type:"avg",
+                    target:[
+                        {name:"3D",type:"value",target:6.6},
+                        {name:"2D",type:"value",target:9.9},
+                        {name:"UI",type:"value",target:8.5}
+                    ]
+                },
+                {
+                    name:"Storyline",
+                    type:"avg",
+                    target:[
+                        {name:"Episode 1",type:"value",target:6.9},
+                        {name:"Episode 2",type:"value",target:7},
+                        {name:"Episode 3",type:"value",target:8}
+                    ]
+                },
+                {
+                    name:"Impression",
+                    type:"weight",
+                    weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:9.9},
+                        {name:"Overall",type:"value",target:9.3}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Episode 2 Clear"],["perfect","Episode 3 Clear"],["star","Both Extra Clear"]],
         comment:`I've never played a Dungeon game before. <br/>
         This game has nice ideas and game system, nice otachi, nice music <br/>

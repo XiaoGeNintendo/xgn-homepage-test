@@ -48,7 +48,6 @@ function calcRating(obj){
 					sum+=i[1]
 				}
 			}
-
 			return ratingCache[JSON.stringify(obj)]=sum
 		}else if(obj.type=="weight"){
 			var sum=0
@@ -125,6 +124,15 @@ function displayRating(obj){
 				sum+=displayRating(i)
 			}
 
+			var p2="";
+			if(obj.addon!=undefined){
+				p2=`
+				<div class="card-footer bg-secondary">
+					<b>Extra Score Delta</b> <br/>
+					${obj.addon.join("<br/>")}
+				</div>
+			   `
+			}
 			return tmp=`
 				<div class="card text-white">
 			      <div class="card-header ${getBGColor(calcRating(obj))}">
@@ -137,6 +145,7 @@ function displayRating(obj){
 			        	${sum}
 			        </div>
 			      </div>
+				  ${p2}
 			    </div>
 			    <br/>
 		    	`
@@ -147,6 +156,16 @@ function displayRating(obj){
 			var sum=""
 			for(const i of obj.target){
 				sum+=displayRating(i)
+			}
+
+			var p2="";
+			if(obj.addon!=undefined){
+				p2=`
+				<div class="card-footer bg-secondary">
+					<b>Extra Score Delta</b> <br/>
+					${obj.addon.join("<br/>")}
+				</div>
+			   `
 			}
 
 			return tmp=`
@@ -161,6 +180,7 @@ function displayRating(obj){
 			        	${sum}
 			        </div>
 			      </div>
+				  ${p2}
 			    </div>
 			    <br/>
 		    	`
