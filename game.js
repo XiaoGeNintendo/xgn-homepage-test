@@ -371,7 +371,7 @@ var games=[
                 }
             ]
         },
-        status:[["clear","Easy Clear"],["working","Normal Unclear"]],
+        status:[["clear","Easy Clear"]],
         comment:"I hate deathbombing",
         platform:"pc",
         lang:"chn",
@@ -1476,6 +1476,112 @@ var games=[
         timestamp:"2021/3/27 uploaded to db. 2021/3/28 clear episode 2. 2021/4/5 all clear!!",
         release:"2021-04-05",
         img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/m/marchen-forest-switch/hero",
+        calcType:"Normal"
+    },
+    {
+        name:"東方虹龍洞　～ Unconnected Marketeers",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Title",type:"value",target:8},
+                        {name:"Stage1",type:"value",target:9.5},
+                        {name:"Boss1",type:"value",target:10},
+                        {name:"Stage2",type:"value",target:9},
+                        {name:"Boss2",type:"value",target:9.5},
+                        {name:"Stage3",type:"value",target:9.5},
+                        {name:"Boss3",type:"value",target:10},
+                        {name:"Stage4",type:"value",target:9},
+                        {name:"Boss4",type:"value",target:10},
+                        {name:"Stage5",type:"value",target:9},
+                        {name:"Boss5",type:"value",target:9},
+                        {name:"Stage6",type:"value",target:9.5},
+                        {name:"Boss6",type:"value",target:8.5},
+                        {name:"StageEX",type:"value",target:9},
+                        {name:"BossEX",type:"value",target:9.5},
+                        {name:"Ending",type:"value",target:8},
+                        {name:"Credit",type:"value",target:9.5}
+                    ]
+                },
+                {
+                    name:"Gameplay",type:"value",target:9.7
+                },
+                {
+                    name:"Graphics",type:"value",target:8.8
+                },
+                {
+                    name:"Storyline",type:"value",target:8.3
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:9},
+                        {name:"Overall",type:"value",target:9.5}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy No Miss"]],
+        comment:"",
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2021/5/4 uploaded to db",
+        release:"2021-05-04",
+        img:"https://upload.thwiki.cc/thumb/4/48/%E4%B8%9C%E6%96%B9%E8%99%B9%E9%BE%99%E6%B4%9E%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E8%99%B9%E9%BE%99%E6%B4%9E%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
+    {
+        name:"Monster Hunter Rise",
+        rating:{
+            name:"Score",
+            type:"weight",
+            weight:NORMAL,
+            target:[
+                {
+                    name:"Music",
+                    type:"avg",
+                    target:[
+                        {name:"Boss Theme",type:"value",target:9.6},
+                        {name:"Village Theme",type:"value",target:9.5},
+                    ],
+                },
+                {
+                    name:"Gameplay",
+                    type:"value",
+                    target: 9.8
+                },
+                {
+                    name:"Graphics",
+                    type:"value",
+                    target: 10
+                },
+                {
+                    name:"Storyline",
+                    type:"value",
+                    target: 8
+                },
+                {
+                    name:"Impression",
+                    type:"weight",
+                    weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:10},
+                        {name:"Overall",type:"value",target:10}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","4 Star Clear"]],
+        comment:`This is the game what I am waiting for! Huge thanks to the AGT team for translating this game! <br/>
+        The story and the relationship between Me and Holo are just what I was expecting! <br/>
+        And the music fits well. I also love the game system <br/>
+        The graphics are perfect for a NDS game and I love NDS textures and fonts! <br/>
+        `,
+        platform:"switch",
+        lang:"eng",
+        timestamp:"2021/5/4 uploaded to db",
+        release:"2021-05-04",
+        img:"https://assets.nintendo.com/image/upload/ncom/en_US/games/switch/m/monster-hunter-rise-switch/hero",
         calcType:"Normal"
     },
 ]
