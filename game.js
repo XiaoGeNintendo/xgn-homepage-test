@@ -1521,7 +1521,7 @@ var games=[
                 }
             ]
         },
-        status:[["clear","Easy No Miss"]],
+        status:[["clear","Easy No Miss"],["perfect","Normal Clear"]],
         comment:"",
         platform:"pc",
         lang:"jpn",
@@ -1571,11 +1571,11 @@ var games=[
                 }
             ]
         },
-        status:[["clear","4 Star Clear"]],
-        comment:`This is the game what I am waiting for! Huge thanks to the AGT team for translating this game! <br/>
-        The story and the relationship between Me and Holo are just what I was expecting! <br/>
-        And the music fits well. I also love the game system <br/>
-        The graphics are perfect for a NDS game and I love NDS textures and fonts! <br/>
+        status:[["clear","4 Star Clear"],["working","5 Star Working"]],
+        comment:`Second installment for the series. My first MH game was MHXX and I sucked at it. <br/>
+        Now I am surprised that I can play up to 4 star. <br/>
+        The game system is a bit too complicated. Otherwise, it's a good game. <br/>
+        BTW, loading time very short. Amazing!
         `,
         platform:"switch",
         lang:"eng",
