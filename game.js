@@ -1521,7 +1521,7 @@ var games=[
                 }
             ]
         },
-        status:[["clear","Easy No Miss"],["perfect","Normal Clear"]],
+        status:[["perfect","Easy No Miss"],["perfect","Normal Clear"]],
         comment:"",
         platform:"pc",
         lang:"jpn",
