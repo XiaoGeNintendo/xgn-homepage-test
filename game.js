@@ -334,23 +334,23 @@ var games=[
             target:[
                 {
                     name:"Music",type:"avg",target:[
-                        {name:"Title",type:"value",target:10},
-                        {name:"Stage1",type:"value",target:9},
-                        {name:"Boss1",type:"value",target:9},
+                        {name:"Title",type:"value",target:9},
+                        {name:"Stage1",type:"value",target:8},
+                        {name:"Boss1",type:"value",target:8},
                         {name:"Stage2",type:"value",target:10},
                         {name:"Boss2",type:"value",target:10},
                         {name:"Stage3",type:"value",target:10},
                         {name:"Boss3",type:"value",target:10},
                         {name:"Stage4",type:"value",target:8},
                         {name:"Boss4",type:"value",target:10},
-                        {name:"Stage5",type:"value",target:10},
-                        {name:"Boss5",type:"value",target:9.5},
-                        {name:"Stage6",type:"value",target:10},
+                        {name:"Stage5",type:"value",target:9},
+                        {name:"Boss5",type:"value",target:10},
+                        {name:"Stage6",type:"value",target:9},
                         {name:"Boss6",type:"value",target:10},
-                        {name:"StageEX",type:"value",target:9.5},
-                        {name:"BossEX",type:"value",target:9.5},
+                        {name:"StageEX",type:"value",target:9},
+                        {name:"BossEX",type:"value",target:10},
                         {name:"Ending",type:"value",target:9},
-                        {name:"Credit",type:"value",target:10}
+                        {name:"Credit",type:"value",target:9}
                     ]
                 },
                 {
@@ -1485,22 +1485,22 @@ var games=[
                 {
                     name:"Music",type:"avg",target:[
                         {name:"Title",type:"value",target:8},
-                        {name:"Stage1",type:"value",target:9.5},
+                        {name:"Stage1",type:"value",target:9},
                         {name:"Boss1",type:"value",target:10},
                         {name:"Stage2",type:"value",target:9},
-                        {name:"Boss2",type:"value",target:9.5},
-                        {name:"Stage3",type:"value",target:9.5},
+                        {name:"Boss2",type:"value",target:9},
+                        {name:"Stage3",type:"value",target:9},
                         {name:"Boss3",type:"value",target:10},
                         {name:"Stage4",type:"value",target:9},
                         {name:"Boss4",type:"value",target:10},
                         {name:"Stage5",type:"value",target:9},
                         {name:"Boss5",type:"value",target:9},
-                        {name:"Stage6",type:"value",target:9.5},
-                        {name:"Boss6",type:"value",target:8.5},
+                        {name:"Stage6",type:"value",target:10},
+                        {name:"Boss6",type:"value",target:8},
                         {name:"StageEX",type:"value",target:9},
-                        {name:"BossEX",type:"value",target:9.5},
+                        {name:"BossEX",type:"value",target:10},
                         {name:"Ending",type:"value",target:8},
-                        {name:"Credit",type:"value",target:9.5}
+                        {name:"Credit",type:"value",target:9}
                     ]
                 },
                 {
