@@ -1521,12 +1521,12 @@ var games=[
                 }
             ]
         },
-        status:[["perfect","Easy No Miss"],["perfect","Normal Clear"]],
+        status:[["perfect","Easy No Miss No Bomb No Active"],["perfect","Normal Clear"],["perfect","Extra Clear"]],
         comment:"",
         platform:"pc",
         lang:"jpn",
-        timestamp:"2021/5/4 uploaded to db",
-        release:"2021-05-04",
+        timestamp:"2021/5/21 cleared extra. 2021/5/4 uploaded to db",
+        release:"2021-05-21",
         img:"https://upload.thwiki.cc/thumb/4/48/%E4%B8%9C%E6%96%B9%E8%99%B9%E9%BE%99%E6%B4%9E%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E8%99%B9%E9%BE%99%E6%B4%9E%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
