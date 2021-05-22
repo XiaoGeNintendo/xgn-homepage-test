@@ -1571,7 +1571,7 @@ var games=[
                 }
             ]
         },
-        status:[["clear","4 Star Clear"],["working","5 Star Working"]],
+        status:[["perfect","1-4 Star Village Quest All Clear"],["clear","Hub quest 1 star"],["clear","Village 5 stars"],["working","Village 6 stars"]],
         comment:`Second installment for the series. My first MH game was MHXX and I sucked at it. <br/>
         Now I am surprised that I can play up to 4 star. <br/>
         The game system is a bit too complicated. Otherwise, it's a good game. <br/>
