@@ -1584,4 +1584,56 @@ var games=[
         img:"https://assets.nintendo.com/image/upload/ncom/en_US/games/switch/m/monster-hunter-rise-switch/hero",
         calcType:"Normal"
     },
+    {
+        name:"東方光条閣 ～ Over Developed Eden",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Title",type:"value",target:9.5},
+                        {name:"Stage1",type:"value",target:8},
+                        {name:"Boss1",type:"value",target:7.5},
+                        {name:"Stage2",type:"value",target:8},
+                        {name:"Boss2",type:"value",target:8.5},
+                        {name:"Stage3",type:"value",target:8},
+                        {name:"Boss3",type:"value",target:7},
+                        {name:"Stage4",type:"value",target:8},
+                        {name:"Boss4",type:"value",target:8.5},
+                        {name:"Stage5",type:"value",target:7.5},
+                        {name:"Boss5",type:"value",target:8},
+                        {name:"Stage6",type:"value",target:8},
+                        {name:"Boss6",type:"value",target:8},
+                        {name:"StageEX",type:"value",target:9},
+                        {name:"BossEX",type:"value",target:8.5},
+                        {name:"Ending",type:"value",target:8},
+                        {name:"Credit",type:"value",target:9},
+                    ]
+                },
+                {
+                    name:"Gameplay",type:"value",target:8
+                },
+                {
+                    name:"Graphics",type:"value",target:7
+                },
+                {
+                    name:"Storyline",type:"value",target:7
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:7}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Clear"]],
+        comment:"From that furry game-maker",
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2021/5/31 cleared easy",
+        release:"2021-05-31",
+        img:"https://upload.thwiki.cc/thumb/a/a0/%E6%9D%B1%E6%96%B9%E5%85%89%E6%9D%A1%E9%96%A3_%EF%BD%9E_Over_the_Developed_Eden.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E5%85%89%E6%9D%A1%E9%96%A3_%EF%BD%9E_Over_the_Developed_Eden.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
 ]
