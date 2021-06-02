@@ -176,13 +176,55 @@ var games=[
     },
     {
         name:"東方催狐譚 ～ Servants of Harvest Wish",
-        rating:[9.7,8,8.2,8,10], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Easy 1CC"],["clear","Normal 1CC"]],
+        rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Title",type:"value",target:8.5},
+                        {name:"Stage1",type:"value",target:8},
+                        {name:"Boss1",type:"value",target:8.5},
+                        {name:"Stage2",type:"value",target:9},
+                        {name:"Boss2",type:"value",target:10},
+                        {name:"Stage3",type:"value",target:9},
+                        {name:"Boss3",type:"value",target:9.5},
+                        {name:"Stage4",type:"value",target:8.5},
+                        {name:"Boss4",type:"value",target:9},
+                        {name:"Stage5(AB)",type:"value",target:9.5},
+                        {name:"Boss5",type:"value",target:10},
+                        {name:"Stage6",type:"value",target:10},
+                        {name:"Boss6(+Final)",type:"value",target:10},
+                        {name:"StageEX",type:"value",target:9},
+                        {name:"BossEX(+1)",type:"value",target:9.5},
+                        {name:"Overdrive",type:"value",target:10},
+                        {name:"Ending",type:"value",target:8},
+                        {name:"Credit",type:"value",target:9},
+                    ]
+                },
+                {
+                    name:"Gameplay",type:"value",target:9
+                },
+                {
+                    name:"Graphics",type:"value",target:8.5
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:9.8}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy 1CC"],["clear","Normal 1CC"],["perfect","Hard 1CC"]],
         comment:"First Touhou Fangame",
         platform:"pc",
         lang:"eng",
-        timestamp:"2020/6/6 uploaded to db",
-        release:"2020-06-06",
+        timestamp:"2020/6/6 uploaded to db. 2021/6/2 cleared Hard",
+        release:"2021-06-02",
         img:"https://upload.thwiki.cc/thumb/2/26/%E6%9D%B1%E6%96%B9%E5%82%AC%E7%8B%90%E8%AD%9A_%EF%BD%9E_Servants_of_Harvest_Wish.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%82%AC%E7%8B%90%E8%AD%9A_%EF%BD%9E_Servants_of_Harvest_Wish.%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
