@@ -197,7 +197,7 @@ var games=[
                         {name:"StageEX",type:"value",target:9},
                         {name:"BossEX(+1)",type:"value",target:9.5},
                         {name:"Overdrive",type:"value",target:10},
-                        {name:"Ending",type:"value",target:8},
+                        {name:"Ending",type:"value",target:9},
                         {name:"Credit",type:"value",target:9},
                     ]
                 },
