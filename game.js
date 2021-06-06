@@ -851,13 +851,36 @@ var games=[
     },
     {
         name:"四聖龍神録 Plus",
-        rating:[8.4,9,7,7,8], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Easy Clear"]],
+        rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:9.5
+                },
+                {
+                    name:"Gameplay",type:"value",target:7.5
+                },
+                {
+                    name:"Graphics",type:"value",target:7.6
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:9},
+                        {name:"Overall",type:"value",target:8.4}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Clear"],["clear","Ph Easy Clear"]],
         comment:`Very good little game! Unfortunately the game is in Japanese and breaks without the locale.`,
         platform:"pc",
         lang:"jpn",
-        timestamp:"2020/9/26 uploaded to db",
-        release:"2020-09-26",
+        timestamp:"2020/9/26 uploaded to db. 2021/6/6 cleared Ph Easy",
+        release:"2021-06-06",
         img:"",
         calcType:"STG"
     },
