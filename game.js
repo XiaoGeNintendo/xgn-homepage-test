@@ -151,8 +151,34 @@ var games=[
         calcType:"STG"
     },
     {
-        name:"東方真珠島 ～ Hollow Song of Birds.",
-        rating:[9.7,7.7,9,8,9.4], //Music Gameplay Graphics Storyline Impression
+        name:"東方真珠島 ～ Hollow Song of Birds.",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:9.4
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:9.9},
+                        {name:"System",type:"value",target:9.9},
+                        {name:"Flow",type:"value",target:9.6},
+                    ]
+                },
+                {
+                    name:"Graphics",type:"value",target:10
+                },
+                {
+                    name:"Storyline(Always 8)",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8.6},
+                        {name:"Overall",type:"value",target:9.5}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Easy 1CC"],["clear","Normal 1CC"],["clear","Easy Extra 1Miss"]],
         comment:"Cool CG",
         platform:"pc",
@@ -1681,7 +1707,7 @@ var games=[
                     name:"Graphics",type:"value",target:7
                 },
                 {
-                    name:"Storyline",type:"value",target:7
+                    name:"Storyline",type:"value",target:8
                 },
                 {
                     name:"Impression",type:"weight",weight:[0.2,0.8],
@@ -1699,6 +1725,44 @@ var games=[
         timestamp:"2021/5/31 cleared easy",
         release:"2021-05-31",
         img:"https://upload.thwiki.cc/thumb/a/a0/%E6%9D%B1%E6%96%B9%E5%85%89%E6%9D%A1%E9%96%A3_%EF%BD%9E_Over_the_Developed_Eden.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E5%85%89%E6%9D%A1%E9%96%A3_%EF%BD%9E_Over_the_Developed_Eden.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
+    {
+        name:"東方潮聖書 ～ Sapphire Panlogism",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.6
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:9.8},
+                        {name:"System",type:"value",target:7.4},
+                        {name:"Flow",type:"value",target:8.4},
+                    ]
+                },
+                {
+                    name:"Graphics",type:"value",target:9.9
+                },
+                {
+                    name:"Storyline(Always 8)",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:9}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Clear"]],
+        comment:`Stage 5 boss is weird, system is quite weird too. Graphics is perfect! Stage6 boss theme is so damn coooooooool!`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2021/6/9 cleared easy",
+        release:"2021-06-09",
+        img:"https://upload.thwiki.cc/thumb/a/a6/%E6%9D%B1%E6%96%B9%E6%BD%AE%E8%81%96%E6%9B%B8_%EF%BD%9E_Sapphire_Panlogism.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E6%BD%AE%E8%81%96%E6%9B%B8_%EF%BD%9E_Sapphire_Panlogism.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
 ]
