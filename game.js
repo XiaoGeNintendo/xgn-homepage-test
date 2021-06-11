@@ -1750,13 +1750,13 @@ var games=[
                 {
                     name:"Impression",type:"weight",weight:[0.2,0.8],
                     target:[
-                        {name:"Playtime",type:"value",target:7},
+                        {name:"Playtime",type:"value",target:7.5},
                         {name:"Overall",type:"value",target:9}
                     ]
                 }
             ]
         },
-        status:[["clear","Easy Clear"]],
+        status:[["clear","Easy Clear"],["giveup","Normal Unclear"]],
         comment:`Stage 5 boss is weird, system is quite weird too. Graphics is perfect! Stage6 boss theme is so damn coooooooool!`,
         platform:"pc",
         lang:"eng",
