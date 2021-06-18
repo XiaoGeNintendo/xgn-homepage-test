@@ -1821,4 +1821,43 @@ var games=[
         img:"https://upload.thwiki.cc/thumb/a/a7/%E4%B8%9C%E6%96%B9%E5%A6%96%E5%A6%96%E6%A2%A6%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E5%A6%96%E5%A6%96%E6%A2%A6%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
+    {
+        name:"東方神魔界 ～ Demon World of Magic",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.2
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:8.6},
+                        {name:"System",type:"value",target:7.5},
+                        {name:"Flow",type:"value",target:6},
+                    ],
+                    addon:[["Extremely Boring Midstage",-0.5]]
+                },
+                {
+                    name:"Graphics",type:"value",target:7.5
+                },
+                {
+                    name:"Storyline(Always 8)",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:6}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Clear"]],
+        comment:`Make your stage section shorter and more interesting, thank you`,
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2021/6/17 cleared easy",
+        release:"2021-06-17",
+        img:"",
+        calcType:"STG"
+    },
 ]
