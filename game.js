@@ -1822,7 +1822,7 @@ var games=[
         calcType:"STG"
     },
     {
-        name:"東方神魔界 ～ Demon World of Magic",rating:{
+        name:"東方魔神界 ～ Demon World of Magic",rating:{
             name:"Score",type:"weight",weight:STG,
             target:[
                 {
@@ -1858,6 +1858,63 @@ var games=[
         timestamp:"2021/6/17 cleared easy",
         release:"2021-06-17",
         img:"",
+        calcType:"STG"
+    },
+    {
+        name:"東方天空璋　～ Hidden Star in Four Seasons.",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Title",type:"value",target:9},
+                        {name:"Stage1",type:"value",target:10},
+                        {name:"Boss1",type:"value",target:9.5},
+                        {name:"Stage2",type:"value",target:8.5},
+                        {name:"Boss2",type:"value",target:9},
+                        {name:"Stage3",type:"value",target:10},
+                        {name:"Boss3",type:"value",target:10},
+                        {name:"Stage4",type:"value",target:9.5},
+                        {name:"Boss4",type:"value",target:10},
+                        {name:"Stage5",type:"value",target:9.5},
+                        {name:"Boss5",type:"value",target:9.5},
+                        {name:"Stage6",type:"value",target:8.5},
+                        {name:"Boss6",type:"value",target:9},
+                        {name:"StageEX",type:"value",target:8.5},
+                        {name:"BossEX",type:"value",target:9},
+                        {name:"Ending",type:"value",target:8},
+                        {name:"Credit",type:"value",target:8}
+                    ]
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:8.2},
+                        {name:"System",type:"value",target:9},
+                        {name:"Flow",type:"value",target:10},
+                    ],
+                    addon:[["Can't See Bullet",-0.1]]
+                },
+                {
+                    name:"Graphics",type:"value",target:9
+                },
+                {
+                    name:"Storyline",type:"value",target:8.5
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:9},
+                        {name:"Overall",type:"value",target:8.7}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy 1CC"],["perfect","Normal Clear"]],
+        comment:"Nice game! I love planning but failing to carry out the plan! (Seriously, don't do this any more ;()",
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2021/6/18 cleared Normal",
+        release:"2021-06-18",
+        img:"https://upload.thwiki.cc/thumb/5/52/%E4%B8%9C%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
 ]
