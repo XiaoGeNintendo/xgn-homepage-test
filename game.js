@@ -1917,4 +1917,44 @@ var games=[
         img:"https://upload.thwiki.cc/thumb/5/52/%E4%B8%9C%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
+    {
+        name:"Maiden & Spell",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.3
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:8.2},
+                        {name:"System",type:"value",target:9},
+                        {name:"Flow",type:"value",target:10},
+                    ]
+                },
+                {
+                    name:"Graphics",type:"value",target:9.8
+                },
+                {
+                    name:"Storyline(Always 8)",type:"value",target:9
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:9},
+                        {name:"Overall",type:"value",target:9.6}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy All Clear"]],
+        comment:`I can see the passion and effort put into this game!
+         Actually as I suck at Danmaku especially horizontal STG I won't comment much on the bullet part.
+         I really like the game's background and character designs!`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2021/6/20 cleared easy",
+        release:"2021-06-20",
+        img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/m/maiden-and-spell-switch/hero",
+        calcType:"STG"
+    },
 ]
