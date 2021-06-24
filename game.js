@@ -1940,20 +1940,21 @@ var games=[
                 {
                     name:"Impression",type:"weight",weight:[0.2,0.8],
                     target:[
-                        {name:"Playtime",type:"value",target:9},
+                        {name:"Playtime",type:"value",target:9.3},
                         {name:"Overall",type:"value",target:9.6}
                     ]
                 }
             ]
         },
-        status:[["clear","Easy All Clear"]],
+        status:[["clear","Easy All Clear"],["clear","Normal Magician clear"]],
         comment:`I can see the passion and effort put into this game!
          Actually as I suck at Danmaku especially horizontal STG I won't comment much on the bullet part.
-         I really like the game's background and character designs!`,
+         I really like the game's background and character designs!
+         My favourite (story) character is the magician as she deals huge homing output and I can focus on dodging.`,
         platform:"switch",
         lang:"chn",
-        timestamp:"2021/6/20 cleared easy",
-        release:"2021-06-20",
+        timestamp:"2021/6/20 cleared Easy. 2021/6/24 cleared Normal",
+        release:"2021-06-24",
         img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/m/maiden-and-spell-switch/hero",
         calcType:"STG"
     },
