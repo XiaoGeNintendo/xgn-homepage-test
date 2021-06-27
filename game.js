@@ -1958,4 +1958,60 @@ var games=[
         img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/m/maiden-and-spell-switch/hero",
         calcType:"STG"
     },
+    {
+        name:"東方神霊廟　～ Ten Desires",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Title",type:"value",target:10},
+                        {name:"Stage1",type:"value",target:10},
+                        {name:"Boss1",type:"value",target:9.5},
+                        {name:"Stage2",type:"value",target:8},
+                        {name:"Boss2",type:"value",target:10},
+                        {name:"Stage3",type:"value",target:8},
+                        {name:"Boss3",type:"value",target:9.5},
+                        {name:"Stage4",type:"value",target:10},
+                        {name:"Boss4",type:"value",target:9.5},
+                        {name:"Stage5",type:"value",target:10},
+                        {name:"Boss5",type:"value",target:8},
+                        {name:"Stage6",type:"value",target:10},
+                        {name:"Boss6",type:"value",target:10},
+                        {name:"StageEX",type:"value",target:9},
+                        {name:"BossEX",type:"value",target:10},
+                        {name:"Ending",type:"value",target:7},
+                        {name:"Credit",type:"value",target:9.5}
+                    ]
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:9.5},
+                        {name:"System",type:"value",target:7},
+                        {name:"Flow",type:"value",target:10},
+                    ]
+                },
+                {
+                    name:"Graphics",type:"value",target:9
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:8}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy 1CC"],["perfect","Normal Clear"]],
+        comment:"",
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2021/6/27 cleared Normal",
+        release:"2021-06-27",
+        img:"https://upload.thwiki.cc/thumb/7/74/%E4%B8%9C%E6%96%B9%E7%A5%9E%E7%81%B5%E5%BA%99%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E7%A5%9E%E7%81%B5%E5%BA%99%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
 ]
