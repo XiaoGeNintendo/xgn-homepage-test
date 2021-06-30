@@ -315,14 +315,42 @@ var games=[
         calcType:"STG"
     },
     {
-        name:"東方命萃酒 ～ Resurrection of Heaven's Liquor.",
-        rating:[4,6,4,6,4], //Music Gameplay Graphics Storyline Impression
-        status:[["giveup","Easy Unclear"]],
+        name:"東方命萃酒 ～ Resurrection of Heaven's Liquor."
+        ,rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:6
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:7.5},
+                        {name:"System",type:"value",target:7},
+                        {name:"Flow",type:"value",target:8},
+                    ],
+                    addon:[["Weird Laser Hitbox",-0.5]]
+                },
+                {
+                    name:"Graphics",type:"value",target:6
+                },
+                {
+                    name:"Storyline(Always 8)",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7.6},
+                        {name:"Overall",type:"value",target:6}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Clear"]],
         comment:"Found this in CreepyNinja's Hall of Shame. Nice try..",
         platform:"pc",
         lang:"jpn",
-        timestamp:"2020/6/25 uploaded to db",
-        release:"2020-06-25",
+        timestamp:"2020/6/25 uploaded to db. 2021/6/30 cleared easy",
+        release:"2021-06-30",
         img:"http://www.disfact.com/product/thd01/jacket2.jpg",
         calcType:"STG"
     },
@@ -2012,6 +2040,44 @@ var games=[
         timestamp:"2021/6/27 cleared Normal",
         release:"2021-06-27",
         img:"https://upload.thwiki.cc/thumb/7/74/%E4%B8%9C%E6%96%B9%E7%A5%9E%E7%81%B5%E5%BA%99%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E7%A5%9E%E7%81%B5%E5%BA%99%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
+    {
+        name:"名山丸 ～ Naming the Netas",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:7.1
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:7.6},
+                        {name:"System",type:"value",target:7},
+                        {name:"Flow",type:"value",target:6},
+                    ]
+                },
+                {
+                    name:"Graphics",type:"value",target:7
+                },
+                {
+                    name:"Storyline(Always 8)",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:6}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Clear"]],
+        comment:`God-damn long. Actually it's korean but I am lazy to add a new tag for it`,
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2021/6/30 cleared easy",
+        release:"2021-06-30",
+        img:"",
         calcType:"STG"
     },
 ]
