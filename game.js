@@ -2080,4 +2080,52 @@ var games=[
         img:"",
         calcType:"STG"
     },
+    {
+        name:"わるい王様とりっぱな勇者",rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Stage Theme",type:"value",target:7.3},
+                        {name:"Battle Theme",type:"value",target:7.5},
+                        {name:"Boss Theme",type:"value",target:8.6},
+                    ],addon:[["Voicing",0.1],["Vocal song",0.2],["Atmosphere",0.2]]
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Battle",type:"value",target:7},
+                        {name:"System",type:"value",target:8.6},
+                        {name:"Flow",type:"value",target:7.8},
+                    ],
+                    addon:[["Boring Walking",-0.3],["Uncreative Battle",-0.3],["User-friendly guide",0.2]]
+                },
+                {
+                    name:"Graphics",type:"value",target:9.9
+                },
+                {
+                    name:"Storyline",type:"value",target:9.8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:9.5},
+                        {name:"Overall",type:"value",target:8.5}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Clear"]],
+        comment:`Aha, a good story with a bad game. I can sense the efforts put into it but the RPG part is just too boring.
+        Walking and high enemy encounter rate is no fun at all and the game is just repeating itself.
+        The battle lacks creativity. It might be fun at first, but it won't last long as there are no new systems.
+        The story is actually very attracting and that's the how I found this game.
+        Better watch others instead of playing it.
+        `,
+        platform:"switch",
+        lang:"jpn",
+        timestamp:"2021/7/5 cleared",
+        release:"2021-07-05",
+        img:"https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwa8412aef/products/D70010000030134/heroBanner/97c92281eab97ac8949a185eca37df03c837d272f9c4eb5404d560dc0f2d7eb5.jpg?sw=1368&strip=false",
+        calcType:"Normal"
+    },
 ]
