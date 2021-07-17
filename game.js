@@ -2128,4 +2128,48 @@ var games=[
         img:"https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwa8412aef/products/D70010000030134/heroBanner/97c92281eab97ac8949a185eca37df03c837d272f9c4eb5404d560dc0f2d7eb5.jpg?sw=1368&strip=false",
         calcType:"Normal"
     },
+    {
+        name:"Monster Hunter Stories 2",rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Stage Theme",type:"value",target:7.6},
+                        {name:"Village Theme",type:"value",target:7.7},
+                        {name:"Battle Theme",type:"value",target:7.5},
+                        {name:"Boss Theme",type:"value",target:7.7},
+                    ],addon:[["Voicing",0.1],["Vocal song",0.2]]
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Battle",type:"value",target:9.9},
+                        {name:"System",type:"value",target:9.7},
+                        {name:"Flow",type:"value",target:6},
+                        {name:"Story Progression",type:"value",target:7},
+                    ],
+                },
+                {
+                    name:"Graphics",type:"value",target:8.6
+                },
+                {
+                    name:"Storyline",type:"value",target:7.7
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:10},
+                        {name:"Overall",type:"value",target:8}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Clear"]],
+        comment:`Better than the last game in many ways.`,
+        platform:"switch",
+        lang:"eng",
+        timestamp:"2021/7/17 cleared",
+        release:"2021-07-17",
+        img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,h_613,q_auto,w_1089/ncom/en_US/games/switch/m/monster-hunter-stories-2-wings-of-ruin-switch/hero?v=2021071621",
+        calcType:"Normal"
+    },
 ]
