@@ -140,13 +140,40 @@ var games=[
     },
     {
         name:"東方魔宝城 ~ Book of Star Mythology",
-        rating:[9.4,7.5,8.5,8.8,9], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:9.2
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:9.5},
+                        {name:"System",type:"value",target:8.7},
+                        {name:"Flow",type:"value",target:10},
+                    ]
+                },
+                {
+                    name:"Graphics",type:"value",target:9.4
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7.5},
+                        {name:"Overall",type:"value",target:9}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Easy Hero 12Miss"],["perfect","Easy Legacy NoMiss"],["clear","Normal Legacy 1CC"]],
         comment:"Stage 5 is messy",
         platform:"pc",
         lang:"chn",
-        timestamp:"2020/6/6 uploaded to db",
-        release:"2020-06-06",
+        timestamp:"2020/6/6 uploaded to db. 2021/7/21 regraded",
+        release:"2021-07-21",
         img:"https://upload.thwiki.cc/thumb/7/76/%E6%9D%B1%E6%96%B9%E9%AD%94%E5%AE%9D%E5%9F%8E_%EF%BD%9E_Book_of_Star_Mythology.%E5%B0%81%E9%9D%A2.jpg/120px-%E6%9D%B1%E6%96%B9%E9%AD%94%E5%AE%9D%E5%9F%8E_%EF%BD%9E_Book_of_Star_Mythology.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -190,13 +217,39 @@ var games=[
     },
     {
         name:"トライフォーカサー ～ Outside the Traditional World.",
-        rating:[8.5,6.8,7.5,6.3,5], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.4
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:9.5},
+                        {name:"System",type:"value",target:8},
+                    ]
+                },
+                {
+                    name:"Graphics",type:"value",target:9.5
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:6},
+                        {name:"Overall",type:"value",target:7.5}
+                    ]
+                }
+            ]
+        },
         status:[["tried","Tried"]],
         comment:"I hate StB Style game",
         platform:"pc",
         lang:"chn",
-        timestamp:"2020/6/6 uploaded to db",
-        release:"2020-06-06",
+        timestamp:"2020/6/6 uploaded to db.2021/7/21 regraded",
+        release:"2021-07-21",
         img:"https://upload.thwiki.cc/thumb/7/74/%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AB%E3%82%B5%E3%83%BC_%EF%BD%9E_Outside_the_Traditional_World.%E5%B0%81%E9%9D%A2.png/224px-%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AB%E3%82%B5%E3%83%BC_%EF%BD%9E_Outside_the_Traditional_World.%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -256,25 +309,78 @@ var games=[
     },
     {
         name:"東方落流星 ～ The Shattered Sky.",
-        rating:[8.8,7,4.6,7.2,7], //Music Gameplay Graphics Storyline Impression
-        status:[["clear","Easy 1CC"]],
+        rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.8
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:8.5},
+                        {name:"System",type:"value",target:7.5},
+                        {name:"Flow",type:"value",target:8},
+                    ]
+                },
+                {
+                    name:"Graphics",type:"value",target:6.8
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:7.7}
+                    ]
+                }
+            ]
+        },
         comment:"Image is weird",
         platform:"pc",
         lang:"eng",
-        timestamp:"2020/6/6 uploaded to db",
-        release:"2020-06-06",
+        timestamp:"2020/6/6 uploaded to db. 2021/7/21 regraded",
+        release:"2021-07-21",
         img:"https://upload.thwiki.cc/thumb/d/dd/%E6%9D%B1%E6%96%B9%E8%90%BD%E6%B5%81%E6%98%9F_%EF%BD%9E_The_Shattered_Sky.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E8%90%BD%E6%B5%81%E6%98%9F_%EF%BD%9E_The_Shattered_Sky.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
     {
         name:"東方導命樹 ～ Mystical Power Plant.",
-        rating:[8,6.1,7,7,5.9], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.2
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:9},
+                        {name:"System",type:"value",target:7.5},
+                        {name:"Flow",type:"value",target:10},
+                    ]
+                },
+                {
+                    name:"Graphics",type:"value",target:9.5
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7.2},
+                        {name:"Overall",type:"value",target:7.5}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Easy 1CC"]],
         comment:"So hard",
         platform:"pc",
         lang:"chn",
-        timestamp:"2020/6/12 uploaded to db",
-        release:"2020-06-12",
+        timestamp:"2020/6/12 uploaded to db. 2021/7/21 regraded",
+        release:"2020-07-21",
         img:"https://upload.thwiki.cc/thumb/5/54/%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png/224px-%E6%9D%B1%E6%96%B9%E5%B0%8E%E5%91%BD%E6%A8%B9_%EF%BD%9E_Mystical_Power_Plant.%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
@@ -2171,5 +2277,44 @@ var games=[
         release:"2021-07-17",
         img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,h_613,q_auto,w_1089/ncom/en_US/games/switch/m/monster-hunter-stories-2-wings-of-ruin-switch/hero?v=2021071621",
         calcType:"Normal"
+    },
+    {
+        name:"Jigoku Kisetsukan: Sense of the Seasons",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.6
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:8.3},
+                        {name:"System",type:"value",target:6.6},
+                        {name:"Flow",type:"value",target:10},
+                    ],addon:[["Unrecoverable Pow Loss After Death (TH18-style problem)",-0.3],["No bomb after death",-0.5]]
+                },
+                {
+                    name:"Graphics",type:"value",target:9.8
+                },
+                {
+                    name:"Storyline",type:"value",target:9
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7.3},
+                        {name:"Overall",type:"value",target:8.2}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Clear"]],
+        comment:`Interesting touhou-style shooting game. I love the characters and the art style. It should have been a nice little game.
+        However, pay attention to some very important STG design: 1) give bomb after death, 2)make pow loss less significant(aka. fix problem 1), 3) change some UI design like timer to where you can see`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2021/7/21 cleared easy",
+        release:"2021-07-21",
+        img:"",
+        calcType:"STG"
     },
 ]
