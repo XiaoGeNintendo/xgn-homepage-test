@@ -2317,4 +2317,42 @@ var games=[
         img:"",
         calcType:"STG"
     },
+    {
+        name:"東方天華楼 ～ Frantically Forbidden Fruit",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.2
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:8.2},
+                        {name:"System",type:"value",target:8},
+                        {name:"Flow",type:"value",target:9.6},
+                    ],addon:[["Seven Route",0.2],["LoLK-style system",0.2]]
+                },
+                {
+                    name:"Graphics",type:"value",target:9.8
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7.3},
+                        {name:"Overall",type:"value",target:8.7}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Paradise Clear"],["clear","Normal Paradise Clear"]],
+        comment:``,
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2021/7/25 cleared easy & normal",
+        release:"2021-07-25",
+        img:"https://upload.thwiki.cc/thumb/3/37/%E6%9D%B1%E6%96%B9%E5%A4%A9%E8%8F%AF%E6%A5%BC_%EF%BD%9E_Frantically_Forbidden_Fruit.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E5%A4%A9%E8%8F%AF%E6%A5%BC_%EF%BD%9E_Frantically_Forbidden_Fruit.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
 ]
