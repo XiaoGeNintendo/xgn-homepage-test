@@ -2355,4 +2355,38 @@ var games=[
         img:"https://upload.thwiki.cc/thumb/3/37/%E6%9D%B1%E6%96%B9%E5%A4%A9%E8%8F%AF%E6%A5%BC_%EF%BD%9E_Frantically_Forbidden_Fruit.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E5%A4%A9%E8%8F%AF%E6%A5%BC_%EF%BD%9E_Frantically_Forbidden_Fruit.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
+    {
+        name:"LiEat",rating:{
+            name:"Score",type:"weight",weight:STORY,
+            target:[
+                {
+                    name:"Music",type:"value",target:7
+                },
+                {
+                    name:"Gameplay",type:"value",target:7.3
+                },
+                {
+                    name:"Graphics",type:"value",target:8
+                },
+                {
+                    name:"Storyline",type:"value",target:8.2
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:7.7}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Clear All"]],
+        comment:`A very interesting story`,
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2021/8/15 cleared",
+        release:"2021-08-15",
+        img:"https://media.st.dl.pinyuncloud.com/steam/apps/373770/header.jpg?t=1592544436",
+        calcType:"Story"
+    },
 ]

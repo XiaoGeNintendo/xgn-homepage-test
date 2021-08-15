@@ -294,7 +294,7 @@ function refreshTable() {
             } else {
                 //it's time for badge displaying!!
 
-                tmp += `<td> ${toBadgeString(data[i]["platform"])} ${toBadgeString(data[i]["lang"])} ${toBadgeString(data[i]["calcType"])}`
+                tmp += `<td> ${toBadgeString(data[i]["platform"])} ${toBadgeString(data[i]["lang"])} ${toBadgeString(data[i]["calcType"])} `
 
                 for(var sd in data[i]["status"]){
                     var sts=data[i]["status"][sd]
