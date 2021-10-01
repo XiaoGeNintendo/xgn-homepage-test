@@ -116,13 +116,40 @@ var games=[
     },
     {
         name:"Rune Factory 4 Special",
-        rating:[7,8.5,7.5,9,10],
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:8
+                },
+                {
+                    name:"Gameplay",type:"value",target:10
+                },
+                {
+                    name:"Graphics",type:"avg",target:[
+                        {name:"3D Graphics",type:"value",target:7},
+                        {name:"2D Graphics",type:"value",target:10},
+                    ],
+                    addon:[["Live2D?",0.2]]
+                },
+                {
+                    name:"Storyline",type:"value",target:9.5
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:10},
+                        {name:"Overall",type:"value",target:10}
+                    ]
+                }
+            ]
+        },
         status:[["perfect","Easy High%"],["perfect","Newylwed Mode All Clear"],["perfect","Another Episode All Clear"],["giveup","Sharance Maze Lv.500"]],
         comment:"I love it a lot",
         platform:"switch",
         lang:"eng",
-        timestamp:"2020/4/19 uploaded to db",
-        release:"2020-04-19",
+        timestamp:"2020/4/19 uploaded to db. 2021/9/16 rescored",
+        release:"2021-09-16",
         img:"https://cdn01.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_RuneFactory4Special_PEGI_image500w.jpg",
         calcType:"Normal"
     },
@@ -2388,5 +2415,43 @@ var games=[
         release:"2021-08-15",
         img:"https://media.st.dl.pinyuncloud.com/steam/apps/373770/header.jpg?t=1592544436",
         calcType:"Story"
+    },
+    {
+        name:"Rune Factory 5",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:8
+                },
+                {
+                    name:"Gameplay",type:"value",target:9.5
+                },
+                {
+                    name:"Graphics",type:"avg",target:[
+                        {name:"3D Graphics",type:"value",target:9},
+                        {name:"2D Graphics",type:"value",target:9.6},
+                    ],
+                },
+                {
+                    name:"Storyline",type:"value",target:7.8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:10},
+                        {name:"Overall",type:"value",target:8.3}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Clear"],["perfect","Cleared Extra Maze"]],
+        comment:"A pretty fun game. Much worse than RF4 though.",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2021/9/24 cleared. 2021/10/1 clear extra maze",
+        release:"2021-10-01",
+        img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/r/rune-factory-5-switch/hero923",
+        calcType:"Normal"
     },
 ]
