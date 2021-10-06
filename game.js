@@ -2454,4 +2454,74 @@ var games=[
         img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/r/rune-factory-5-switch/hero923",
         calcType:"Normal"
     },
+    {
+        name:"Deltarune Chapter 2",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:9
+                },
+                {
+                    name:"Gameplay",type:"value",target:9
+                },
+                {
+                    name:"Graphics",type:"value",target:8.4
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:8.6}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Clear"]],
+        comment:"",
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2021/10/6 cleared",
+        release:"2021-10-06",
+        img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/d/deltarune-chapter-1-and-2-switch/hero",
+        calcType:"Normal"
+    },
+    {
+        name:"Warioware: Get It Together",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:7.6
+                },
+                {
+                    name:"Gameplay",type:"value",target:8.6
+                },
+                {
+                    name:"Graphics",type:"value",target:8
+                },
+                {
+                    name:"Storyline",type:"value",target:7
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:7.9}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Clear"]],
+        comment:"",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2021/10/4 cleared",
+        release:"2021-10-04",
+        img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/w/warioware-get-it-together-switch/hero",
+        calcType:"Normal"
+    },
 ]
