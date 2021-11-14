@@ -2559,4 +2559,39 @@ var games=[
         img:"https://upload.thwiki.cc/thumb/6/6c/%E4%B8%9C%E6%96%B9%E5%88%9A%E6%AC%B2%E5%BC%82%E9%97%BB%E5%B0%81%E9%9D%A2.jpg/300px-%E4%B8%9C%E6%96%B9%E5%88%9A%E6%AC%B2%E5%BC%82%E9%97%BB%E5%B0%81%E9%9D%A2.jpg",
         calcType:"Normal"
     },
+    {
+        name:"Mario Party Superstars",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:7.5
+                },
+                {
+                    name:"Gameplay",type:"value",target:7.9
+                },
+                {
+                    name:"Graphics",type:"value",target:9.8
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7.5},
+                        {name:"Overall",type:"value",target:8}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","All board clear"]],
+        comment:"Some boards are just not fun to play and will ruin your precious friendship",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2021/11/14 cleared",
+        release:"2021-11-14",
+        img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/m/mario-party-superstars-switch/hero?v=2021111219",
+        calcType:"Normal"
+    },
 ]
