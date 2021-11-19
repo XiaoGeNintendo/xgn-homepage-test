@@ -2594,4 +2594,42 @@ var games=[
         img:"https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_300/ncom/en_US/games/switch/m/mario-party-superstars-switch/hero?v=2021111219",
         calcType:"Normal"
     },
+    {
+        name:"東方門殊銭 ～ Bubbling Imaginary Treasures",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.3
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:9.3},
+                        {name:"System",type:"value",target:8.8},
+                        {name:"Flow",type:"value",target:10},
+                    ],addon:[["12 Shottype",0.1]]
+                },
+                {
+                    name:"Graphics",type:"value",target:9.8
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7.3},
+                        {name:"Overall",type:"value",target:8.5}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Clear"],["clear","Extra Clear"]],
+        comment:``,
+        platform:"pc",
+        lang:"jpn",
+        timestamp:"2021/11/19 cleared easy & extra",
+        release:"2021-11-19",
+        img:"https://upload.thwiki.cc/thumb/3/3d/%E6%9D%B1%E6%96%B9%E9%96%80%E6%AE%8A%E9%8A%AD_%EF%BD%9E_Bubbling_Imaginary_Treasures.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E9%96%80%E6%AE%8A%E9%8A%AD_%EF%BD%9E_Bubbling_Imaginary_Treasures.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
 ]
