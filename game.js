@@ -1893,7 +1893,7 @@ var games=[
             name:"Score",type:"weight",weight:STG,
             target:[
                 {
-                    name:"Music",type:"value",target:8.6
+                    name:"Music",type:"value",target:8.9
                 },
                 {
                     name:"Gameplay",type:"avg",target:[
@@ -2630,6 +2630,44 @@ var games=[
         timestamp:"2021/11/19 cleared easy & extra",
         release:"2021-11-19",
         img:"https://upload.thwiki.cc/thumb/3/3d/%E6%9D%B1%E6%96%B9%E9%96%80%E6%AE%8A%E9%8A%AD_%EF%BD%9E_Bubbling_Imaginary_Treasures.%E5%B0%81%E9%9D%A2.jpg/224px-%E6%9D%B1%E6%96%B9%E9%96%80%E6%AE%8A%E9%8A%AD_%EF%BD%9E_Bubbling_Imaginary_Treasures.%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"STG"
+    },
+    {
+        name:"創世史、或いは慟哭の黙示録 ～ Incarnation Erased From History",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.9
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:9.3},
+                        {name:"System",type:"value",target:8.5},
+                        {name:"Flow",type:"value",target:9.5},
+                    ],addon:[["Blinding Danmaku",-0.2]]
+                },
+                {
+                    name:"Graphics",type:"value",target:8.6
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7.3},
+                        {name:"Overall",type:"value",target:9.3}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy Clear"]],
+        comment:`Surprising high-quality game`,
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2021/11/21 cleared easy",
+        release:"2021-11-21",
+        img:"https://upload.thwiki.cc/thumb/6/61/%E5%89%B5%E4%B8%96%E5%8F%B2%E3%80%81%E6%88%96%E3%81%84%E3%81%AF%E6%85%9F%E5%93%AD%E3%81%AE%E9%BB%99%E7%A4%BA%E9%8C%B2_%EF%BD%9E_Incarnation_Erased_From_History%E5%B0%81%E9%9D%A2.png/196px-%E5%89%B5%E4%B8%96%E5%8F%B2%E3%80%81%E6%88%96%E3%81%84%E3%81%AF%E6%85%9F%E5%93%AD%E3%81%AE%E9%BB%99%E7%A4%BA%E9%8C%B2_%EF%BD%9E_Incarnation_Erased_From_History%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
     },
 ]
