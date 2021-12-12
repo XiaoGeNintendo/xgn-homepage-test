@@ -2440,7 +2440,7 @@ var games=[
                     name:"Impression",type:"weight",weight:[0.2,0.8],
                     target:[
                         {name:"Playtime",type:"value",target:10},
-                        {name:"Overall",type:"value",target:8.3}
+                        {name:"Overall",type:"value",target:8.8}
                     ]
                 }
             ]
@@ -2669,5 +2669,43 @@ var games=[
         release:"2021-11-21",
         img:"https://upload.thwiki.cc/thumb/6/61/%E5%89%B5%E4%B8%96%E5%8F%B2%E3%80%81%E6%88%96%E3%81%84%E3%81%AF%E6%85%9F%E5%93%AD%E3%81%AE%E9%BB%99%E7%A4%BA%E9%8C%B2_%EF%BD%9E_Incarnation_Erased_From_History%E5%B0%81%E9%9D%A2.png/196px-%E5%89%B5%E4%B8%96%E5%8F%B2%E3%80%81%E6%88%96%E3%81%84%E3%81%AF%E6%85%9F%E5%93%AD%E3%81%AE%E9%BB%99%E7%A4%BA%E9%8C%B2_%EF%BD%9E_Incarnation_Erased_From_History%E5%B0%81%E9%9D%A2.png",
         calcType:"STG"
+    },
+    {
+        name:"Rune Factory 3",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:9
+                },
+                {
+                    name:"Gameplay",type:"value",target:8
+                },
+                {
+                    name:"Graphics",type:"weight",weight:[0.2,0.8],target:[
+                        {name:"3D Graphics",type:"value",target:6},
+                        {name:"2D Graphics",type:"value",target:9.9},
+                    ],
+                },
+                {
+                    name:"Storyline",type:"value",target:6.9
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:8.5}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Normal Clear"]],
+        comment:"",
+        platform:"3ds",
+        lang:"chn",
+        timestamp:"2021/12/12 cleared.",
+        release:"2021-12-12",
+        img:"https://blog.hellholestudios.top/wp-content/uploads/2021/12/wp_editor_md_bcbd5403acb77e538e63c80e427bf180.jpg",
+        calcType:"Normal"
     },
 ]
