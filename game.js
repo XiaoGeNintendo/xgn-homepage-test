@@ -2662,7 +2662,7 @@ var games=[
             ]
         },
         status:[["clear","Easy Clear"]],
-        comment:`Surprising high-quality game`,
+        comment:`Surprisingly high-quality game`,
         platform:"pc",
         lang:"chn",
         timestamp:"2021/11/21 cleared easy",
@@ -2707,5 +2707,43 @@ var games=[
         release:"2021-12-12",
         img:"https://blog.hellholestudios.top/wp-content/uploads/2021/12/wp_editor_md_bcbd5403acb77e538e63c80e427bf180.jpg",
         calcType:"Normal"
+    },
+    {
+        name:"東方実在相 ～ Dream Logical World",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:8.9},
+                        {name:"System",type:"value",target:6},
+                        {name:"Flow",type:"value",target:9.5},
+                    ],addon:[["Completely Unbalanced Life-Piece System",-0.2],["Beginner-unfriendly bomb system",-0.3],["Unbalanced Danmaku Design",-0.3]]
+                },
+                {
+                    name:"Graphics",type:"value",target:7.5
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:6.9},
+                        {name:"Overall",type:"value",target:7}
+                    ]
+                }
+            ]
+        },
+        status:[["giveup","Easy Giveup"]],
+        comment:``,
+        platform:"pc",
+        lang:"chn",
+        timestamp:"2022/1/23 tried",
+        release:"2022-01-23",
+        img:"https://cdn.cloudflare.steamstatic.com/steam/apps/1664410/header.jpg?t=1642929435",
+        calcType:"STG"
     },
 ]
