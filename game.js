@@ -2746,4 +2746,65 @@ var games=[
         img:"https://cdn.cloudflare.steamstatic.com/steam/apps/1664410/header.jpg?t=1642929435",
         calcType:"STG"
     },
+    {
+        name:"Ookami to Koushinryou - Umi O Wataru Kaze",
+        rating:{
+            name:"Score",
+            type:"weight",
+            weight:[0.1,0.1,0.1,0.35,0.35], //Story-based
+            target:[
+                {
+                    name:"Music",
+                    type:"avg",
+                    target:[
+                        {name:"OP",type:"value",target:7.8},
+                        {name:"Game",type:"value",target:8.6},
+                    ],
+                    addon:[["OP",0.2],["Dubbing",0.2]]
+                },
+                {
+                    name:"Gameplay",
+                    type:"avg",
+                    target:[
+                        {name:"Merchant",type:"value",target:9},
+                        {name:"Dating",type:"value",target:9},
+                    ],
+                    addon:[["More Event Dialogue",0.3]]
+                },
+                {
+                    name:"Graphics",
+                    type:"value",
+                    target: 9.6
+                },
+                {
+                    name:"Storyline",
+                    type:"value",
+                    target: 9
+                },
+                {
+                    name:"Impression",
+                    type:"weight",
+                    weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:9.4}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Holo A"]],
+        comment:`Apparently I can find a Chinese translation of this game <br>
+        The system has improved quite a lot.
+        However they added some mechanic that makes the game more brain-consuming like extra restriction on selling and items occupying a larger size.
+        In my opinion they make the game less relaxing and less fun for an average enjoyer. <br/>
+        But what is interesting is that they added multiple characters and more event dialogues. Considering the great effort, the game cannot simply be called 'less fun'.
+        All in all it's a pretty good game.
+        `,
+        platform:"3ds",
+        lang:"chn",
+        timestamp:"2022/2/11 uploaded to db",
+        release:"2022-02-11",
+        img:"",
+        calcType:"Story"
+    },
 ]
