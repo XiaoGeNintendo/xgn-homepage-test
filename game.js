@@ -2807,4 +2807,39 @@ var games=[
         img:"",
         calcType:"Story"
     },
+    {
+        name:"Touhou Puppet Dance Performance - Shard of Dreams (Extended)",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:7.7
+                },
+                {
+                    name:"Gameplay",type:"value",target:7.9
+                },
+                {
+                    name:"Graphics",type:"value",target:9.9
+                },
+                {
+                    name:"Storyline",type:"value",target:7
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:10},
+                        {name:"Overall",type:"value",target:9.8}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","All Clear"]],
+        comment:"Please visit random diary 9 for Chinese review",
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2022/03/20 cleared.",
+        release:"2022-03-20",
+        img:"https://upload.thwiki.cc/thumb/1/16/%E5%B9%BB%E6%83%B3%E4%BA%BA%E5%BD%A2%E6%BC%94%E8%88%9E%E5%B0%81%E9%9D%A2.jpg/158px-%E5%B9%BB%E6%83%B3%E4%BA%BA%E5%BD%A2%E6%BC%94%E8%88%9E%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"Normal"
+    },
 ]
