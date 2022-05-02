@@ -48,12 +48,12 @@ var badges = {
     //calcType
     "Normal": {
         "kind": calcType,
-        "tooltip": "Normal: Music*0.15,Gameplay*0.3,Graphics*0.15,Storyline*0.15,Impression*0.25",
+        "tooltip": "Normal: Music*0.15,Gameplay*0.25,Graphics*0.15,Storyline*0.15,Impression*0.3",
         "display": "Normal"
     },
     "STG": {
         "kind": calcType,
-        "tooltip": "Touhou-style STG: Music*0.35,Gameplay*0.15,Graphics*0.1,Storyline*0.1,Impression*0.35",
+        "tooltip": "Touhou-style STG: Music*0.30,Gameplay*0.20,Graphics*0.1,Storyline*0.05,Impression*0.35",
         "display": "STG"
     },
     "Story": {

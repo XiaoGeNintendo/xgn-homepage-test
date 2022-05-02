@@ -13,7 +13,7 @@ var template={
 var calcTypes={
     "STG":{
         name:"Touhou-style STG",
-        value:[0.35,0.15,0.1,0.1,0.35]
+        value:[0.35,0.15,0.1,0.05,0.35]
     },
     "Normal":{
         name:"Normal",
@@ -29,8 +29,8 @@ var calcTypes={
     },
 }
 
-let STG=[0.35,0.15,0.1,0.1,0.35]
-let NORMAL=[0.15,0.3,0.15,0.15,0.25]
+let STG=[0.3,0.2,0.1,0.05,0.35]
+let NORMAL=[0.15,0.25,0.15,0.15,0.3]
 let STORY=[0.1,0.1,0.1,0.35,0.35]
 let TEST=[0.25,0.25,0.25,0,0.25]
 
@@ -948,7 +948,30 @@ var games=[
     },
     {
         name:"Danganronpa: Trigger Happy Havoc",
-        rating:[8.3,9.2,8.6,9.6,9.3], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:STORY,
+            target:[
+                {
+                    name:"Music",type:"value",target:7.9
+                },
+                {
+                    name:"Gameplay",type:"value",target:9.2
+                },
+                {
+                    name:"Graphics",type:"value",target:9
+                },
+                {
+                    name:"Storyline",type:"value",target:9
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8.8},
+                        {name:"Overall",type:"value",target:8.7}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Game Clear"]],
         comment:`I played this game because it was similar to Phoenix Wright.
         Some music has potential while others are just trivial. 8.3 for that.
@@ -959,8 +982,8 @@ var games=[
         The story itself is cool with a good ending and a meaningful theme. The first few cases are making the games too long and a bit boring.`,
         platform:"pc",
         lang:"chn",
-        timestamp:"2020/8/22 uploaded to db",
-        release:"2020-08-22",
+        timestamp:"2022/5/2 rescored. 2020/8/22 uploaded to db",
+        release:"2022-05-02",
         img:"https://steamcdn-a.akamaihd.net/steam/apps/413410/header.jpg?t=1590632885",
         calcType:"Story"
     },
@@ -2840,6 +2863,87 @@ var games=[
         timestamp:"2022/03/20 cleared.",
         release:"2022-03-20",
         img:"https://upload.thwiki.cc/thumb/1/16/%E5%B9%BB%E6%83%B3%E4%BA%BA%E5%BD%A2%E6%BC%94%E8%88%9E%E5%B0%81%E9%9D%A2.jpg/158px-%E5%B9%BB%E6%83%B3%E4%BA%BA%E5%BD%A2%E6%BC%94%E8%88%9E%E5%B0%81%E9%9D%A2.jpg",
+        calcType:"Normal"
+    },
+    {
+        name:"Marco and The Galaxy Dragon",
+        rating:{
+            name:"Score",type:"weight",weight:STORY,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Variety",type:"value",target:9},
+                        {name:"BGM",type:"value",target:7.8},
+                        {name:"OP",type:"value",target:8.4},
+                        {name:"Matching",type:"value",target:7.6},
+                    ],
+                    addon:[["Vocal",0.2]]
+                },
+                {
+                    name:"Gameplay",type:"value",target:7
+                },
+                {
+                    name:"Graphics",type:"value",target:10
+                },
+                {
+                    name:"Storyline",type:"value",target:9.5
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:10},
+                        {name:"Overall",type:"value",target:9.6}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","All Clear"]],
+        comment:"Please visit random diary 10 for Chinese review",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2022/05/02 cleared.",
+        release:"2022-05-02",
+        img:"https://cdn.cloudflare.steamstatic.com/steam/apps/1202540/header.jpg?t=1650399177",
+        calcType:"Story"
+    },
+    {
+        name:"Kirby and the Forgotten Land",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Variety",type:"value",target:9},
+                        {name:"BGM",type:"value",target:8},
+                        {name:"OP",type:"value",target:8.6},
+                    ],
+                    addon:[["Vocal",0.2]]
+                },
+                {
+                    name:"Gameplay",type:"value",target:8.4
+                },
+                {
+                    name:"Graphics",type:"value",target:10
+                },
+                {
+                    name:"Storyline",type:"value",target:7.5
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8.8},
+                        {name:"Overall",type:"value",target:9}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","All Clear"]],
+        comment:"Flying is so rigged",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2022/04/01 cleared.",
+        release:"2022-04-01",
+        img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/games/switch/k/kirby-and-the-forgotten-land-switch/hero",
         calcType:"Normal"
     },
 ]
