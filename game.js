@@ -2119,7 +2119,7 @@ var games=[
                     name:"Graphics",type:"value",target:9.8
                 },
                 {
-                    name:"Storyline(Always 8)",type:"value",target:9
+                    name:"Storyline(Always 8)",type:"value",target:8
                 },
                 {
                     name:"Impression",type:"weight",weight:[0.2,0.8],
@@ -2810,7 +2810,7 @@ var games=[
                     weight:[0.2,0.8],
                     target:[
                         {name:"Playtime",type:"value",target:8},
-                        {name:"Overall",type:"value",target:9.4}
+                        {name:"Overall",type:"value",target:9}
                     ]
                 }
             ]
@@ -2875,7 +2875,7 @@ var games=[
                         {name:"Variety",type:"value",target:9},
                         {name:"BGM",type:"value",target:7.8},
                         {name:"OP",type:"value",target:8.4},
-                        {name:"Matching",type:"value",target:7.6},
+                        {name:"Matching",type:"value",target:8},
                     ],
                     addon:[["Vocal",0.2]]
                 },
@@ -2892,7 +2892,7 @@ var games=[
                     name:"Impression",type:"weight",weight:[0.2,0.8],
                     target:[
                         {name:"Playtime",type:"value",target:10},
-                        {name:"Overall",type:"value",target:9.6}
+                        {name:"Overall",type:"value",target:9.7}
                     ]
                 }
             ]
@@ -2944,6 +2944,41 @@ var games=[
         timestamp:"2022/04/01 cleared.",
         release:"2022-04-01",
         img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/games/switch/k/kirby-and-the-forgotten-land-switch/hero",
+        calcType:"Normal"
+    },
+    {
+        name:"Pokemon Legends Arceus",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:7.5
+                },
+                {
+                    name:"Gameplay",type:"value",target:9.8
+                },
+                {
+                    name:"Graphics",type:"value",target:9.5
+                },
+                {
+                    name:"Storyline",type:"value",target:7.3
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:10},
+                        {name:"Overall",type:"value",target:9.5}
+                    ]
+                }
+            ]
+        },
+        status:[["perfect","Catch'em all"]],
+        comment:"",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2022/05/03 added to database",
+        release:"2022-05-03",
+        img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero",
         calcType:"Normal"
     },
 ]
