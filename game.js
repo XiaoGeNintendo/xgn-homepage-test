@@ -2981,4 +2981,80 @@ var games=[
         img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero",
         calcType:"Normal"
     },
+    {
+        name:"Turnip Boy Commits Tax Evasion",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:7.8
+                },
+                {
+                    name:"Gameplay",type:"value",target:7.4
+                },
+                {
+                    name:"Graphics",type:"value",target:8
+                },
+                {
+                    name:"Storyline",type:"value",target:6.9
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:7}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Clear"]],
+        comment:"Very indie-like indie game. However, the story feels unfinished just like the game.",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2022/05/13 finished",
+        release:"2022-05-13",
+        img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/games/switch/t/turnip-boy-commits-tax-evasion-switch/hero",
+        calcType:"Normal"
+    },
+    {
+        name:"Danganronpa V3: Killing Harmony Anniversary Edition",
+        rating:{
+            name:"Score",type:"weight",weight:STORY,
+            target:[
+                {
+                    name:"Music",type:"value",target:7.7
+                },
+                {
+                    name:"Gameplay",type:"value",target:8.3
+                },
+                {
+                    name:"Graphics",type:"avg",target:[
+                        {name:"UI",type:"value",target:9.5},
+                        {name:"Portrait",type:"value",target:7.5},
+                    ]
+                },
+                {
+                    name:"Storyline",type:"avg",target:[
+                        {name:"Case 1",type:"value",target:8.3},
+                        {name:"Case 2",type:"value",target:7},
+                    ]
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8},
+                        {name:"Overall",type:"value",target:7}
+                    ]
+                }
+            ]
+        },
+        status:[["working","Chapter 3"]],
+        comment:"",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2022/05/17 updated to database",
+        release:"2022-05-17",
+        img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/games/switch/d/danganronpa-v3-killing-harmony-anniversary-edition-switch/hero",
+        calcType:"Story"
+    },
 ]
