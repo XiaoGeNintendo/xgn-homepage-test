@@ -3025,35 +3025,39 @@ var games=[
                     name:"Music",type:"value",target:7.7
                 },
                 {
-                    name:"Gameplay",type:"value",target:8.3
+                    name:"Gameplay",type:"value",target:8.2
                 },
                 {
                     name:"Graphics",type:"avg",target:[
                         {name:"UI",type:"value",target:9.5},
-                        {name:"Portrait",type:"value",target:7.5},
+                        {name:"Portrait",type:"value",target:7.2},
                     ]
                 },
                 {
                     name:"Storyline",type:"avg",target:[
                         {name:"Case 1",type:"value",target:8.3},
                         {name:"Case 2",type:"value",target:7},
+                        {name:"Case 3",type:"value",target:7.5},
+                        {name:"Case 4",type:"value",target:8.6},
+                        {name:"Case 5",type:"value",target:8.7},
+                        {name:"Case 6",type:"value",target:9.3},
                     ]
                 },
                 {
                     name:"Impression",type:"weight",weight:[0.2,0.8],
                     target:[
-                        {name:"Playtime",type:"value",target:8},
-                        {name:"Overall",type:"value",target:7}
+                        {name:"Playtime",type:"value",target:8.9},
+                        {name:"Overall",type:"value",target:7.8}
                     ]
                 }
             ]
         },
-        status:[["working","Chapter 3"]],
+        status:[["clear","All clear"]],
         comment:"",
         platform:"switch",
         lang:"chn",
-        timestamp:"2022/05/17 updated to database",
-        release:"2022-05-17",
+        timestamp:"2022/05/17 updated to database. 2022/5/29 cleared chapter 3. 2022/6/5 cleared all",
+        release:"2022-06-05",
         img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/games/switch/d/danganronpa-v3-killing-harmony-anniversary-edition-switch/hero",
         calcType:"Story"
     },
