@@ -892,13 +892,44 @@ var games=[
     },
     {
         name:"東方海恵堂 ～ Marine Benefit.",
-        rating:[8.5,7,6,6,7], //Music Gameplay Graphics Storyline Impression
+        rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:8
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:8.6},
+                        {name:"System",type:"value",target:8},
+                        {name:"Flow",type:"value",target:9.3},
+                    ],addon:[["Global Key Detection",-0.1]]
+                },
+                {
+                    name:"Graphics",type:"avg",target:[
+                        {name:"Sprite",type:"value",target:7.3},
+                        {name:"UI",type:"value",target:5.5},
+                        {name:"Dot art",type:"value",target:7.6},
+                    ]
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:8}
+                    ]
+                }
+            ]
+        },
         status:[["clear","Easy Clear"],["clear","Normal Clear"]],
         comment:`Stage 5 is completely a mess! Low rating for that. And the game has no replay system and can run in background, which is stupid.`,
         platform:"pc",
         lang:"jpn",
-        timestamp:"2020/8/11 uploaded to db",
-        release:"2020-08-11",
+        timestamp:"2022/6/17 rescored. 2020/8/11 uploaded to db",
+        release:"2022-06-17",
         img:"https://upload.thwiki.cc/thumb/e/e5/%E6%9D%B1%E6%96%B9%E6%B5%B7%E6%81%B5%E5%A0%82_%EF%BD%9E_Marine_Benefit.%E5%B0%81%E9%9D%A2.jpg/196px-%E6%9D%B1%E6%96%B9%E6%B5%B7%E6%81%B5%E5%A0%82_%EF%BD%9E_Marine_Benefit.%E5%B0%81%E9%9D%A2.jpg",
         calcType:"STG"
     },
@@ -3059,6 +3090,92 @@ var games=[
         timestamp:"2022/05/17 updated to database. 2022/5/29 cleared chapter 3. 2022/6/5 cleared all",
         release:"2022-06-05",
         img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/games/switch/d/danganronpa-v3-killing-harmony-anniversary-edition-switch/hero",
+        calcType:"Story"
+    },
+    {
+        name:"東方眠世界 ~ Wonderful Waking World",rating:{
+            name:"Score",type:"weight",weight:STG,
+            target:[
+                {
+                    name:"Music",type:"value",target:7.7
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Danmaku",type:"value",target:7.9},
+                        {name:"System",type:"value",target:7},
+                        {name:"Flow",type:"value",target:8.8},
+                    ],addon:[["Unfriendly point-collecting midstage",-0.1]]
+                },
+                {
+                    name:"Graphics",type:"avg",target:[
+                        {name:"Sprite",type:"value",target:9},
+                        {name:"UI",type:"value",target:6.6},
+                        {name:"Dot art",type:"value",target:7.5},
+                    ]
+                },
+                {
+                    name:"Storyline",type:"value",target:8
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:7},
+                        {name:"Overall",type:"value",target:7}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","Easy 2miss"]],
+        comment:`a th fangame with absolute no extra systems and a very fast playthrough <br/>
+        Music just so so, Sprites fine, UI sucks, pattern just so so, easy too easy<br/>
+        Life rewarding is by collecting point items. However i collected to the maximum life rewarding line in first half of st5<br/>
+        Midstage is very unfriendly towards collecting. the board is messy since stage 1. Midstage's diff is greater than boss.`,
+        platform:"pc",
+        lang:"eng",
+        timestamp:"2022/6/17 cleared easy",
+        release:"2022-06-17",
+        img:"https://cdn.akamai.steamstatic.com/steam/apps/1901490/header.jpg?t=1655296647",
+        calcType:"STG"
+    },
+    {
+        name:"The Fox Awaits Me",
+        rating:{
+            name:"Score",type:"weight",weight:STORY,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Variety",type:"value",target:7.5},
+                        {name:"BGM",type:"value",target:9},
+                        {name:"OP",type:"value",target:7},
+                        {name:"Matching",type:"value",target:8},
+                    ],
+                    addon:[["Vocal",0.2]]
+                },
+                {
+                    name:"Gameplay",type:"value",target:7.3
+                },
+                {
+                    name:"Graphics",type:"value",target:7.8
+                },
+                {
+                    name:"Storyline",type:"value",target:9.3
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:10},
+                        {name:"Overall",type:"value",target:9}
+                    ]
+                }
+            ]
+        },
+        status:[["star","100%"]],
+        comment:"Please visit random diary 10 for Chinese review",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2022/06/18 100%.",
+        release:"2022-06-18",
+        img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/ncom/en_US/games/switch/t/the-fox-awaits-me-switch/hero",
         calcType:"Story"
     },
 ]
