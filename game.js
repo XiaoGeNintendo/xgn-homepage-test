@@ -3178,4 +3178,166 @@ var games=[
         img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/ncom/en_US/games/switch/t/the-fox-awaits-me-switch/hero",
         calcType:"Story"
     },
+    {
+        name:"Harvestella",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.6
+                },
+                {
+                    name:"Gameplay",type:"avg",target:[
+                        {name:"Farming",type:"value",target:7},
+                        {name:"Battle",type:"value",target:7.8},
+                        {name:"Crafting",type:"value",target:7.5},
+                        {name:"Fishing",type:"value",target:6},
+                    ]
+                },
+                {
+                    name:"Graphics",type:"avg",target:[
+                        {name:"UI",type:"value",target:8.6},
+                        {name:"Portrait",type:"value",target:9},
+                        {name:"3D Model",type:"value",target:9.8},
+                    ]
+                },
+                {
+                    name:"Story",type:"value",target:8.2
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:9.3},
+                        {name:"Overall",type:"value",target:8}
+                    ]
+                }
+            ]
+        },
+        status:[["working","Ch4"]],
+        comment:"A very complex game with awesome Unreal 4 graphics. However the farming part and the connection between mechanics needs polishing.",
+        platform:"switch",
+        lang:"eng",
+        timestamp:"2022/12/27 updated to database",
+        release:"2022-12-27",
+        img:"https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.0/c_scale,w_700/ncom/en_US/games/switch/h/harvestella-switch/hero",
+        calcType:"Normal"
+    },
+    {
+        name:"Pokemon Scarlet",
+        rating:{
+            name:"Score",type:"weight",weight:NORMAL,
+            target:[
+                {
+                    name:"Music",type:"avg",target:[
+                        {name:"Field",type:"value",target:7.2},
+                        {name:"Battle",type:"value",target:7.5},
+                        {name:"Boss",type:"value",target:8.3},
+                    ]
+                },
+                {
+                    name:"Gameplay",type:"value",target:8.6
+                },
+                {
+                    name:"Graphics",type:"value",target:9.5
+                },
+                {
+                    name:"Story",type:"value",target:9.3
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:10},
+                        {name:"Overall",type:"value",target:9.1}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","All clear"]],
+        comment:"",
+        platform:"switch",
+        lang:"chn",
+        timestamp:"2023/01/13 finish 2nd round",
+        release:"2023-01-13",
+        img:"",
+        calcType:"Normal"
+    },
+    {
+        name:"有罪×無罪",
+        rating:{
+            name:"Score",type:"weight",weight:STORY,
+            target:[
+                {
+                    name:"Music",type:"value",target:8.3
+                },
+                {
+                    name:"Gameplay",type:"value",target:8
+                },
+                {
+                    name:"Graphics",type:"value",target:7.9
+                },
+                {
+                    name:"Story",type:"avg",target:[
+                        {name:"Ch1",type:"value",target:9},
+                        {name:"Ch2",type:"value",target:8.8},
+                        {name:"Ch3",type:"value",target:8.5},
+                        {name:"Ch4",type:"value",target:9.5},
+                    ]
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8.2},
+                        {name:"Overall",type:"value",target:9.3}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","All clear"]],
+        comment:`Compared to the Ace Attorney series, this game focused more on the jury system. <br/>
+        The game features realistic cases arisen from traditional (Asian) social problems, <br/>
+        not like AA which focuses more on irregular or extraordinary ones, <br/>
+        which makes it more emotionally touching. <br/>
+        The game itself has a lot of tiny flaws in design, but it doesn't affect the display of the theme.`,
+        platform:"3ds",
+        lang:"chn",
+        timestamp:"2023/01/14 finish case 4",
+        release:"2023-01-14",
+        img:"http://lain.bgm.tv/r/400/pic/cover/l/aa/ad/33358_zYXxM.jpg",
+        calcType:"Story"
+    },
+    {
+        name:"Ghost Trick",
+        rating:{
+            name:"Score",type:"weight",weight:STORY,
+            target:[
+                {
+                    name:"Music",type:"value",target:9.6
+                },
+                {
+                    name:"Gameplay",type:"value",target:9.4
+                },
+                {
+                    name:"Graphics",type:"value",target:8.4
+                },
+                {
+                    name:"Story",type:"value",target:9.9
+                },
+                {
+                    name:"Impression",type:"weight",weight:[0.2,0.8],
+                    target:[
+                        {name:"Playtime",type:"value",target:8.5},
+                        {name:"Overall",type:"value",target:9.9}
+                    ]
+                }
+            ]
+        },
+        status:[["clear","All clear"]],
+        comment:``,
+        platform:"3ds",
+        lang:"chn",
+        timestamp:"2023/02/12 finish all",
+        release:"2023-02-12",
+        img:"http://lain.bgm.tv/r/400/pic/cover/l/53/42/4723_Kggk3.jpg",
+        calcType:"Story"
+    },
 ]
